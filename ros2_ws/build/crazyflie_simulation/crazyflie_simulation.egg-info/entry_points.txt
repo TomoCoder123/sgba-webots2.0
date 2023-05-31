@@ -1,0 +1,4 @@
+[console_scripts]
+crazyflie_webots_driver = crazyflie_simulation.crazyflie_webots_driver:main
+supervisor_driver = crazyflie_simulation.crazyflie_webots_spawner:main
+

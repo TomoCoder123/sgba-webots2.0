@@ -1,0 +1,23 @@
+[0.988s] Invoking command in '/home/tdeng23/ros2_ws/build/crazyflie_py': AMENT_PREFIX_PATH=/home/tdeng23/ros2_ws/install/crazyflie_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/tdeng23/ros2_ws/install/crazyflie_interfaces LD_LIBRARY_PATH=/home/tdeng23/ros2_ws/install/crazyflie_interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/tdeng23/ros2_ws/build/crazyflie_py/prefix_override:/home/tdeng23/ros2_ws/install/crazyflie_py/lib/python3.8/site-packages:/home/tdeng23/ros2_ws/install/crazyflie_interfaces/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --uninstall --editable --build-directory /home/tdeng23/ros2_ws/build/crazyflie_py/build
+[1.227s] running develop
+[1.400s] Invoked command in '/home/tdeng23/ros2_ws/build/crazyflie_py' returned '0': AMENT_PREFIX_PATH=/home/tdeng23/ros2_ws/install/crazyflie_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/tdeng23/ros2_ws/install/crazyflie_interfaces LD_LIBRARY_PATH=/home/tdeng23/ros2_ws/install/crazyflie_interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/tdeng23/ros2_ws/build/crazyflie_py/prefix_override:/home/tdeng23/ros2_ws/install/crazyflie_py/lib/python3.8/site-packages:/home/tdeng23/ros2_ws/install/crazyflie_interfaces/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --uninstall --editable --build-directory /home/tdeng23/ros2_ws/build/crazyflie_py/build
+[1.402s] Invoking command in '/home/tdeng23/ros2_ws/src/crazyswarm2/crazyflie_py': AMENT_PREFIX_PATH=/home/tdeng23/ros2_ws/install/crazyflie_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/tdeng23/ros2_ws/install/crazyflie_interfaces LD_LIBRARY_PATH=/home/tdeng23/ros2_ws/install/crazyflie_interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/tdeng23/ros2_ws/build/crazyflie_py/prefix_override:/home/tdeng23/ros2_ws/install/crazyflie_py/lib/python3.8/site-packages:/home/tdeng23/ros2_ws/install/crazyflie_interfaces/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../../build/crazyflie_py build --build-base /home/tdeng23/ros2_ws/build/crazyflie_py/build install --record /home/tdeng23/ros2_ws/build/crazyflie_py/install.log --single-version-externally-managed
+[1.610s] running egg_info
+[1.610s] writing ../../../build/crazyflie_py/crazyflie_py.egg-info/PKG-INFO
+[1.610s] writing dependency_links to ../../../build/crazyflie_py/crazyflie_py.egg-info/dependency_links.txt
+[1.610s] writing entry points to ../../../build/crazyflie_py/crazyflie_py.egg-info/entry_points.txt
+[1.611s] writing requirements to ../../../build/crazyflie_py/crazyflie_py.egg-info/requires.txt
+[1.611s] writing top-level names to ../../../build/crazyflie_py/crazyflie_py.egg-info/top_level.txt
+[1.640s] reading manifest file '../../../build/crazyflie_py/crazyflie_py.egg-info/SOURCES.txt'
+[1.641s] writing manifest file '../../../build/crazyflie_py/crazyflie_py.egg-info/SOURCES.txt'
+[1.641s] running build
+[1.641s] running build_py
+[1.642s] running install
+[1.642s] running install_lib
+[1.644s] running install_data
+[1.644s] running install_egg_info
+[1.645s] removing '/home/tdeng23/ros2_ws/install/crazyflie_py/lib/python3.8/site-packages/crazyflie_py-2.0.0-py3.8.egg-info' (and everything under it)
+[1.645s] Copying ../../../build/crazyflie_py/crazyflie_py.egg-info to /home/tdeng23/ros2_ws/install/crazyflie_py/lib/python3.8/site-packages/crazyflie_py-2.0.0-py3.8.egg-info
+[1.646s] running install_scripts
+[1.661s] writing list of installed files to '/home/tdeng23/ros2_ws/build/crazyflie_py/install.log'
+[1.679s] Invoked command in '/home/tdeng23/ros2_ws/src/crazyswarm2/crazyflie_py' returned '0': AMENT_PREFIX_PATH=/home/tdeng23/ros2_ws/install/crazyflie_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/tdeng23/ros2_ws/install/crazyflie_interfaces LD_LIBRARY_PATH=/home/tdeng23/ros2_ws/install/crazyflie_interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/tdeng23/ros2_ws/build/crazyflie_py/prefix_override:/home/tdeng23/ros2_ws/install/crazyflie_py/lib/python3.8/site-packages:/home/tdeng23/ros2_ws/install/crazyflie_interfaces/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../../build/crazyflie_py build --build-base /home/tdeng23/ros2_ws/build/crazyflie_py/build install --record /home/tdeng23/ros2_ws/build/crazyflie_py/install.log --single-version-externally-managed

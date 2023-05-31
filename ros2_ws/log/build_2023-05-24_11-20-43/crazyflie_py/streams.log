@@ -1,0 +1,24 @@
+[1.133s] Invoking command in '/home/tdeng23/ros2_ws/build/crazyflie_py': AMENT_PREFIX_PATH=/home/tdeng23/ros2_ws/install/crazyflie_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/tdeng23/ros2_ws/install/crazyflie_interfaces LD_LIBRARY_PATH=/home/tdeng23/ros2_ws/install/crazyflie_interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/tdeng23/ros2_ws/build/crazyflie_py/prefix_override:/home/tdeng23/ros2_ws/install/crazyflie_py/lib/python3.8/site-packages:/home/tdeng23/ros2_ws/install/crazyflie_interfaces/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --editable --build-directory /home/tdeng23/ros2_ws/build/crazyflie_py/build --no-deps install_data
+[1.507s] running develop
+[1.705s] running egg_info
+[1.705s] creating crazyflie_py.egg-info
+[1.706s] writing crazyflie_py.egg-info/PKG-INFO
+[1.706s] writing dependency_links to crazyflie_py.egg-info/dependency_links.txt
+[1.706s] writing entry points to crazyflie_py.egg-info/entry_points.txt
+[1.706s] writing requirements to crazyflie_py.egg-info/requires.txt
+[1.706s] writing top-level names to crazyflie_py.egg-info/top_level.txt
+[1.710s] writing manifest file 'crazyflie_py.egg-info/SOURCES.txt'
+[1.782s] reading manifest file 'crazyflie_py.egg-info/SOURCES.txt'
+[1.784s] writing manifest file 'crazyflie_py.egg-info/SOURCES.txt'
+[1.853s] running build_ext
+[1.855s] Creating /home/tdeng23/ros2_ws/install/crazyflie_py/lib/python3.8/site-packages/site.py
+[1.861s] Creating /home/tdeng23/ros2_ws/install/crazyflie_py/lib/python3.8/site-packages/crazyflie-py.egg-link (link to .)
+[1.862s] 
+[1.862s] Installed /home/tdeng23/ros2_ws/build/crazyflie_py
+[1.862s] running install_data
+[1.862s] creating /home/tdeng23/ros2_ws/install/crazyflie_py/share/ament_index
+[1.862s] creating /home/tdeng23/ros2_ws/install/crazyflie_py/share/ament_index/resource_index
+[1.862s] creating /home/tdeng23/ros2_ws/install/crazyflie_py/share/ament_index/resource_index/packages
+[1.862s] copying resource/crazyflie_py -> /home/tdeng23/ros2_ws/install/crazyflie_py/share/ament_index/resource_index/packages
+[1.863s] copying package.xml -> /home/tdeng23/ros2_ws/install/crazyflie_py/share/crazyflie_py
+[1.909s] Invoked command in '/home/tdeng23/ros2_ws/build/crazyflie_py' returned '0': AMENT_PREFIX_PATH=/home/tdeng23/ros2_ws/install/crazyflie_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/tdeng23/ros2_ws/install/crazyflie_interfaces LD_LIBRARY_PATH=/home/tdeng23/ros2_ws/install/crazyflie_interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/tdeng23/ros2_ws/build/crazyflie_py/prefix_override:/home/tdeng23/ros2_ws/install/crazyflie_py/lib/python3.8/site-packages:/home/tdeng23/ros2_ws/install/crazyflie_interfaces/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --editable --build-directory /home/tdeng23/ros2_ws/build/crazyflie_py/build --no-deps install_data

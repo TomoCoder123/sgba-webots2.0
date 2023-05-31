@@ -1,0 +1,33 @@
+[0.324s] Invoking command in '/home/tdeng23/ros2_ws/build/motion_capture_tracking': AMENT_PREFIX_PATH=/home/tdeng23/ros2_ws/install/motion_capture_tracking_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/tdeng23/ros2_ws/install/motion_capture_tracking_interfaces:/opt/ros/galactic LD_LIBRARY_PATH=/home/tdeng23/ros2_ws/install/motion_capture_tracking_interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/tdeng23/ros2_ws/install/motion_capture_tracking_interfaces/lib/python3.8/site-packages:${PYTHONPATH} /home/tdeng23/.local/bin/cmake --build /home/tdeng23/ros2_ws/build/motion_capture_tracking -- -j8 -l8
+[0.476s] [  8%] Built target quat
+[0.497s] [ 11%] Built target librigidbodytracker
+[0.504s] [ 29%] Built target ViconDataStreamSDK_CPP
+[0.516s] [ 37%] Built target qualisys_cpp_sdk
+[0.532s] [ 83%] Built target vrpn
+[0.579s] [ 96%] Built target libmotioncapture
+[0.647s] [100%] Built target motion_capture_tracking_node
+[0.828s] Invoked command in '/home/tdeng23/ros2_ws/build/motion_capture_tracking' returned '0': AMENT_PREFIX_PATH=/home/tdeng23/ros2_ws/install/motion_capture_tracking_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/tdeng23/ros2_ws/install/motion_capture_tracking_interfaces:/opt/ros/galactic LD_LIBRARY_PATH=/home/tdeng23/ros2_ws/install/motion_capture_tracking_interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/tdeng23/ros2_ws/install/motion_capture_tracking_interfaces/lib/python3.8/site-packages:${PYTHONPATH} /home/tdeng23/.local/bin/cmake --build /home/tdeng23/ros2_ws/build/motion_capture_tracking -- -j8 -l8
+[1.157s] Invoking command in '/home/tdeng23/ros2_ws/build/motion_capture_tracking': AMENT_PREFIX_PATH=/home/tdeng23/ros2_ws/install/motion_capture_tracking_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/tdeng23/ros2_ws/install/motion_capture_tracking_interfaces:/opt/ros/galactic LD_LIBRARY_PATH=/home/tdeng23/ros2_ws/install/motion_capture_tracking_interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/tdeng23/ros2_ws/install/motion_capture_tracking_interfaces/lib/python3.8/site-packages:${PYTHONPATH} /home/tdeng23/.local/bin/cmake --install /home/tdeng23/ros2_ws/build/motion_capture_tracking
+[1.211s] -- Install configuration: ""
+[1.212s] -- Execute custom install script
+[1.214s] -- Up-to-date symlink: /home/tdeng23/ros2_ws/install/motion_capture_tracking/lib/motion_capture_tracking/motion_capture_tracking_node
+[1.215s] -- Up-to-date symlink: /home/tdeng23/ros2_ws/install/motion_capture_tracking/share/motion_capture_tracking//launch/launch.py
+[1.215s] -- Up-to-date symlink: /home/tdeng23/ros2_ws/install/motion_capture_tracking/share/motion_capture_tracking//launch/node.launch
+[1.216s] -- Up-to-date symlink: /home/tdeng23/ros2_ws/install/motion_capture_tracking/share/motion_capture_tracking//config/cfg.yaml
+[1.217s] -- Up-to-date symlink: /home/tdeng23/ros2_ws/install/motion_capture_tracking/share/motion_capture_tracking//config/rviz.rviz
+[1.227s] -- Up-to-date symlink: /home/tdeng23/ros2_ws/install/motion_capture_tracking/share/ament_index/resource_index/package_run_dependencies/motion_capture_tracking
+[1.228s] -- Up-to-date symlink: /home/tdeng23/ros2_ws/install/motion_capture_tracking/share/ament_index/resource_index/parent_prefix_path/motion_capture_tracking
+[1.228s] -- Up-to-date symlink: /home/tdeng23/ros2_ws/install/motion_capture_tracking/share/motion_capture_tracking/environment/ament_prefix_path.sh
+[1.229s] -- Up-to-date symlink: /home/tdeng23/ros2_ws/install/motion_capture_tracking/share/motion_capture_tracking/environment/ament_prefix_path.dsv
+[1.230s] -- Up-to-date symlink: /home/tdeng23/ros2_ws/install/motion_capture_tracking/share/motion_capture_tracking/environment/path.sh
+[1.230s] -- Up-to-date symlink: /home/tdeng23/ros2_ws/install/motion_capture_tracking/share/motion_capture_tracking/environment/path.dsv
+[1.231s] -- Up-to-date symlink: /home/tdeng23/ros2_ws/install/motion_capture_tracking/share/motion_capture_tracking/local_setup.bash
+[1.231s] -- Up-to-date symlink: /home/tdeng23/ros2_ws/install/motion_capture_tracking/share/motion_capture_tracking/local_setup.sh
+[1.232s] -- Up-to-date symlink: /home/tdeng23/ros2_ws/install/motion_capture_tracking/share/motion_capture_tracking/local_setup.zsh
+[1.233s] -- Up-to-date symlink: /home/tdeng23/ros2_ws/install/motion_capture_tracking/share/motion_capture_tracking/local_setup.dsv
+[1.233s] -- Symlinking: /home/tdeng23/ros2_ws/install/motion_capture_tracking/share/motion_capture_tracking/package.dsv
+[1.272s] -- Up-to-date symlink: /home/tdeng23/ros2_ws/install/motion_capture_tracking/share/ament_index/resource_index/packages/motion_capture_tracking
+[1.273s] -- Up-to-date symlink: /home/tdeng23/ros2_ws/install/motion_capture_tracking/share/motion_capture_tracking/cmake/motion_capture_trackingConfig.cmake
+[1.273s] -- Up-to-date symlink: /home/tdeng23/ros2_ws/install/motion_capture_tracking/share/motion_capture_tracking/cmake/motion_capture_trackingConfig-version.cmake
+[1.274s] -- Up-to-date symlink: /home/tdeng23/ros2_ws/install/motion_capture_tracking/share/motion_capture_tracking/package.xml
+[1.285s] Invoked command in '/home/tdeng23/ros2_ws/build/motion_capture_tracking' returned '0': AMENT_PREFIX_PATH=/home/tdeng23/ros2_ws/install/motion_capture_tracking_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/tdeng23/ros2_ws/install/motion_capture_tracking_interfaces:/opt/ros/galactic LD_LIBRARY_PATH=/home/tdeng23/ros2_ws/install/motion_capture_tracking_interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/tdeng23/ros2_ws/install/motion_capture_tracking_interfaces/lib/python3.8/site-packages:${PYTHONPATH} /home/tdeng23/.local/bin/cmake --install /home/tdeng23/ros2_ws/build/motion_capture_tracking
