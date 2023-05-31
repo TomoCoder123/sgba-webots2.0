@@ -1,0 +1,58 @@
+[0.267s] Invoking command in '/home/tdeng23/ros2_ws/src/crazyswarm2/build/crazyflie': AMENT_PREFIX_PATH=/home/tdeng23/ros2_ws/src/crazyswarm2/install/crazyflie_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/tdeng23/ros2_ws/src/crazyswarm2/install/crazyflie_interfaces:/opt/ros/galactic LD_LIBRARY_PATH=/home/tdeng23/ros2_ws/src/crazyswarm2/install/crazyflie_interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/tdeng23/ros2_ws/src/crazyswarm2/install/crazyflie_interfaces/lib/python3.8/site-packages:${PYTHONPATH} /home/tdeng23/.local/bin/cmake /home/tdeng23/ros2_ws/src/crazyswarm2/crazyflie -DCMAKE_INSTALL_PREFIX=/home/tdeng23/ros2_ws/src/crazyswarm2/install/crazyflie
+[0.331s] -- The C compiler identification is GNU 9.4.0
+[0.384s] -- The CXX compiler identification is GNU 9.4.0
+[0.394s] -- Detecting C compiler ABI info
+[0.444s] -- Detecting C compiler ABI info - done
+[0.454s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.454s] -- Detecting C compile features
+[0.455s] -- Detecting C compile features - done
+[0.458s] -- Detecting CXX compiler ABI info
+[0.515s] -- Detecting CXX compiler ABI info - done
+[0.533s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.534s] -- Detecting CXX compile features
+[0.535s] -- Detecting CXX compile features - done
+[0.538s] -- Found ament_cmake: 1.1.6 (/opt/ros/galactic/share/ament_cmake/cmake)
+[0.561s] -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.10", minimum required is "3") 
+[0.561s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[0.644s] -- Found rclcpp: 9.2.2 (/opt/ros/galactic/share/rclcpp/cmake)
+[0.702s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.708s] -- Found rosidl_adapter: 2.2.3 (/opt/ros/galactic/share/rosidl_adapter/cmake)
+[0.764s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "1.1.1f")  
+[0.793s] -- Found FastRTPS: /opt/ros/galactic/include  
+[0.870s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.939s] -- Found rmw_implementation_cmake: 3.3.1 (/opt/ros/galactic/share/rmw_implementation_cmake/cmake)
+[0.945s] -- Found rmw_cyclonedds_cpp: 0.22.6 (/opt/ros/galactic/share/rmw_cyclonedds_cpp/cmake)
+[0.967s] -- Using RMW implementation 'rmw_cyclonedds_cpp' as default
+[0.969s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[1.025s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Failed
+[1.025s] -- Looking for pthread_create in pthreads
+[1.070s] -- Looking for pthread_create in pthreads - not found
+[1.071s] -- Looking for pthread_create in pthread
+[1.126s] -- Looking for pthread_create in pthread - found
+[1.127s] -- Found Threads: TRUE  
+[1.291s] -- Found tf2_ros: 0.17.5 (/opt/ros/galactic/share/tf2_ros/cmake)
+[1.668s] -- Found rclpy: 1.9.3 (/opt/ros/galactic/share/rclpy/cmake)
+[1.669s] -- Found std_srvs: 2.2.4 (/opt/ros/galactic/share/std_srvs/cmake)
+[1.681s] -- Found sensor_msgs: 2.2.4 (/opt/ros/galactic/share/sensor_msgs/cmake)
+[1.744s] -- Found crazyflie_interfaces: 2.0.0 (/home/tdeng23/ros2_ws/src/crazyswarm2/install/crazyflie_interfaces/share/crazyflie_interfaces/cmake)
+[1.816s] [31mCMake Error at CMakeLists.txt:18 (find_package):
+[1.816s]   By not providing "Findmotion_capture_tracking_interfaces.cmake" in
+[1.816s]   CMAKE_MODULE_PATH this project has asked CMake to find a package
+[1.816s]   configuration file provided by "motion_capture_tracking_interfaces", but
+[1.816s]   CMake did not find one.
+[1.816s] 
+[1.816s]   Could not find a package configuration file provided by
+[1.816s]   "motion_capture_tracking_interfaces" with any of the following names:
+[1.816s] 
+[1.816s]     motion_capture_tracking_interfacesConfig.cmake
+[1.816s]     motion_capture_tracking_interfaces-config.cmake
+[1.816s] 
+[1.816s]   Add the installation prefix of "motion_capture_tracking_interfaces" to
+[1.816s]   CMAKE_PREFIX_PATH or set "motion_capture_tracking_interfaces_DIR" to a
+[1.816s]   directory containing one of the above files.  If
+[1.816s]   "motion_capture_tracking_interfaces" provides a separate development
+[1.816s]   package or SDK, be sure it has been installed.
+[1.816s] 
+[1.817s] [0m
+[1.817s] -- Configuring incomplete, errors occurred!
+[1.827s] Invoked command in '/home/tdeng23/ros2_ws/src/crazyswarm2/build/crazyflie' returned '1': AMENT_PREFIX_PATH=/home/tdeng23/ros2_ws/src/crazyswarm2/install/crazyflie_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/tdeng23/ros2_ws/src/crazyswarm2/install/crazyflie_interfaces:/opt/ros/galactic LD_LIBRARY_PATH=/home/tdeng23/ros2_ws/src/crazyswarm2/install/crazyflie_interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/tdeng23/ros2_ws/src/crazyswarm2/install/crazyflie_interfaces/lib/python3.8/site-packages:${PYTHONPATH} /home/tdeng23/.local/bin/cmake /home/tdeng23/ros2_ws/src/crazyswarm2/crazyflie -DCMAKE_INSTALL_PREFIX=/home/tdeng23/ros2_ws/src/crazyswarm2/install/crazyflie

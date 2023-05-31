@@ -1,0 +1,18 @@
+// generated from rosidl_adapter/resource/action.idl.em
+// with input from crazyflie_ros2_interfaces/action/MultiRangerScan.action
+// generated code does not contain a copyright notice
+
+
+module crazyflie_ros2_interfaces {
+  module action {
+    struct MultiRangerScan_Goal {
+      float scan_angle;
+    };
+    struct MultiRangerScan_Result {
+      sequence<float> laser_scan;
+    };
+    struct MultiRangerScan_Feedback {
+      float current_angle;
+    };
+  };
+};

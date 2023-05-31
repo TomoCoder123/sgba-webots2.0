@@ -1,0 +1,3 @@
+[console_scripts]
+crazyflie_webots_driver = crazyflie_ros2_simulation.crazyflie_webots_driver:main
+
