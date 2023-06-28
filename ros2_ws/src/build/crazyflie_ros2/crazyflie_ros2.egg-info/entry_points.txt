@@ -1,3 +1,0 @@
-[console_scripts]
-crazyflie_publisher = crazyflie_ros2.crazyflie_publisher:main
-

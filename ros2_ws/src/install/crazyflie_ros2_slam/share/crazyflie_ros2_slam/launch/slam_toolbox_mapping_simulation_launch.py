@@ -1,1 +1,0 @@
-/home/tdeng23/ros2_ws/src/crazyswarm2/crazyflie_ros2_slam/launch/slam_toolbox_mapping_simulation_launch.py
