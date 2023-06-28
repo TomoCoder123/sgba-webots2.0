@@ -1,3 +1,0 @@
-[console_scripts]
-myNode = crazyflie_ros2_sgba.sgba_controller:main
-
