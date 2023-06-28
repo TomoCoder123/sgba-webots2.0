@@ -1,6 +1,5 @@
 file(REMOVE_RECURSE
   "CMakeFiles/crazyflie_ros2_interfaces__python.dir/rosidl_generator_py/crazyflie_ros2_interfaces/action/_multi_ranger_scan_s.c.o"
-  "CMakeFiles/crazyflie_ros2_interfaces__python.dir/rosidl_generator_py/crazyflie_ros2_interfaces/action/_multi_ranger_scan_s.c.o.d"
   "rosidl_generator_py/crazyflie_ros2_interfaces/libcrazyflie_ros2_interfaces__python.pdb"
   "rosidl_generator_py/crazyflie_ros2_interfaces/libcrazyflie_ros2_interfaces__python.so"
 )

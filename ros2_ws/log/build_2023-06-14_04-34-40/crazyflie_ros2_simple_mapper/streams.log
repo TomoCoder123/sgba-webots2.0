@@ -1,0 +1,38 @@
+[1.351s] Invoking command in '/home/nicxe/ros2_ws/src/crazyswarm2/crazyflie_ros2_simple_mapper': PYTHONPATH=/home/nicxe/ros2_ws/build/crazyflie_ros2_simple_mapper/prefix_override:/home/nicxe/ros2_ws/install/crazyflie_ros2_simple_mapper/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../../build/crazyflie_ros2_simple_mapper build --build-base /home/nicxe/ros2_ws/build/crazyflie_ros2_simple_mapper/build install --record /home/nicxe/ros2_ws/build/crazyflie_ros2_simple_mapper/install.log --single-version-externally-managed
+[1.530s] running egg_info
+[1.530s] creating ../../../build/crazyflie_ros2_simple_mapper/crazyflie_ros2_simple_mapper.egg-info
+[1.530s] writing ../../../build/crazyflie_ros2_simple_mapper/crazyflie_ros2_simple_mapper.egg-info/PKG-INFO
+[1.530s] writing dependency_links to ../../../build/crazyflie_ros2_simple_mapper/crazyflie_ros2_simple_mapper.egg-info/dependency_links.txt
+[1.531s] writing entry points to ../../../build/crazyflie_ros2_simple_mapper/crazyflie_ros2_simple_mapper.egg-info/entry_points.txt
+[1.531s] writing requirements to ../../../build/crazyflie_ros2_simple_mapper/crazyflie_ros2_simple_mapper.egg-info/requires.txt
+[1.531s] writing top-level names to ../../../build/crazyflie_ros2_simple_mapper/crazyflie_ros2_simple_mapper.egg-info/top_level.txt
+[1.531s] writing manifest file '../../../build/crazyflie_ros2_simple_mapper/crazyflie_ros2_simple_mapper.egg-info/SOURCES.txt'
+[1.558s] reading manifest file '../../../build/crazyflie_ros2_simple_mapper/crazyflie_ros2_simple_mapper.egg-info/SOURCES.txt'
+[1.559s] writing manifest file '../../../build/crazyflie_ros2_simple_mapper/crazyflie_ros2_simple_mapper.egg-info/SOURCES.txt'
+[1.559s] running build
+[1.559s] running build_py
+[1.559s] creating /home/nicxe/ros2_ws/build/crazyflie_ros2_simple_mapper/build
+[1.559s] creating /home/nicxe/ros2_ws/build/crazyflie_ros2_simple_mapper/build/lib
+[1.559s] creating /home/nicxe/ros2_ws/build/crazyflie_ros2_simple_mapper/build/lib/crazyflie_ros2_simple_mapper
+[1.559s] copying crazyflie_ros2_simple_mapper/__init__.py -> /home/nicxe/ros2_ws/build/crazyflie_ros2_simple_mapper/build/lib/crazyflie_ros2_simple_mapper
+[1.559s] copying crazyflie_ros2_simple_mapper/simple_mapper.py -> /home/nicxe/ros2_ws/build/crazyflie_ros2_simple_mapper/build/lib/crazyflie_ros2_simple_mapper
+[1.559s] running install
+[1.560s] running install_lib
+[1.561s] creating /home/nicxe/ros2_ws/install/crazyflie_ros2_simple_mapper/lib/python3.8/site-packages/crazyflie_ros2_simple_mapper
+[1.561s] copying /home/nicxe/ros2_ws/build/crazyflie_ros2_simple_mapper/build/lib/crazyflie_ros2_simple_mapper/__init__.py -> /home/nicxe/ros2_ws/install/crazyflie_ros2_simple_mapper/lib/python3.8/site-packages/crazyflie_ros2_simple_mapper
+[1.561s] copying /home/nicxe/ros2_ws/build/crazyflie_ros2_simple_mapper/build/lib/crazyflie_ros2_simple_mapper/simple_mapper.py -> /home/nicxe/ros2_ws/install/crazyflie_ros2_simple_mapper/lib/python3.8/site-packages/crazyflie_ros2_simple_mapper
+[1.561s] byte-compiling /home/nicxe/ros2_ws/install/crazyflie_ros2_simple_mapper/lib/python3.8/site-packages/crazyflie_ros2_simple_mapper/__init__.py to __init__.cpython-38.pyc
+[1.562s] byte-compiling /home/nicxe/ros2_ws/install/crazyflie_ros2_simple_mapper/lib/python3.8/site-packages/crazyflie_ros2_simple_mapper/simple_mapper.py to simple_mapper.cpython-38.pyc
+[1.563s] running install_data
+[1.563s] copying package.xml -> /home/nicxe/ros2_ws/install/crazyflie_ros2_simple_mapper/share/crazyflie_ros2_simple_mapper
+[1.564s] creating /home/nicxe/ros2_ws/install/crazyflie_ros2_simple_mapper/share/crazyflie_ros2_simple_mapper/resource
+[1.564s] copying resource/crazyflie_ros2_simple_mapper -> /home/nicxe/ros2_ws/install/crazyflie_ros2_simple_mapper/share/crazyflie_ros2_simple_mapper/resource/
+[1.564s] creating /home/nicxe/ros2_ws/install/crazyflie_ros2_simple_mapper/share/crazyflie_ros2_simple_mapper/launch
+[1.564s] copying launch/simple_mapper_simulation_launch.py -> /home/nicxe/ros2_ws/install/crazyflie_ros2_simple_mapper/share/crazyflie_ros2_simple_mapper/launch/
+[1.564s] copying launch/simple_mapper_real_launch.py -> /home/nicxe/ros2_ws/install/crazyflie_ros2_simple_mapper/share/crazyflie_ros2_simple_mapper/launch/
+[1.564s] running install_egg_info
+[1.565s] Copying ../../../build/crazyflie_ros2_simple_mapper/crazyflie_ros2_simple_mapper.egg-info to /home/nicxe/ros2_ws/install/crazyflie_ros2_simple_mapper/lib/python3.8/site-packages/crazyflie_ros2_simple_mapper-0.0.0-py3.8.egg-info
+[1.566s] running install_scripts
+[1.580s] Installing simple_mapper script to /home/nicxe/ros2_ws/install/crazyflie_ros2_simple_mapper/lib/crazyflie_ros2_simple_mapper
+[1.583s] writing list of installed files to '/home/nicxe/ros2_ws/build/crazyflie_ros2_simple_mapper/install.log'
+[1.631s] Invoked command in '/home/nicxe/ros2_ws/src/crazyswarm2/crazyflie_ros2_simple_mapper' returned '0': PYTHONPATH=/home/nicxe/ros2_ws/build/crazyflie_ros2_simple_mapper/prefix_override:/home/nicxe/ros2_ws/install/crazyflie_ros2_simple_mapper/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../../build/crazyflie_ros2_simple_mapper build --build-base /home/nicxe/ros2_ws/build/crazyflie_ros2_simple_mapper/build install --record /home/nicxe/ros2_ws/build/crazyflie_ros2_simple_mapper/install.log --single-version-externally-managed

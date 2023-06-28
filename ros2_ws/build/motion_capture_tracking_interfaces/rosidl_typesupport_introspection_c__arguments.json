@@ -1,10 +1,10 @@
 {
   "package_name": "motion_capture_tracking_interfaces",
-  "output_dir": "/home/tdeng23/ros2_ws/build/motion_capture_tracking_interfaces/rosidl_typesupport_introspection_c/motion_capture_tracking_interfaces",
+  "output_dir": "/home/nicxe/ros2_ws/build/motion_capture_tracking_interfaces/rosidl_typesupport_introspection_c/motion_capture_tracking_interfaces",
   "template_dir": "/opt/ros/galactic/share/rosidl_typesupport_introspection_c/resource",
   "idl_tuples": [
-    "/home/tdeng23/ros2_ws/build/motion_capture_tracking_interfaces/rosidl_adapter/motion_capture_tracking_interfaces:msg/NamedPose.idl",
-    "/home/tdeng23/ros2_ws/build/motion_capture_tracking_interfaces/rosidl_adapter/motion_capture_tracking_interfaces:msg/NamedPoseArray.idl"
+    "/home/nicxe/ros2_ws/build/motion_capture_tracking_interfaces/rosidl_adapter/motion_capture_tracking_interfaces:msg/NamedPose.idl",
+    "/home/nicxe/ros2_ws/build/motion_capture_tracking_interfaces/rosidl_adapter/motion_capture_tracking_interfaces:msg/NamedPoseArray.idl"
   ],
   "ros_interface_dependencies": [
     "builtin_interfaces:/opt/ros/galactic/share/builtin_interfaces/msg/Duration.idl",
@@ -78,8 +78,8 @@
     "/opt/ros/galactic/share/rosidl_typesupport_introspection_c/resource/msg__type_support.c.em",
     "/opt/ros/galactic/share/rosidl_typesupport_introspection_c/resource/srv__rosidl_typesupport_introspection_c.h.em",
     "/opt/ros/galactic/share/rosidl_typesupport_introspection_c/resource/srv__type_support.c.em",
-    "/home/tdeng23/ros2_ws/build/motion_capture_tracking_interfaces/rosidl_adapter/motion_capture_tracking_interfaces/msg/NamedPose.idl",
-    "/home/tdeng23/ros2_ws/build/motion_capture_tracking_interfaces/rosidl_adapter/motion_capture_tracking_interfaces/msg/NamedPoseArray.idl",
+    "/home/nicxe/ros2_ws/build/motion_capture_tracking_interfaces/rosidl_adapter/motion_capture_tracking_interfaces/msg/NamedPose.idl",
+    "/home/nicxe/ros2_ws/build/motion_capture_tracking_interfaces/rosidl_adapter/motion_capture_tracking_interfaces/msg/NamedPoseArray.idl",
     "/opt/ros/galactic/share/builtin_interfaces/msg/Duration.idl",
     "/opt/ros/galactic/share/builtin_interfaces/msg/Time.idl",
     "/opt/ros/galactic/share/geometry_msgs/msg/Accel.idl",

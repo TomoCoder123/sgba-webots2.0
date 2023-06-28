@@ -1,0 +1,21 @@
+[2.126s] Invoking command in '/home/nicxe/ros2_ws/src/crazyswarm2/crazyflie_ros2': PYTHONPATH=/home/nicxe/ros2_ws/build/crazyflie_ros2/prefix_override:/home/nicxe/ros2_ws/install/crazyflie_ros2/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../../build/crazyflie_ros2 build --build-base /home/nicxe/ros2_ws/build/crazyflie_ros2/build install --record /home/nicxe/ros2_ws/build/crazyflie_ros2/install.log --single-version-externally-managed
+[2.295s] running egg_info
+[2.295s] writing ../../../build/crazyflie_ros2/crazyflie_ros2.egg-info/PKG-INFO
+[2.340s] writing dependency_links to ../../../build/crazyflie_ros2/crazyflie_ros2.egg-info/dependency_links.txt
+[2.340s] writing entry points to ../../../build/crazyflie_ros2/crazyflie_ros2.egg-info/entry_points.txt
+[2.340s] writing requirements to ../../../build/crazyflie_ros2/crazyflie_ros2.egg-info/requires.txt
+[2.340s] writing top-level names to ../../../build/crazyflie_ros2/crazyflie_ros2.egg-info/top_level.txt
+[2.387s] reading manifest file '../../../build/crazyflie_ros2/crazyflie_ros2.egg-info/SOURCES.txt'
+[2.459s] writing manifest file '../../../build/crazyflie_ros2/crazyflie_ros2.egg-info/SOURCES.txt'
+[2.459s] running build
+[2.459s] running build_py
+[2.496s] running install
+[2.496s] running install_lib
+[2.498s] running install_data
+[2.499s] running install_egg_info
+[2.501s] removing '/home/nicxe/ros2_ws/install/crazyflie_ros2/lib/python3.8/site-packages/crazyflie_ros2-0.0.0-py3.8.egg-info' (and everything under it)
+[2.501s] Copying ../../../build/crazyflie_ros2/crazyflie_ros2.egg-info to /home/nicxe/ros2_ws/install/crazyflie_ros2/lib/python3.8/site-packages/crazyflie_ros2-0.0.0-py3.8.egg-info
+[2.622s] running install_scripts
+[2.636s] Installing crazyflie_publisher script to /home/nicxe/ros2_ws/install/crazyflie_ros2/lib/crazyflie_ros2
+[2.719s] writing list of installed files to '/home/nicxe/ros2_ws/build/crazyflie_ros2/install.log'
+[2.848s] Invoked command in '/home/nicxe/ros2_ws/src/crazyswarm2/crazyflie_ros2' returned '0': PYTHONPATH=/home/nicxe/ros2_ws/build/crazyflie_ros2/prefix_override:/home/nicxe/ros2_ws/install/crazyflie_ros2/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../../build/crazyflie_ros2 build --build-base /home/nicxe/ros2_ws/build/crazyflie_ros2/build install --record /home/nicxe/ros2_ws/build/crazyflie_ros2/install.log --single-version-externally-managed

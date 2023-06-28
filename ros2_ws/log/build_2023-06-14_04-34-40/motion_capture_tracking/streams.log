@@ -1,0 +1,216 @@
+[0.019s] Invoking command in '/home/nicxe/ros2_ws/build/motion_capture_tracking': CMAKE_PREFIX_PATH=/home/nicxe/ros2_ws/install/motion_capture_tracking_interfaces:/home/nicxe/ros2_ws/install/motion_capture_tracking:/home/nicxe/ros2_ws/install/crazyflie:/home/nicxe/ros2_ws/install/crazyflie_sim:/home/nicxe/ros2_ws/install/crazyflie_ros2_slam:/home/nicxe/ros2_ws/install/crazyflie_ros2_navigation:/home/nicxe/ros2_ws/install/crazyflie_ros2_interfaces:/home/nicxe/ros2_ws/install/crazyflie_ros2_description:/home/nicxe/ros2_ws/install/crazyflie_examples:/home/nicxe/ros2_ws/install/crazyflie_interfaces:/home/nicxe/ros2_ws/install/my_package:/home/nicxe/ros2_ws/install/crazyflie_simulation:/home/nicxe/ros2_ws/install/crazyflie_ros2_simulation:/home/nicxe/ros2_ws/install/crazyflie_ros2_simple_mapper:/home/nicxe/ros2_ws/install/crazyflie_ros2_scan:/home/nicxe/ros2_ws/install/crazyflie_ros2:/home/nicxe/ros2_ws/install/crazyflie_py:/opt/ros/galactic PYTHONPATH=/home/nicxe/ros2_ws/install/motion_capture_tracking_interfaces/lib/python3.8/site-packages:/home/nicxe/CS_SITP/crazyflie-firmware/build:/home/nicxe/ros2_ws/install/my_package/lib/python3.8/site-packages:/home/nicxe/ros2_ws/install/crazyflie_simulation/lib/python3.8/site-packages:/home/nicxe/ros2_ws/install/crazyflie_sim/lib/python3.8/site-packages:/home/nicxe/ros2_ws/install/crazyflie_ros2_simulation/lib/python3.8/site-packages:/home/nicxe/ros2_ws/install/crazyflie_ros2_simple_mapper/lib/python3.8/site-packages:/home/nicxe/ros2_ws/install/crazyflie_ros2_scan/lib/python3.8/site-packages:/home/nicxe/ros2_ws/install/crazyflie_ros2_interfaces/lib/python3.8/site-packages:/home/nicxe/ros2_ws/install/crazyflie_ros2/lib/python3.8/site-packages:/home/nicxe/ros2_ws/install/crazyflie_examples/lib/python3.8/site-packages:/home/nicxe/ros2_ws/install/crazyflie_py/lib/python3.8/site-packages:/home/nicxe/ros2_ws/install/crazyflie_interfaces/lib/python3.8/site-packages:/opt/ros/galactic/lib/python3.8/site-packages /usr/bin/cmake /home/nicxe/ros2_ws/src/motion_capture_tracking/motion_capture_tracking -DCMAKE_INSTALL_PREFIX=/home/nicxe/ros2_ws/install/motion_capture_tracking
+[0.102s] -- The C compiler identification is GNU 9.4.0
+[0.157s] -- The CXX compiler identification is GNU 9.4.0
+[0.160s] -- Check for working C compiler: /usr/bin/cc
+[0.270s] -- Check for working C compiler: /usr/bin/cc -- works
+[0.270s] -- Detecting C compiler ABI info
+[0.453s] -- Detecting C compiler ABI info - done
+[0.462s] -- Detecting C compile features
+[0.463s] -- Detecting C compile features - done
+[0.465s] -- Check for working CXX compiler: /usr/bin/c++
+[0.619s] -- Check for working CXX compiler: /usr/bin/c++ -- works
+[0.619s] -- Detecting CXX compiler ABI info
+[0.703s] -- Detecting CXX compiler ABI info - done
+[0.712s] -- Detecting CXX compile features
+[0.713s] -- Detecting CXX compile features - done
+[0.714s] -- Found ament_cmake: 1.1.6 (/opt/ros/galactic/share/ament_cmake/cmake)
+[0.762s] -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.10", minimum required is "3") 
+[0.763s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[0.840s] -- Found rclcpp: 9.2.2 (/opt/ros/galactic/share/rclcpp/cmake)
+[0.882s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.888s] -- Found rosidl_adapter: 2.2.3 (/opt/ros/galactic/share/rosidl_adapter/cmake)
+[1.055s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "1.1.1f")  
+[1.084s] -- Found FastRTPS: /opt/ros/galactic/include  
+[1.179s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[1.234s] -- Found rmw_implementation_cmake: 3.3.1 (/opt/ros/galactic/share/rmw_implementation_cmake/cmake)
+[1.237s] -- Found rmw_cyclonedds_cpp: 0.22.6 (/opt/ros/galactic/share/rmw_cyclonedds_cpp/cmake)
+[1.253s] -- Using RMW implementation 'rmw_cyclonedds_cpp' as default
+[1.254s] -- Looking for pthread.h
+[1.313s] -- Looking for pthread.h - found
+[1.313s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[1.389s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Failed
+[1.389s] -- Looking for pthread_create in pthreads
+[1.434s] -- Looking for pthread_create in pthreads - not found
+[1.434s] -- Looking for pthread_create in pthread
+[1.483s] -- Looking for pthread_create in pthread - found
+[1.483s] -- Found Threads: TRUE  
+[1.605s] -- Found tf2_ros: 0.17.5 (/opt/ros/galactic/share/tf2_ros/cmake)
+[1.909s] -- Found sensor_msgs: 2.2.4 (/opt/ros/galactic/share/sensor_msgs/cmake)
+[1.965s] -- Found motion_capture_tracking_interfaces: 1.0.0 (/home/nicxe/ros2_ws/install/motion_capture_tracking_interfaces/share/motion_capture_tracking_interfaces/cmake)
+[2.030s] -- Checking for module 'eigen3'
+[2.041s] --   Found eigen3, version 3.3.7
+[2.062s] -- Found Eigen: /usr/include/eigen3 (Required is at least version "3.1") 
+[2.062s] -- Eigen found (include: /usr/include/eigen3, version: 3.3.7)
+[2.108s] -- Found Boost: /usr/include (found suitable version "1.71.0", minimum required is "1.55.0") found components: system filesystem date_time iostreams regex 
+[2.109s] -- looking for PCL_COMMON
+[2.110s] -- Found PCL_COMMON: /usr/lib/x86_64-linux-gnu/libpcl_common.so  
+[2.110s] -- Found PCL: pcl_common;/usr/lib/x86_64-linux-gnu/libboost_system.so;/usr/lib/x86_64-linux-gnu/libboost_filesystem.so;/usr/lib/x86_64-linux-gnu/libboost_date_time.so;/usr/lib/x86_64-linux-gnu/libboost_iostreams.so;/usr/lib/x86_64-linux-gnu/libboost_regex.so  
+[2.112s] CMake Warning (dev) at deps/librigidbodytracker/CMakeLists.txt:7 (find_package):
+[2.112s]   Policy CMP0074 is not set: find_package uses <PackageName>_ROOT variables.
+[2.112s]   Run "cmake --help-policy CMP0074" for policy details.  Use the cmake_policy
+[2.112s]   command to set the policy and suppress this warning.
+[2.112s] 
+[2.112s]   CMake variable PCL_ROOT is set to:
+[2.112s] 
+[2.112s]     /usr
+[2.112s] 
+[2.112s]   For compatibility, CMake is ignoring the variable.
+[2.112s] This warning is for project developers.  Use -Wno-dev to suppress it.
+[2.113s] 
+[2.127s] -- Checking for module 'flann'
+[2.137s] --   Found flann, version 1.9.1
+[2.163s] -- Found FLANN: /usr/lib/x86_64-linux-gnu/libflann_cpp.so  
+[2.206s] -- The imported target "vtkParseOGLExt" references the file
+[2.206s]    "/usr/bin/vtkParseOGLExt-7.1"
+[2.206s] but this file does not exist.  Possible reasons include:
+[2.206s] * The file was deleted, renamed, or moved to another location.
+[2.206s] * An install or uninstall procedure did not complete successfully.
+[2.206s] * The installation package was faulty and contained
+[2.206s]    "/usr/lib/cmake/vtk-7.1/VTKTargets.cmake"
+[2.206s] but not all the files it references.
+[2.206s] 
+[2.206s] -- The imported target "vtkRenderingPythonTkWidgets" references the file
+[2.206s]    "/usr/lib/x86_64-linux-gnu/libvtkRenderingPythonTkWidgets.so"
+[2.206s] but this file does not exist.  Possible reasons include:
+[2.207s] * The file was deleted, renamed, or moved to another location.
+[2.207s] * An install or uninstall procedure did not complete successfully.
+[2.207s] * The installation package was faulty and contained
+[2.207s]    "/usr/lib/cmake/vtk-7.1/VTKTargets.cmake"
+[2.207s] but not all the files it references.
+[2.207s] 
+[2.207s] -- The imported target "vtk" references the file
+[2.207s]    "/usr/bin/vtk"
+[2.207s] but this file does not exist.  Possible reasons include:
+[2.207s] * The file was deleted, renamed, or moved to another location.
+[2.207s] * An install or uninstall procedure did not complete successfully.
+[2.207s] * The installation package was faulty and contained
+[2.207s]    "/usr/lib/cmake/vtk-7.1/VTKTargets.cmake"
+[2.207s] but not all the files it references.
+[2.207s] 
+[2.207s] -- The imported target "pvtk" references the file
+[2.207s]    "/usr/bin/pvtk"
+[2.208s] but this file does not exist.  Possible reasons include:
+[2.208s] * The file was deleted, renamed, or moved to another location.
+[2.208s] * An install or uninstall procedure did not complete successfully.
+[2.208s] * The installation package was faulty and contained
+[2.208s]    "/usr/lib/cmake/vtk-7.1/VTKTargets.cmake"
+[2.208s] but not all the files it references.
+[2.208s] 
+[2.222s] -- Checking for module 'libusb-1.0'
+[2.232s] --   Found libusb-1.0, version 1.0.23
+[2.257s] -- Found USB_10: /usr/lib/x86_64-linux-gnu/libusb-1.0.so  
+[2.292s] -- Found OpenNI: /usr/lib/libOpenNI.so  
+[2.292s] -- OpenNI found (include: /usr/include/ni, lib: /usr/lib/libOpenNI.so)
+[2.332s] -- Found OpenNI2: /usr/lib/libOpenNI2.so  
+[2.332s] -- OpenNI2 found (include: /usr/include/openni2, lib: /usr/lib/libOpenNI2.so)
+[2.332s] ** WARNING ** io features related to pcap will be disabled
+[2.332s] ** WARNING ** io features related to png will be disabled
+[2.342s] -- Found libusb-1.0: /usr/include  
+[2.342s] ** WARNING ** io features related to libusb-1.0 will be disabled
+[2.347s] -- OpenNI found (include: /usr/include/ni, lib: /usr/lib/libOpenNI.so)
+[2.351s] -- OpenNI2 found (include: /usr/include/openni2, lib: /usr/lib/libOpenNI2.so)
+[2.373s] -- Found Qhull: optimized;/usr/lib/x86_64-linux-gnu/libqhull.so;debug;/usr/lib/x86_64-linux-gnu/libqhull.so  
+[2.373s] -- QHULL found (include: /usr/include, lib: optimized;/usr/lib/x86_64-linux-gnu/libqhull.so;debug;/usr/lib/x86_64-linux-gnu/libqhull.so)
+[2.377s] -- OpenNI found (include: /usr/include/ni, lib: /usr/lib/libOpenNI.so)
+[2.387s] -- looking for PCL_KDTREE
+[2.388s] -- Found PCL_KDTREE: /usr/lib/x86_64-linux-gnu/libpcl_kdtree.so  
+[2.389s] -- looking for PCL_OCTREE
+[2.389s] -- Found PCL_OCTREE: /usr/lib/x86_64-linux-gnu/libpcl_octree.so  
+[2.389s] -- looking for PCL_SEARCH
+[2.390s] -- Found PCL_SEARCH: /usr/lib/x86_64-linux-gnu/libpcl_search.so  
+[2.390s] -- looking for PCL_SAMPLE_CONSENSUS
+[2.391s] -- Found PCL_SAMPLE_CONSENSUS: /usr/lib/x86_64-linux-gnu/libpcl_sample_consensus.so  
+[2.393s] -- looking for PCL_FILTERS
+[2.393s] -- Found PCL_FILTERS: /usr/lib/x86_64-linux-gnu/libpcl_filters.so  
+[2.393s] -- looking for PCL_2D
+[2.393s] -- Found PCL_2D: /usr/include/pcl-1.10  
+[2.393s] -- looking for PCL_GEOMETRY
+[2.393s] -- Found PCL_GEOMETRY: /usr/include/pcl-1.10  
+[2.393s] -- looking for PCL_IO
+[2.394s] -- Found PCL_IO: /usr/lib/x86_64-linux-gnu/libpcl_io.so  
+[2.395s] -- looking for PCL_FEATURES
+[2.395s] -- Found PCL_FEATURES: /usr/lib/x86_64-linux-gnu/libpcl_features.so  
+[2.396s] -- looking for PCL_ML
+[2.397s] -- Found PCL_ML: /usr/lib/x86_64-linux-gnu/libpcl_ml.so  
+[2.397s] -- looking for PCL_SEGMENTATION
+[2.398s] -- Found PCL_SEGMENTATION: /usr/lib/x86_64-linux-gnu/libpcl_segmentation.so  
+[2.398s] -- looking for PCL_VISUALIZATION
+[2.399s] -- Found PCL_VISUALIZATION: /usr/lib/x86_64-linux-gnu/libpcl_visualization.so  
+[2.400s] -- looking for PCL_SURFACE
+[2.401s] -- Found PCL_SURFACE: /usr/lib/x86_64-linux-gnu/libpcl_surface.so  
+[2.402s] -- looking for PCL_REGISTRATION
+[2.403s] -- Found PCL_REGISTRATION: /usr/lib/x86_64-linux-gnu/libpcl_registration.so  
+[2.403s] -- looking for PCL_KEYPOINTS
+[2.405s] -- Found PCL_KEYPOINTS: /usr/lib/x86_64-linux-gnu/libpcl_keypoints.so  
+[2.405s] -- looking for PCL_TRACKING
+[2.405s] -- Found PCL_TRACKING: /usr/lib/x86_64-linux-gnu/libpcl_tracking.so  
+[2.406s] -- looking for PCL_RECOGNITION
+[2.407s] -- Found PCL_RECOGNITION: /usr/lib/x86_64-linux-gnu/libpcl_recognition.so  
+[2.408s] -- looking for PCL_STEREO
+[2.408s] -- Found PCL_STEREO: /usr/lib/x86_64-linux-gnu/libpcl_stereo.so  
+[2.409s] -- looking for PCL_APPS
+[2.409s] -- Found PCL_APPS: /usr/lib/x86_64-linux-gnu/libpcl_apps.so  
+[2.410s] -- looking for PCL_IN_HAND_SCANNER
+[2.410s] -- Found PCL_IN_HAND_SCANNER: /usr/include/pcl-1.10  
+[2.410s] -- looking for PCL_POINT_CLOUD_EDITOR
+[2.411s] -- Found PCL_POINT_CLOUD_EDITOR: /usr/include/pcl-1.10  
+[2.411s] -- looking for PCL_OUTOFCORE
+[2.412s] -- Found PCL_OUTOFCORE: /usr/lib/x86_64-linux-gnu/libpcl_outofcore.so  
+[2.412s] -- looking for PCL_PEOPLE
+[2.413s] -- Found PCL_PEOPLE: /usr/lib/x86_64-linux-gnu/libpcl_people.so  
+[2.414s] -- Found PCL: pcl_common;pcl_kdtree;pcl_octree;pcl_search;pcl_sample_consensus;pcl_filters;pcl_io;pcl_features;pcl_ml;pcl_segmentation;pcl_visualization;pcl_surface;pcl_registration;pcl_keypoints;pcl_tracking;pcl_recognition;pcl_stereo;pcl_apps;pcl_outofcore;pcl_people;/usr/lib/x86_64-linux-gnu/libboost_system.so;/usr/lib/x86_64-linux-gnu/libboost_filesystem.so;/usr/lib/x86_64-linux-gnu/libboost_date_time.so;/usr/lib/x86_64-linux-gnu/libboost_iostreams.so;/usr/lib/x86_64-linux-gnu/libboost_regex.so;optimized;/usr/lib/x86_64-linux-gnu/libqhull.so;debug;/usr/lib/x86_64-linux-gnu/libqhull.so;/usr/lib/libOpenNI.so;/usr/lib/libOpenNI2.so;vtkChartsCore;vtkCommonColor;vtkCommonCore;vtksys;vtkCommonDataModel;vtkCommonMath;vtkCommonMisc;vtkCommonSystem;vtkCommonTransforms;vtkCommonExecutionModel;vtkFiltersGeneral;vtkCommonComputationalGeometry;vtkFiltersCore;vtkInfovisCore;vtkFiltersExtraction;vtkFiltersStatistics;vtkImagingFourier;vtkImagingCore;vtkalglib;vtkRenderingContext2D;vtkRenderingCore;vtkFiltersGeometry;vtkFiltersSources;vtkRenderingFreeType;/usr/lib/x86_64-linux-gnu/libfreetype.so;/usr/lib/x86_64-linux-gnu/libz.so;vtkFiltersModeling;vtkImagingSources;vtkInteractionStyle;vtkInteractionWidgets;vtkFiltersHybrid;vtkImagingColor;vtkImagingGeneral;vtkImagingHybrid;vtkIOImage;vtkDICOMParser;vtkmetaio;/usr/lib/x86_64-linux-gnu/libjpeg.so;/usr/lib/x86_64-linux-gnu/libpng.so;/usr/lib/x86_64-linux-gnu/libtiff.so;vtkRenderingAnnotation;vtkRenderingVolume;vtkIOXML;vtkIOCore;vtkIOXMLParser;/usr/lib/x86_64-linux-gnu/libexpat.so;vtkIOGeometry;vtkIOLegacy;vtkIOPLY;vtkRenderingLOD;vtkViewsContext2D;vtkViewsCore;vtkRenderingContextOpenGL2;vtkRenderingOpenGL2;FLANN::FLANN  
+[2.416s] CMake Warning (dev) at deps/libmotioncapture/CMakeLists.txt:5 (option):
+[2.416s]   Policy CMP0077 is not set: option() honors normal variables.  Run "cmake
+[2.416s]   --help-policy CMP0077" for policy details.  Use the cmake_policy command to
+[2.416s]   set the policy and suppress this warning.
+[2.416s] 
+[2.416s]   For compatibility with older versions of CMake, option is clearing the
+[2.416s]   normal variable 'LIBMOTIONCAPTURE_BUILD_PYTHON_BINDINGS'.
+[2.416s] This warning is for project developers.  Use -Wno-dev to suppress it.
+[2.416s] 
+[2.421s] -- Found Boost: /usr/include (found suitable version "1.71.0", minimum required is "1.5") found components: system 
+[2.443s] -- Found Boost: /usr/include (found suitable version "1.71.0", minimum required is "1.5") found components: system thread chrono date_time atomic 
+[2.445s] -- Check if compiler accepts -pthread
+[2.500s] -- Check if compiler accepts -pthread - yes
+[2.566s] -- Checking for module 'libusb-1.0'
+[2.615s] --   Found libusb-1.0, version 1.0.23
+[2.766s] -- Found Libusb1: /usr/lib/x86_64-linux-gnu/libusb-1.0.so  
+[4.073s] -- Found I2CDEV: /usr/include  
+[4.094s] -- Looking for C++ include linux/joystick.h
+[4.155s] -- Looking for C++ include linux/joystick.h - found
+[4.155s] -- Looking for C++ include linux/input.h
+[4.215s] -- Looking for C++ include linux/input.h - found
+[4.231s] -- Found quatlib: quat  
+[4.453s] -- Found Python3: /usr/bin/python3.8 (found version "3.8.10") found components: Interpreter Development 
+[4.458s] -- pybind11 v2.11.0 dev1
+[4.497s] -- Performing Test HAS_FLTO
+[4.578s] -- Performing Test HAS_FLTO - Success
+[4.631s] -- Configuring done
+[4.636s] CMake Error at deps/libmotioncapture/deps/vicon-datastream-sdk/CMakeLists.txt:49 (add_executable):
+[4.636s]   Cannot find source file:
+[4.636s] 
+[4.636s]     Vicon/CrossMarket/DataStream/ViconDataStreamSDK_CPPTest/ViconDataStreamSDK_CPPTest.cpp
+[4.636s] 
+[4.637s]   Tried extensions .c .C .c++ .cc .cpp .cxx .cu .m .M .mm .h .hh .h++ .hm
+[4.637s]   .hpp .hxx .in .txx
+[4.637s] 
+[4.637s] 
+[4.637s] CMake Error at deps/libmotioncapture/deps/vicon-datastream-sdk/CMakeLists.txt:16 (add_library):
+[4.637s]   Cannot find source file:
+[4.637s] 
+[4.637s]     Vicon/CrossMarket/DataStream/ViconDataStreamSDKCore/CoreClient.cpp
+[4.637s] 
+[4.637s]   Tried extensions .c .C .c++ .cc .cpp .cxx .cu .m .M .mm .h .hh .h++ .hm
+[4.637s]   .hpp .hxx .in .txx
+[4.637s] 
+[4.637s] 
+[4.640s] CMake Error at deps/libmotioncapture/deps/vicon-datastream-sdk/CMakeLists.txt:49 (add_executable):
+[4.640s]   No SOURCES given to target: ViconDataStreamSDK_CPPTest
+[4.640s] 
+[4.641s] 
+[4.641s] CMake Error at deps/libmotioncapture/deps/vicon-datastream-sdk/CMakeLists.txt:16 (add_library):
+[4.641s]   No SOURCES given to target: ViconDataStreamSDK_CPP
+[4.641s] 
+[4.641s] 
+[4.641s] CMake Generate step failed.  Build files cannot be regenerated correctly.
+[4.656s] Invoked command in '/home/nicxe/ros2_ws/build/motion_capture_tracking' returned '1': CMAKE_PREFIX_PATH=/home/nicxe/ros2_ws/install/motion_capture_tracking_interfaces:/home/nicxe/ros2_ws/install/motion_capture_tracking:/home/nicxe/ros2_ws/install/crazyflie:/home/nicxe/ros2_ws/install/crazyflie_sim:/home/nicxe/ros2_ws/install/crazyflie_ros2_slam:/home/nicxe/ros2_ws/install/crazyflie_ros2_navigation:/home/nicxe/ros2_ws/install/crazyflie_ros2_interfaces:/home/nicxe/ros2_ws/install/crazyflie_ros2_description:/home/nicxe/ros2_ws/install/crazyflie_examples:/home/nicxe/ros2_ws/install/crazyflie_interfaces:/home/nicxe/ros2_ws/install/my_package:/home/nicxe/ros2_ws/install/crazyflie_simulation:/home/nicxe/ros2_ws/install/crazyflie_ros2_simulation:/home/nicxe/ros2_ws/install/crazyflie_ros2_simple_mapper:/home/nicxe/ros2_ws/install/crazyflie_ros2_scan:/home/nicxe/ros2_ws/install/crazyflie_ros2:/home/nicxe/ros2_ws/install/crazyflie_py:/opt/ros/galactic PYTHONPATH=/home/nicxe/ros2_ws/install/motion_capture_tracking_interfaces/lib/python3.8/site-packages:/home/nicxe/CS_SITP/crazyflie-firmware/build:/home/nicxe/ros2_ws/install/my_package/lib/python3.8/site-packages:/home/nicxe/ros2_ws/install/crazyflie_simulation/lib/python3.8/site-packages:/home/nicxe/ros2_ws/install/crazyflie_sim/lib/python3.8/site-packages:/home/nicxe/ros2_ws/install/crazyflie_ros2_simulation/lib/python3.8/site-packages:/home/nicxe/ros2_ws/install/crazyflie_ros2_simple_mapper/lib/python3.8/site-packages:/home/nicxe/ros2_ws/install/crazyflie_ros2_scan/lib/python3.8/site-packages:/home/nicxe/ros2_ws/install/crazyflie_ros2_interfaces/lib/python3.8/site-packages:/home/nicxe/ros2_ws/install/crazyflie_ros2/lib/python3.8/site-packages:/home/nicxe/ros2_ws/install/crazyflie_examples/lib/python3.8/site-packages:/home/nicxe/ros2_ws/install/crazyflie_py/lib/python3.8/site-packages:/home/nicxe/ros2_ws/install/crazyflie_interfaces/lib/python3.8/site-packages:/opt/ros/galactic/lib/python3.8/site-packages /usr/bin/cmake /home/nicxe/ros2_ws/src/motion_capture_tracking/motion_capture_tracking -DCMAKE_INSTALL_PREFIX=/home/nicxe/ros2_ws/install/motion_capture_tracking

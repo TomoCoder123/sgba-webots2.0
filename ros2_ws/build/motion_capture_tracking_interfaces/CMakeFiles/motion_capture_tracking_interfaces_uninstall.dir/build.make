@@ -43,10 +43,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/tdeng23/ros2_ws/src/motion_capture_tracking/motion_capture_tracking_interfaces
+CMAKE_SOURCE_DIR = /home/nicxe/ros2_ws/src/motion_capture_tracking/motion_capture_tracking_interfaces
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/tdeng23/ros2_ws/build/motion_capture_tracking_interfaces
+CMAKE_BINARY_DIR = /home/nicxe/ros2_ws/build/motion_capture_tracking_interfaces
 
 # Utility rule file for motion_capture_tracking_interfaces_uninstall.
 
@@ -54,7 +54,7 @@ CMAKE_BINARY_DIR = /home/tdeng23/ros2_ws/build/motion_capture_tracking_interface
 include CMakeFiles/motion_capture_tracking_interfaces_uninstall.dir/progress.make
 
 CMakeFiles/motion_capture_tracking_interfaces_uninstall:
-	/usr/bin/cmake -P /home/tdeng23/ros2_ws/build/motion_capture_tracking_interfaces/ament_cmake_uninstall_target/ament_cmake_uninstall_target.cmake
+	/usr/bin/cmake -P /home/nicxe/ros2_ws/build/motion_capture_tracking_interfaces/ament_cmake_uninstall_target/ament_cmake_uninstall_target.cmake
 
 motion_capture_tracking_interfaces_uninstall: CMakeFiles/motion_capture_tracking_interfaces_uninstall
 motion_capture_tracking_interfaces_uninstall: CMakeFiles/motion_capture_tracking_interfaces_uninstall.dir/build.make
@@ -71,6 +71,6 @@ CMakeFiles/motion_capture_tracking_interfaces_uninstall.dir/clean:
 .PHONY : CMakeFiles/motion_capture_tracking_interfaces_uninstall.dir/clean
 
 CMakeFiles/motion_capture_tracking_interfaces_uninstall.dir/depend:
-	cd /home/tdeng23/ros2_ws/build/motion_capture_tracking_interfaces && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/tdeng23/ros2_ws/src/motion_capture_tracking/motion_capture_tracking_interfaces /home/tdeng23/ros2_ws/src/motion_capture_tracking/motion_capture_tracking_interfaces /home/tdeng23/ros2_ws/build/motion_capture_tracking_interfaces /home/tdeng23/ros2_ws/build/motion_capture_tracking_interfaces /home/tdeng23/ros2_ws/build/motion_capture_tracking_interfaces/CMakeFiles/motion_capture_tracking_interfaces_uninstall.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/nicxe/ros2_ws/build/motion_capture_tracking_interfaces && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/nicxe/ros2_ws/src/motion_capture_tracking/motion_capture_tracking_interfaces /home/nicxe/ros2_ws/src/motion_capture_tracking/motion_capture_tracking_interfaces /home/nicxe/ros2_ws/build/motion_capture_tracking_interfaces /home/nicxe/ros2_ws/build/motion_capture_tracking_interfaces /home/nicxe/ros2_ws/build/motion_capture_tracking_interfaces/CMakeFiles/motion_capture_tracking_interfaces_uninstall.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/motion_capture_tracking_interfaces_uninstall.dir/depend
 

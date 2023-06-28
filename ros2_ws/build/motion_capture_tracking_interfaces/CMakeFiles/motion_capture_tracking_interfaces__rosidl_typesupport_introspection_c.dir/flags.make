@@ -6,5 +6,5 @@ C_FLAGS = -fPIC   -Wall -std=gnu11
 
 C_DEFINES = -DRCUTILS_ENABLE_FAULT_INJECTION -DROS_PACKAGE_NAME=\"motion_capture_tracking_interfaces\" -Dmotion_capture_tracking_interfaces__rosidl_typesupport_introspection_c_EXPORTS
 
-C_INCLUDES = -I/home/tdeng23/ros2_ws/build/motion_capture_tracking_interfaces/rosidl_generator_c -I/home/tdeng23/ros2_ws/build/motion_capture_tracking_interfaces/rosidl_typesupport_introspection_c -isystem /opt/ros/galactic/include 
+C_INCLUDES = -I/home/nicxe/ros2_ws/build/motion_capture_tracking_interfaces/rosidl_generator_c -I/home/nicxe/ros2_ws/build/motion_capture_tracking_interfaces/rosidl_typesupport_introspection_c -isystem /opt/ros/galactic/include 
 

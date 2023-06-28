@@ -43,10 +43,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/tdeng23/ros2_ws/src/crazyswarm2/crazyflie_interfaces
+CMAKE_SOURCE_DIR = /home/nicxe/ros2_ws/src/crazyswarm2/crazyflie_interfaces
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/tdeng23/ros2_ws/build/crazyflie_interfaces
+CMAKE_BINARY_DIR = /home/nicxe/ros2_ws/build/crazyflie_interfaces
 
 # Utility rule file for uninstall.
 
@@ -67,6 +67,6 @@ CMakeFiles/uninstall.dir/clean:
 .PHONY : CMakeFiles/uninstall.dir/clean
 
 CMakeFiles/uninstall.dir/depend:
-	cd /home/tdeng23/ros2_ws/build/crazyflie_interfaces && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/tdeng23/ros2_ws/src/crazyswarm2/crazyflie_interfaces /home/tdeng23/ros2_ws/src/crazyswarm2/crazyflie_interfaces /home/tdeng23/ros2_ws/build/crazyflie_interfaces /home/tdeng23/ros2_ws/build/crazyflie_interfaces /home/tdeng23/ros2_ws/build/crazyflie_interfaces/CMakeFiles/uninstall.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/nicxe/ros2_ws/build/crazyflie_interfaces && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/nicxe/ros2_ws/src/crazyswarm2/crazyflie_interfaces /home/nicxe/ros2_ws/src/crazyswarm2/crazyflie_interfaces /home/nicxe/ros2_ws/build/crazyflie_interfaces /home/nicxe/ros2_ws/build/crazyflie_interfaces /home/nicxe/ros2_ws/build/crazyflie_interfaces/CMakeFiles/uninstall.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/uninstall.dir/depend
 

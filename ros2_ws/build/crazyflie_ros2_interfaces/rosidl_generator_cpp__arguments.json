@@ -1,9 +1,9 @@
 {
   "package_name": "crazyflie_ros2_interfaces",
-  "output_dir": "/home/tdeng23/ros2_ws/build/crazyflie_ros2_interfaces/rosidl_generator_cpp/crazyflie_ros2_interfaces",
+  "output_dir": "/home/nicxe/ros2_ws/build/crazyflie_ros2_interfaces/rosidl_generator_cpp/crazyflie_ros2_interfaces",
   "template_dir": "/opt/ros/galactic/share/rosidl_generator_cpp/cmake/../resource",
   "idl_tuples": [
-    "/home/tdeng23/ros2_ws/build/crazyflie_ros2_interfaces/rosidl_adapter/crazyflie_ros2_interfaces:action/MultiRangerScan.idl"
+    "/home/nicxe/ros2_ws/build/crazyflie_ros2_interfaces/rosidl_adapter/crazyflie_ros2_interfaces:action/MultiRangerScan.idl"
   ],
   "ros_interface_dependencies": [
     "action_msgs:/opt/ros/galactic/share/action_msgs/msg/GoalInfo.idl",
@@ -30,7 +30,7 @@
     "/opt/ros/galactic/share/rosidl_generator_cpp/cmake/../resource/srv__builder.hpp.em",
     "/opt/ros/galactic/share/rosidl_generator_cpp/cmake/../resource/srv__struct.hpp.em",
     "/opt/ros/galactic/share/rosidl_generator_cpp/cmake/../resource/srv__traits.hpp.em",
-    "/home/tdeng23/ros2_ws/build/crazyflie_ros2_interfaces/rosidl_adapter/crazyflie_ros2_interfaces/action/MultiRangerScan.idl",
+    "/home/nicxe/ros2_ws/build/crazyflie_ros2_interfaces/rosidl_adapter/crazyflie_ros2_interfaces/action/MultiRangerScan.idl",
     "/opt/ros/galactic/share/action_msgs/msg/GoalInfo.idl",
     "/opt/ros/galactic/share/action_msgs/msg/GoalStatus.idl",
     "/opt/ros/galactic/share/action_msgs/msg/GoalStatusArray.idl",

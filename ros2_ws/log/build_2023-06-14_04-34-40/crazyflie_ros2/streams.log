@@ -1,0 +1,37 @@
+[1.379s] Invoking command in '/home/nicxe/ros2_ws/src/crazyswarm2/crazyflie_ros2': PYTHONPATH=/home/nicxe/ros2_ws/build/crazyflie_ros2/prefix_override:/home/nicxe/ros2_ws/install/crazyflie_ros2/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../../build/crazyflie_ros2 build --build-base /home/nicxe/ros2_ws/build/crazyflie_ros2/build install --record /home/nicxe/ros2_ws/build/crazyflie_ros2/install.log --single-version-externally-managed
+[1.549s] running egg_info
+[1.550s] creating ../../../build/crazyflie_ros2/crazyflie_ros2.egg-info
+[1.550s] writing ../../../build/crazyflie_ros2/crazyflie_ros2.egg-info/PKG-INFO
+[1.550s] writing dependency_links to ../../../build/crazyflie_ros2/crazyflie_ros2.egg-info/dependency_links.txt
+[1.550s] writing entry points to ../../../build/crazyflie_ros2/crazyflie_ros2.egg-info/entry_points.txt
+[1.550s] writing requirements to ../../../build/crazyflie_ros2/crazyflie_ros2.egg-info/requires.txt
+[1.550s] writing top-level names to ../../../build/crazyflie_ros2/crazyflie_ros2.egg-info/top_level.txt
+[1.551s] writing manifest file '../../../build/crazyflie_ros2/crazyflie_ros2.egg-info/SOURCES.txt'
+[1.577s] reading manifest file '../../../build/crazyflie_ros2/crazyflie_ros2.egg-info/SOURCES.txt'
+[1.577s] writing manifest file '../../../build/crazyflie_ros2/crazyflie_ros2.egg-info/SOURCES.txt'
+[1.577s] running build
+[1.577s] running build_py
+[1.577s] creating /home/nicxe/ros2_ws/build/crazyflie_ros2/build
+[1.578s] creating /home/nicxe/ros2_ws/build/crazyflie_ros2/build/lib
+[1.578s] creating /home/nicxe/ros2_ws/build/crazyflie_ros2/build/lib/crazyflie_ros2
+[1.578s] copying crazyflie_ros2/crazyflie_publisher.py -> /home/nicxe/ros2_ws/build/crazyflie_ros2/build/lib/crazyflie_ros2
+[1.578s] copying crazyflie_ros2/__init__.py -> /home/nicxe/ros2_ws/build/crazyflie_ros2/build/lib/crazyflie_ros2
+[1.578s] running install
+[1.579s] running install_lib
+[1.579s] creating /home/nicxe/ros2_ws/install/crazyflie_ros2/lib/python3.8/site-packages/crazyflie_ros2
+[1.580s] copying /home/nicxe/ros2_ws/build/crazyflie_ros2/build/lib/crazyflie_ros2/crazyflie_publisher.py -> /home/nicxe/ros2_ws/install/crazyflie_ros2/lib/python3.8/site-packages/crazyflie_ros2
+[1.580s] copying /home/nicxe/ros2_ws/build/crazyflie_ros2/build/lib/crazyflie_ros2/__init__.py -> /home/nicxe/ros2_ws/install/crazyflie_ros2/lib/python3.8/site-packages/crazyflie_ros2
+[1.580s] byte-compiling /home/nicxe/ros2_ws/install/crazyflie_ros2/lib/python3.8/site-packages/crazyflie_ros2/crazyflie_publisher.py to crazyflie_publisher.cpython-38.pyc
+[1.583s] byte-compiling /home/nicxe/ros2_ws/install/crazyflie_ros2/lib/python3.8/site-packages/crazyflie_ros2/__init__.py to __init__.cpython-38.pyc
+[1.583s] running install_data
+[1.583s] copying package.xml -> /home/nicxe/ros2_ws/install/crazyflie_ros2/share/crazyflie_ros2
+[1.584s] creating /home/nicxe/ros2_ws/install/crazyflie_ros2/share/crazyflie_ros2/resource
+[1.584s] copying resource/crazyflie_ros2 -> /home/nicxe/ros2_ws/install/crazyflie_ros2/share/crazyflie_ros2/resource/
+[1.584s] creating /home/nicxe/ros2_ws/install/crazyflie_ros2/share/crazyflie_ros2/launch
+[1.584s] copying launch/crazyflie_publisher_launch.py -> /home/nicxe/ros2_ws/install/crazyflie_ros2/share/crazyflie_ros2/launch/
+[1.584s] running install_egg_info
+[1.586s] Copying ../../../build/crazyflie_ros2/crazyflie_ros2.egg-info to /home/nicxe/ros2_ws/install/crazyflie_ros2/lib/python3.8/site-packages/crazyflie_ros2-0.0.0-py3.8.egg-info
+[1.586s] running install_scripts
+[1.602s] Installing crazyflie_publisher script to /home/nicxe/ros2_ws/install/crazyflie_ros2/lib/crazyflie_ros2
+[1.603s] writing list of installed files to '/home/nicxe/ros2_ws/build/crazyflie_ros2/install.log'
+[1.640s] Invoked command in '/home/nicxe/ros2_ws/src/crazyswarm2/crazyflie_ros2' returned '0': PYTHONPATH=/home/nicxe/ros2_ws/build/crazyflie_ros2/prefix_override:/home/nicxe/ros2_ws/install/crazyflie_ros2/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../../build/crazyflie_ros2 build --build-base /home/nicxe/ros2_ws/build/crazyflie_ros2/build install --record /home/nicxe/ros2_ws/build/crazyflie_ros2/install.log --single-version-externally-managed

@@ -1,8 +1,8 @@
-# Install script for directory: /home/tdeng23/ros2_ws/build/crazyflie_interfaces/crazyflie_interfaces__py
+# Install script for directory: /home/nicxe/ros2_ws/build/crazyflie_interfaces/crazyflie_interfaces__py
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
-  set(CMAKE_INSTALL_PREFIX "/home/tdeng23/ros2_ws/install/crazyflie_interfaces")
+  set(CMAKE_INSTALL_PREFIX "/home/nicxe/ros2_ws/install/crazyflie_interfaces")
 endif()
 string(REGEX REPLACE "/$" "" CMAKE_INSTALL_PREFIX "${CMAKE_INSTALL_PREFIX}")
 

@@ -43,10 +43,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/tdeng23/ros2_ws/src/motion_capture_tracking/motion_capture_tracking_interfaces
+CMAKE_SOURCE_DIR = /home/nicxe/ros2_ws/src/motion_capture_tracking/motion_capture_tracking_interfaces
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/tdeng23/ros2_ws/build/motion_capture_tracking_interfaces
+CMAKE_BINARY_DIR = /home/nicxe/ros2_ws/build/motion_capture_tracking_interfaces
 
 # Utility rule file for motion_capture_tracking_interfaces__py.
 
@@ -139,8 +139,8 @@ rosidl_generator_py/motion_capture_tracking_interfaces/_motion_capture_tracking_
 rosidl_generator_py/motion_capture_tracking_interfaces/_motion_capture_tracking_interfaces_s.ep.rosidl_typesupport_fastrtps_c.c: /opt/ros/galactic/share/std_msgs/msg/UInt64MultiArray.idl
 rosidl_generator_py/motion_capture_tracking_interfaces/_motion_capture_tracking_interfaces_s.ep.rosidl_typesupport_fastrtps_c.c: /opt/ros/galactic/share/std_msgs/msg/UInt8.idl
 rosidl_generator_py/motion_capture_tracking_interfaces/_motion_capture_tracking_interfaces_s.ep.rosidl_typesupport_fastrtps_c.c: /opt/ros/galactic/share/std_msgs/msg/UInt8MultiArray.idl
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/tdeng23/ros2_ws/build/motion_capture_tracking_interfaces/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Generating Python code for ROS interfaces"
-	cd /home/tdeng23/ros2_ws/build/motion_capture_tracking_interfaces/motion_capture_tracking_interfaces__py && /usr/bin/python3 /opt/ros/galactic/share/rosidl_generator_py/cmake/../../../lib/rosidl_generator_py/rosidl_generator_py --generator-arguments-file /home/tdeng23/ros2_ws/build/motion_capture_tracking_interfaces/rosidl_generator_py__arguments.json --typesupport-impls "rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c;rosidl_typesupport_c"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/nicxe/ros2_ws/build/motion_capture_tracking_interfaces/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Generating Python code for ROS interfaces"
+	cd /home/nicxe/ros2_ws/build/motion_capture_tracking_interfaces/motion_capture_tracking_interfaces__py && /usr/bin/python3 /opt/ros/galactic/share/rosidl_generator_py/cmake/../../../lib/rosidl_generator_py/rosidl_generator_py --generator-arguments-file /home/nicxe/ros2_ws/build/motion_capture_tracking_interfaces/rosidl_generator_py__arguments.json --typesupport-impls "rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c;rosidl_typesupport_c"
 
 rosidl_generator_py/motion_capture_tracking_interfaces/_motion_capture_tracking_interfaces_s.ep.rosidl_typesupport_introspection_c.c: rosidl_generator_py/motion_capture_tracking_interfaces/_motion_capture_tracking_interfaces_s.ep.rosidl_typesupport_fastrtps_c.c
 	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_py/motion_capture_tracking_interfaces/_motion_capture_tracking_interfaces_s.ep.rosidl_typesupport_introspection_c.c
@@ -182,10 +182,10 @@ motion_capture_tracking_interfaces__py/CMakeFiles/motion_capture_tracking_interf
 .PHONY : motion_capture_tracking_interfaces__py/CMakeFiles/motion_capture_tracking_interfaces__py.dir/build
 
 motion_capture_tracking_interfaces__py/CMakeFiles/motion_capture_tracking_interfaces__py.dir/clean:
-	cd /home/tdeng23/ros2_ws/build/motion_capture_tracking_interfaces/motion_capture_tracking_interfaces__py && $(CMAKE_COMMAND) -P CMakeFiles/motion_capture_tracking_interfaces__py.dir/cmake_clean.cmake
+	cd /home/nicxe/ros2_ws/build/motion_capture_tracking_interfaces/motion_capture_tracking_interfaces__py && $(CMAKE_COMMAND) -P CMakeFiles/motion_capture_tracking_interfaces__py.dir/cmake_clean.cmake
 .PHONY : motion_capture_tracking_interfaces__py/CMakeFiles/motion_capture_tracking_interfaces__py.dir/clean
 
 motion_capture_tracking_interfaces__py/CMakeFiles/motion_capture_tracking_interfaces__py.dir/depend:
-	cd /home/tdeng23/ros2_ws/build/motion_capture_tracking_interfaces && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/tdeng23/ros2_ws/src/motion_capture_tracking/motion_capture_tracking_interfaces /home/tdeng23/ros2_ws/build/motion_capture_tracking_interfaces/motion_capture_tracking_interfaces__py /home/tdeng23/ros2_ws/build/motion_capture_tracking_interfaces /home/tdeng23/ros2_ws/build/motion_capture_tracking_interfaces/motion_capture_tracking_interfaces__py /home/tdeng23/ros2_ws/build/motion_capture_tracking_interfaces/motion_capture_tracking_interfaces__py/CMakeFiles/motion_capture_tracking_interfaces__py.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/nicxe/ros2_ws/build/motion_capture_tracking_interfaces && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/nicxe/ros2_ws/src/motion_capture_tracking/motion_capture_tracking_interfaces /home/nicxe/ros2_ws/build/motion_capture_tracking_interfaces/motion_capture_tracking_interfaces__py /home/nicxe/ros2_ws/build/motion_capture_tracking_interfaces /home/nicxe/ros2_ws/build/motion_capture_tracking_interfaces/motion_capture_tracking_interfaces__py /home/nicxe/ros2_ws/build/motion_capture_tracking_interfaces/motion_capture_tracking_interfaces__py/CMakeFiles/motion_capture_tracking_interfaces__py.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : motion_capture_tracking_interfaces__py/CMakeFiles/motion_capture_tracking_interfaces__py.dir/depend
 

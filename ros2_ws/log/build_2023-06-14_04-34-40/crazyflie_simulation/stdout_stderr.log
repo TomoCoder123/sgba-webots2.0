@@ -1,0 +1,51 @@
+running egg_info
+creating ../../../build/crazyflie_simulation/crazyflie_simulation.egg-info
+writing ../../../build/crazyflie_simulation/crazyflie_simulation.egg-info/PKG-INFO
+writing dependency_links to ../../../build/crazyflie_simulation/crazyflie_simulation.egg-info/dependency_links.txt
+writing entry points to ../../../build/crazyflie_simulation/crazyflie_simulation.egg-info/entry_points.txt
+writing requirements to ../../../build/crazyflie_simulation/crazyflie_simulation.egg-info/requires.txt
+writing top-level names to ../../../build/crazyflie_simulation/crazyflie_simulation.egg-info/top_level.txt
+writing manifest file '../../../build/crazyflie_simulation/crazyflie_simulation.egg-info/SOURCES.txt'
+reading manifest file '../../../build/crazyflie_simulation/crazyflie_simulation.egg-info/SOURCES.txt'
+writing manifest file '../../../build/crazyflie_simulation/crazyflie_simulation.egg-info/SOURCES.txt'
+running build
+running build_py
+creating /home/nicxe/ros2_ws/build/crazyflie_simulation/build
+creating /home/nicxe/ros2_ws/build/crazyflie_simulation/build/lib
+creating /home/nicxe/ros2_ws/build/crazyflie_simulation/build/lib/crazyflie_simulation
+copying crazyflie_simulation/crazyflie_webots_spawner.py -> /home/nicxe/ros2_ws/build/crazyflie_simulation/build/lib/crazyflie_simulation
+copying crazyflie_simulation/crazyflie_webots_driver.py -> /home/nicxe/ros2_ws/build/crazyflie_simulation/build/lib/crazyflie_simulation
+copying crazyflie_simulation/cffirmware.py -> /home/nicxe/ros2_ws/build/crazyflie_simulation/build/lib/crazyflie_simulation
+copying crazyflie_simulation/__init__.py -> /home/nicxe/ros2_ws/build/crazyflie_simulation/build/lib/crazyflie_simulation
+running install
+running install_lib
+creating /home/nicxe/ros2_ws/install/crazyflie_simulation/lib/python3.8/site-packages/crazyflie_simulation
+copying /home/nicxe/ros2_ws/build/crazyflie_simulation/build/lib/crazyflie_simulation/crazyflie_webots_spawner.py -> /home/nicxe/ros2_ws/install/crazyflie_simulation/lib/python3.8/site-packages/crazyflie_simulation
+copying /home/nicxe/ros2_ws/build/crazyflie_simulation/build/lib/crazyflie_simulation/crazyflie_webots_driver.py -> /home/nicxe/ros2_ws/install/crazyflie_simulation/lib/python3.8/site-packages/crazyflie_simulation
+copying /home/nicxe/ros2_ws/build/crazyflie_simulation/build/lib/crazyflie_simulation/cffirmware.py -> /home/nicxe/ros2_ws/install/crazyflie_simulation/lib/python3.8/site-packages/crazyflie_simulation
+copying /home/nicxe/ros2_ws/build/crazyflie_simulation/build/lib/crazyflie_simulation/__init__.py -> /home/nicxe/ros2_ws/install/crazyflie_simulation/lib/python3.8/site-packages/crazyflie_simulation
+byte-compiling /home/nicxe/ros2_ws/install/crazyflie_simulation/lib/python3.8/site-packages/crazyflie_simulation/crazyflie_webots_spawner.py to crazyflie_webots_spawner.cpython-38.pyc
+byte-compiling /home/nicxe/ros2_ws/install/crazyflie_simulation/lib/python3.8/site-packages/crazyflie_simulation/crazyflie_webots_driver.py to crazyflie_webots_driver.cpython-38.pyc
+byte-compiling /home/nicxe/ros2_ws/install/crazyflie_simulation/lib/python3.8/site-packages/crazyflie_simulation/cffirmware.py to cffirmware.cpython-38.pyc
+byte-compiling /home/nicxe/ros2_ws/install/crazyflie_simulation/lib/python3.8/site-packages/crazyflie_simulation/__init__.py to __init__.cpython-38.pyc
+running install_data
+copying package.xml -> /home/nicxe/ros2_ws/install/crazyflie_simulation/share/crazyflie_simulation
+creating /home/nicxe/ros2_ws/install/crazyflie_simulation/share/crazyflie_simulation/resource
+copying resource/crazyflie_simulation -> /home/nicxe/ros2_ws/install/crazyflie_simulation/share/crazyflie_simulation/resource/
+copying resource/crazyflie.urdf -> /home/nicxe/ros2_ws/install/crazyflie_simulation/share/crazyflie_simulation/resource/
+copying resource/supervisor.urdf -> /home/nicxe/ros2_ws/install/crazyflie_simulation/share/crazyflie_simulation/resource/
+creating /home/nicxe/ros2_ws/install/crazyflie_simulation/share/crazyflie_simulation/launch
+copying launch/Makefile -> /home/nicxe/ros2_ws/install/crazyflie_simulation/share/crazyflie_simulation/launch/
+copying launch/setup.py -> /home/nicxe/ros2_ws/install/crazyflie_simulation/share/crazyflie_simulation/launch/
+copying launch/crazyflie_launch.py -> /home/nicxe/ros2_ws/install/crazyflie_simulation/share/crazyflie_simulation/launch/
+copying launch/cffirmware.i -> /home/nicxe/ros2_ws/install/crazyflie_simulation/share/crazyflie_simulation/launch/
+copying launch/__init__.py -> /home/nicxe/ros2_ws/install/crazyflie_simulation/share/crazyflie_simulation/launch/
+copying launch/numpy.i -> /home/nicxe/ros2_ws/install/crazyflie_simulation/share/crazyflie_simulation/launch/
+creating /home/nicxe/ros2_ws/install/crazyflie_simulation/share/crazyflie_simulation/worlds
+copying worlds/crazyflie_world.wbt -> /home/nicxe/ros2_ws/install/crazyflie_simulation/share/crazyflie_simulation/worlds/
+running install_egg_info
+Copying ../../../build/crazyflie_simulation/crazyflie_simulation.egg-info to /home/nicxe/ros2_ws/install/crazyflie_simulation/lib/python3.8/site-packages/crazyflie_simulation-0.0.0-py3.8.egg-info
+running install_scripts
+Installing crazyflie_webots_driver script to /home/nicxe/ros2_ws/install/crazyflie_simulation/lib/crazyflie_simulation
+Installing supervisor_driver script to /home/nicxe/ros2_ws/install/crazyflie_simulation/lib/crazyflie_simulation
+writing list of installed files to '/home/nicxe/ros2_ws/build/crazyflie_simulation/install.log'
