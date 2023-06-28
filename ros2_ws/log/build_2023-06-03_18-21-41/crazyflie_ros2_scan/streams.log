@@ -1,0 +1,29 @@
+[1.598s] Invoking command in '/home/tdeng23/ros2_ws/build/crazyflie_ros2_scan': PYTHONPATH=/home/tdeng23/ros2_ws/build/crazyflie_ros2_scan/prefix_override:/home/tdeng23/ros2_ws/install/crazyflie_ros2_scan/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --uninstall --editable --build-directory /home/tdeng23/ros2_ws/build/crazyflie_ros2_scan/build
+[2.008s] running develop
+[2.290s] Removing /home/tdeng23/ros2_ws/install/crazyflie_ros2_scan/lib/python3.8/site-packages/crazyflie-ros2-scan.egg-link (link to .)
+[2.354s] Invoked command in '/home/tdeng23/ros2_ws/build/crazyflie_ros2_scan' returned '0': PYTHONPATH=/home/tdeng23/ros2_ws/build/crazyflie_ros2_scan/prefix_override:/home/tdeng23/ros2_ws/install/crazyflie_ros2_scan/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --uninstall --editable --build-directory /home/tdeng23/ros2_ws/build/crazyflie_ros2_scan/build
+[2.356s] Invoking command in '/home/tdeng23/ros2_ws/src/crazyswarm2/crazyflie_ros2_scan': PYTHONPATH=/home/tdeng23/ros2_ws/build/crazyflie_ros2_scan/prefix_override:/home/tdeng23/ros2_ws/install/crazyflie_ros2_scan/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../../build/crazyflie_ros2_scan build --build-base /home/tdeng23/ros2_ws/build/crazyflie_ros2_scan/build install --record /home/tdeng23/ros2_ws/build/crazyflie_ros2_scan/install.log --single-version-externally-managed
+[2.621s] running egg_info
+[2.621s] writing ../../../build/crazyflie_ros2_scan/crazyflie_ros2_scan.egg-info/PKG-INFO
+[2.621s] writing dependency_links to ../../../build/crazyflie_ros2_scan/crazyflie_ros2_scan.egg-info/dependency_links.txt
+[2.621s] writing entry points to ../../../build/crazyflie_ros2_scan/crazyflie_ros2_scan.egg-info/entry_points.txt
+[2.622s] writing requirements to ../../../build/crazyflie_ros2_scan/crazyflie_ros2_scan.egg-info/requires.txt
+[2.622s] writing top-level names to ../../../build/crazyflie_ros2_scan/crazyflie_ros2_scan.egg-info/top_level.txt
+[2.676s] reading manifest file '../../../build/crazyflie_ros2_scan/crazyflie_ros2_scan.egg-info/SOURCES.txt'
+[2.677s] writing manifest file '../../../build/crazyflie_ros2_scan/crazyflie_ros2_scan.egg-info/SOURCES.txt'
+[2.677s] running build
+[2.677s] running build_py
+[2.677s] running install
+[2.677s] running install_lib
+[2.680s] creating /home/tdeng23/ros2_ws/install/crazyflie_ros2_scan/lib/python3.8/site-packages/crazyflie_ros2_scan
+[2.680s] copying /home/tdeng23/ros2_ws/build/crazyflie_ros2_scan/build/lib/crazyflie_ros2_scan/range_to_lidar.py -> /home/tdeng23/ros2_ws/install/crazyflie_ros2_scan/lib/python3.8/site-packages/crazyflie_ros2_scan
+[2.680s] copying /home/tdeng23/ros2_ws/build/crazyflie_ros2_scan/build/lib/crazyflie_ros2_scan/__init__.py -> /home/tdeng23/ros2_ws/install/crazyflie_ros2_scan/lib/python3.8/site-packages/crazyflie_ros2_scan
+[2.680s] byte-compiling /home/tdeng23/ros2_ws/install/crazyflie_ros2_scan/lib/python3.8/site-packages/crazyflie_ros2_scan/range_to_lidar.py to range_to_lidar.cpython-38.pyc
+[2.681s] byte-compiling /home/tdeng23/ros2_ws/install/crazyflie_ros2_scan/lib/python3.8/site-packages/crazyflie_ros2_scan/__init__.py to __init__.cpython-38.pyc
+[2.681s] running install_data
+[2.682s] running install_egg_info
+[2.683s] Copying ../../../build/crazyflie_ros2_scan/crazyflie_ros2_scan.egg-info to /home/tdeng23/ros2_ws/install/crazyflie_ros2_scan/lib/python3.8/site-packages/crazyflie_ros2_scan-0.0.0-py3.8.egg-info
+[2.684s] running install_scripts
+[2.702s] Installing range_to_lidar script to /home/tdeng23/ros2_ws/install/crazyflie_ros2_scan/lib/crazyflie_ros2_scan
+[2.703s] writing list of installed files to '/home/tdeng23/ros2_ws/build/crazyflie_ros2_scan/install.log'
+[3.023s] Invoked command in '/home/tdeng23/ros2_ws/src/crazyswarm2/crazyflie_ros2_scan' returned '0': PYTHONPATH=/home/tdeng23/ros2_ws/build/crazyflie_ros2_scan/prefix_override:/home/tdeng23/ros2_ws/install/crazyflie_ros2_scan/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../../build/crazyflie_ros2_scan build --build-base /home/tdeng23/ros2_ws/build/crazyflie_ros2_scan/build install --record /home/tdeng23/ros2_ws/build/crazyflie_ros2_scan/install.log --single-version-externally-managed

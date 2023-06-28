@@ -1,0 +1,501 @@
+[0.042s] Invoking command in '/home/tdeng23/ros2_ws/build/motion_capture_tracking': CMAKE_PREFIX_PATH=/home/tdeng23/ros2_ws/install/motion_capture_tracking_interfaces:/home/tdeng23/ros2_ws/install/motion_capture_tracking:/home/tdeng23/ros2_ws/install/crazyflie:/home/tdeng23/ros2_ws/install/crazyflie_sim:/home/tdeng23/ros2_ws/install/crazyflie_ros2_slam:/home/tdeng23/ros2_ws/install/crazyflie_ros2_navigation:/home/tdeng23/ros2_ws/install/crazyflie_ros2_interfaces:/home/tdeng23/ros2_ws/install/crazyflie_ros2_description:/home/tdeng23/ros2_ws/install/crazyflie_examples:/home/tdeng23/ros2_ws/install/crazyflie_interfaces:/home/tdeng23/ros2_ws/install/my_package:/home/tdeng23/ros2_ws/install/crazyflie_simulation:/home/tdeng23/ros2_ws/install/crazyflie_ros2_simulation:/home/tdeng23/ros2_ws/install/crazyflie_ros2_simple_mapper:/home/tdeng23/ros2_ws/install/crazyflie_ros2_scan:/home/tdeng23/ros2_ws/install/crazyflie_ros2:/home/tdeng23/ros2_ws/install/crazyflie_py:/opt/ros/galactic PYTHONPATH=/home/tdeng23/ros2_ws/install/motion_capture_tracking_interfaces/lib/python3.8/site-packages:/home/tdeng23/ros2_ws/install/my_package/lib/python3.8/site-packages:/home/tdeng23/ros2_ws/install/crazyflie_simulation/lib/python3.8/site-packages:/home/tdeng23/ros2_ws/install/crazyflie_sim/lib/python3.8/site-packages:/home/tdeng23/ros2_ws/install/crazyflie_ros2_simulation/lib/python3.8/site-packages:/home/tdeng23/ros2_ws/install/crazyflie_ros2_simple_mapper/lib/python3.8/site-packages:/home/tdeng23/ros2_ws/install/crazyflie_ros2_scan/lib/python3.8/site-packages:/home/tdeng23/ros2_ws/install/crazyflie_ros2_interfaces/lib/python3.8/site-packages:/home/tdeng23/ros2_ws/install/crazyflie_ros2/lib/python3.8/site-packages:/home/tdeng23/ros2_ws/install/crazyflie_examples/lib/python3.8/site-packages:/home/tdeng23/ros2_ws/install/crazyflie_py/lib/python3.8/site-packages:/home/tdeng23/ros2_ws/install/crazyflie_interfaces/lib/python3.8/site-packages:/opt/ros/galactic/lib/python3.8/site-packages /home/tdeng23/.local/bin/cmake /home/tdeng23/ros2_ws/src/motion_capture_tracking/motion_capture_tracking -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/tdeng23/ros2_ws/install/motion_capture_tracking
+[0.087s] -- Found ament_cmake: 1.1.6 (/opt/ros/galactic/share/ament_cmake/cmake)
+[0.115s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[0.176s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[0.184s] -- Found rclcpp: 9.2.2 (/opt/ros/galactic/share/rclcpp/cmake)
+[0.222s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.225s] -- Found rosidl_adapter: 2.2.3 (/opt/ros/galactic/share/rosidl_adapter/cmake)
+[0.348s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.402s] -- Found rmw_implementation_cmake: 3.3.1 (/opt/ros/galactic/share/rmw_implementation_cmake/cmake)
+[0.405s] -- Found rmw_cyclonedds_cpp: 0.22.6 (/opt/ros/galactic/share/rmw_cyclonedds_cpp/cmake)
+[0.433s] -- Using RMW implementation 'rmw_cyclonedds_cpp' as default
+[0.590s] -- Found tf2_ros: 0.17.5 (/opt/ros/galactic/share/tf2_ros/cmake)
+[0.970s] -- Found sensor_msgs: 2.2.4 (/opt/ros/galactic/share/sensor_msgs/cmake)
+[1.074s] -- Found motion_capture_tracking_interfaces: 1.0.0 (/home/tdeng23/ros2_ws/install/motion_capture_tracking_interfaces/share/motion_capture_tracking_interfaces/cmake)
+[1.156s] -- Eigen found (include: /usr/include/eigen3, version: 3.3.7)
+[1.176s] -- Found Boost: /usr/include (found suitable version "1.71.0", minimum required is "1.55.0") found components: system filesystem date_time iostreams regex 
+[1.177s] -- looking for PCL_COMMON
+[1.178s] [33mCMake Warning (dev) at /home/tdeng23/.local/lib/python3.8/site-packages/cmake/data/share/cmake-3.26/Modules/FindPackageHandleStandardArgs.cmake:438 (message):
+[1.178s]   The package name passed to `find_package_handle_standard_args` (PCL_COMMON)
+[1.178s]   does not match the name of the calling package (PCL).  This can lead to
+[1.178s]   problems in calling code that expects `find_package` result variables
+[1.178s]   (e.g., `_FOUND`) to follow a certain pattern.
+[1.178s] Call Stack (most recent call first):
+[1.178s]   /usr/lib/x86_64-linux-gnu/cmake/pcl/PCLConfig.cmake:616 (find_package_handle_standard_args)
+[1.178s]   CMakeLists.txt:16 (find_package)
+[1.178s] This warning is for project developers.  Use -Wno-dev to suppress it.
+[1.178s] [0m
+[1.178s] -- Found PCL: pcl_common;/usr/lib/x86_64-linux-gnu/libboost_system.so;/usr/lib/x86_64-linux-gnu/libboost_filesystem.so;/usr/lib/x86_64-linux-gnu/libboost_date_time.so;/usr/lib/x86_64-linux-gnu/libboost_iostreams.so;/usr/lib/x86_64-linux-gnu/libboost_regex.so  
+[1.182s] [33mCMake Warning (dev) at deps/librigidbodytracker/CMakeLists.txt:7 (find_package):
+[1.182s]   Policy CMP0074 is not set: find_package uses <PackageName>_ROOT variables.
+[1.182s]   Run "cmake --help-policy CMP0074" for policy details.  Use the cmake_policy
+[1.182s]   command to set the policy and suppress this warning.
+[1.182s] 
+[1.182s]   CMake variable PCL_ROOT is set to:
+[1.182s] 
+[1.182s]     /usr
+[1.182s] 
+[1.182s]   For compatibility, CMake is ignoring the variable.
+[1.182s] This warning is for project developers.  Use -Wno-dev to suppress it.
+[1.182s] [0m
+[1.287s] -- The imported target "vtkParseOGLExt" references the file
+[1.288s]    "/usr/bin/vtkParseOGLExt-7.1"
+[1.288s] but this file does not exist.  Possible reasons include:
+[1.288s] * The file was deleted, renamed, or moved to another location.
+[1.288s] * An install or uninstall procedure did not complete successfully.
+[1.288s] * The installation package was faulty and contained
+[1.288s]    "/usr/lib/cmake/vtk-7.1/VTKTargets.cmake"
+[1.288s] but not all the files it references.
+[1.288s] 
+[1.289s] -- The imported target "vtkRenderingPythonTkWidgets" references the file
+[1.289s]    "/usr/lib/x86_64-linux-gnu/libvtkRenderingPythonTkWidgets.so"
+[1.289s] but this file does not exist.  Possible reasons include:
+[1.289s] * The file was deleted, renamed, or moved to another location.
+[1.289s] * An install or uninstall procedure did not complete successfully.
+[1.289s] * The installation package was faulty and contained
+[1.289s]    "/usr/lib/cmake/vtk-7.1/VTKTargets.cmake"
+[1.289s] but not all the files it references.
+[1.290s] 
+[1.290s] -- The imported target "vtk" references the file
+[1.290s]    "/usr/bin/vtk"
+[1.290s] but this file does not exist.  Possible reasons include:
+[1.290s] * The file was deleted, renamed, or moved to another location.
+[1.290s] * An install or uninstall procedure did not complete successfully.
+[1.290s] * The installation package was faulty and contained
+[1.290s]    "/usr/lib/cmake/vtk-7.1/VTKTargets.cmake"
+[1.290s] but not all the files it references.
+[1.290s] 
+[1.291s] -- The imported target "pvtk" references the file
+[1.291s]    "/usr/bin/pvtk"
+[1.291s] but this file does not exist.  Possible reasons include:
+[1.291s] * The file was deleted, renamed, or moved to another location.
+[1.291s] * An install or uninstall procedure did not complete successfully.
+[1.291s] * The installation package was faulty and contained
+[1.291s]    "/usr/lib/cmake/vtk-7.1/VTKTargets.cmake"
+[1.291s] but not all the files it references.
+[1.291s] 
+[1.328s] [33mCMake Warning (dev) at /home/tdeng23/.local/lib/python3.8/site-packages/cmake/data/share/cmake-3.26/Modules/FindPackageHandleStandardArgs.cmake:438 (message):
+[1.328s]   The package name passed to `find_package_handle_standard_args` (USB_10)
+[1.328s]   does not match the name of the calling package (OpenNI).  This can lead to
+[1.329s]   problems in calling code that expects `find_package` result variables
+[1.329s]   (e.g., `_FOUND`) to follow a certain pattern.
+[1.329s] Call Stack (most recent call first):
+[1.329s]   /usr/lib/x86_64-linux-gnu/cmake/pcl/Modules/FindOpenNI.cmake:28 (find_package_handle_standard_args)
+[1.329s]   /usr/lib/x86_64-linux-gnu/cmake/pcl/PCLConfig.cmake:179 (find_package)
+[1.329s]   /usr/lib/x86_64-linux-gnu/cmake/pcl/PCLConfig.cmake:322 (find_openni)
+[1.329s]   /usr/lib/x86_64-linux-gnu/cmake/pcl/PCLConfig.cmake:548 (find_external_library)
+[1.329s]   deps/librigidbodytracker/CMakeLists.txt:7 (find_package)
+[1.329s] This warning is for project developers.  Use -Wno-dev to suppress it.
+[1.329s] [0m
+[1.330s] -- OpenNI found (include: /usr/include/ni, lib: /usr/lib/libOpenNI.so)
+[1.339s] [33mCMake Warning (dev) at /home/tdeng23/.local/lib/python3.8/site-packages/cmake/data/share/cmake-3.26/Modules/FindPackageHandleStandardArgs.cmake:438 (message):
+[1.339s]   The package name passed to `find_package_handle_standard_args` (USB_10)
+[1.339s]   does not match the name of the calling package (OpenNI2).  This can lead to
+[1.339s]   problems in calling code that expects `find_package` result variables
+[1.339s]   (e.g., `_FOUND`) to follow a certain pattern.
+[1.339s] Call Stack (most recent call first):
+[1.339s]   /usr/lib/x86_64-linux-gnu/cmake/pcl/Modules/FindOpenNI2.cmake:28 (find_package_handle_standard_args)
+[1.340s]   /usr/lib/x86_64-linux-gnu/cmake/pcl/PCLConfig.cmake:193 (find_package)
+[1.340s]   /usr/lib/x86_64-linux-gnu/cmake/pcl/PCLConfig.cmake:324 (find_openni2)
+[1.340s]   /usr/lib/x86_64-linux-gnu/cmake/pcl/PCLConfig.cmake:548 (find_external_library)
+[1.340s]   deps/librigidbodytracker/CMakeLists.txt:7 (find_package)
+[1.340s] This warning is for project developers.  Use -Wno-dev to suppress it.
+[1.340s] [0m
+[1.341s] -- OpenNI2 found (include: /usr/include/openni2, lib: /usr/lib/libOpenNI2.so)
+[1.341s] [0m** WARNING ** io features related to pcap will be disabled[0m
+[1.342s] [0m** WARNING ** io features related to png will be disabled[0m
+[1.364s] [33mCMake Warning (dev) at /home/tdeng23/.local/lib/python3.8/site-packages/cmake/data/share/cmake-3.26/Modules/FindPackageHandleStandardArgs.cmake:438 (message):
+[1.364s]   The package name passed to `find_package_handle_standard_args` (libusb-1.0)
+[1.364s]   does not match the name of the calling package (PCL).  This can lead to
+[1.365s]   problems in calling code that expects `find_package` result variables
+[1.365s]   (e.g., `_FOUND`) to follow a certain pattern.
+[1.365s] Call Stack (most recent call first):
+[1.365s]   /usr/lib/x86_64-linux-gnu/cmake/pcl/PCLConfig.cmake:291 (find_package_handle_standard_args)
+[1.365s]   /usr/lib/x86_64-linux-gnu/cmake/pcl/PCLConfig.cmake:338 (find_libusb)
+[1.365s]   /usr/lib/x86_64-linux-gnu/cmake/pcl/PCLConfig.cmake:548 (find_external_library)
+[1.365s]   deps/librigidbodytracker/CMakeLists.txt:7 (find_package)
+[1.365s] This warning is for project developers.  Use -Wno-dev to suppress it.
+[1.365s] [0m
+[1.365s] [0m** WARNING ** io features related to libusb-1.0 will be disabled[0m
+[1.373s] [33mCMake Warning (dev) at /home/tdeng23/.local/lib/python3.8/site-packages/cmake/data/share/cmake-3.26/Modules/FindPackageHandleStandardArgs.cmake:438 (message):
+[1.373s]   The package name passed to `find_package_handle_standard_args` (USB_10)
+[1.373s]   does not match the name of the calling package (OpenNI).  This can lead to
+[1.373s]   problems in calling code that expects `find_package` result variables
+[1.373s]   (e.g., `_FOUND`) to follow a certain pattern.
+[1.373s] Call Stack (most recent call first):
+[1.373s]   /usr/lib/x86_64-linux-gnu/cmake/pcl/Modules/FindOpenNI.cmake:28 (find_package_handle_standard_args)
+[1.373s]   /usr/lib/x86_64-linux-gnu/cmake/pcl/PCLConfig.cmake:179 (find_package)
+[1.374s]   /usr/lib/x86_64-linux-gnu/cmake/pcl/PCLConfig.cmake:322 (find_openni)
+[1.374s]   /usr/lib/x86_64-linux-gnu/cmake/pcl/PCLConfig.cmake:548 (find_external_library)
+[1.374s]   deps/librigidbodytracker/CMakeLists.txt:7 (find_package)
+[1.374s] This warning is for project developers.  Use -Wno-dev to suppress it.
+[1.374s] [0m
+[1.375s] -- OpenNI found (include: /usr/include/ni, lib: /usr/lib/libOpenNI.so)
+[1.383s] [33mCMake Warning (dev) at /home/tdeng23/.local/lib/python3.8/site-packages/cmake/data/share/cmake-3.26/Modules/FindPackageHandleStandardArgs.cmake:438 (message):
+[1.383s]   The package name passed to `find_package_handle_standard_args` (USB_10)
+[1.383s]   does not match the name of the calling package (OpenNI2).  This can lead to
+[1.384s]   problems in calling code that expects `find_package` result variables
+[1.384s]   (e.g., `_FOUND`) to follow a certain pattern.
+[1.384s] Call Stack (most recent call first):
+[1.384s]   /usr/lib/x86_64-linux-gnu/cmake/pcl/Modules/FindOpenNI2.cmake:28 (find_package_handle_standard_args)
+[1.384s]   /usr/lib/x86_64-linux-gnu/cmake/pcl/PCLConfig.cmake:193 (find_package)
+[1.384s]   /usr/lib/x86_64-linux-gnu/cmake/pcl/PCLConfig.cmake:324 (find_openni2)
+[1.384s]   /usr/lib/x86_64-linux-gnu/cmake/pcl/PCLConfig.cmake:548 (find_external_library)
+[1.384s]   deps/librigidbodytracker/CMakeLists.txt:7 (find_package)
+[1.384s] This warning is for project developers.  Use -Wno-dev to suppress it.
+[1.384s] [0m
+[1.385s] -- OpenNI2 found (include: /usr/include/openni2, lib: /usr/lib/libOpenNI2.so)
+[1.410s] -- QHULL found (include: /usr/include, lib: optimized;/usr/lib/x86_64-linux-gnu/libqhull.so;debug;/usr/lib/x86_64-linux-gnu/libqhull.so)
+[1.419s] [33mCMake Warning (dev) at /home/tdeng23/.local/lib/python3.8/site-packages/cmake/data/share/cmake-3.26/Modules/FindPackageHandleStandardArgs.cmake:438 (message):
+[1.419s]   The package name passed to `find_package_handle_standard_args` (USB_10)
+[1.419s]   does not match the name of the calling package (OpenNI).  This can lead to
+[1.419s]   problems in calling code that expects `find_package` result variables
+[1.419s]   (e.g., `_FOUND`) to follow a certain pattern.
+[1.419s] Call Stack (most recent call first):
+[1.419s]   /usr/lib/x86_64-linux-gnu/cmake/pcl/Modules/FindOpenNI.cmake:28 (find_package_handle_standard_args)
+[1.419s]   /usr/lib/x86_64-linux-gnu/cmake/pcl/PCLConfig.cmake:179 (find_package)
+[1.419s]   /usr/lib/x86_64-linux-gnu/cmake/pcl/PCLConfig.cmake:322 (find_openni)
+[1.419s]   /usr/lib/x86_64-linux-gnu/cmake/pcl/PCLConfig.cmake:548 (find_external_library)
+[1.419s]   deps/librigidbodytracker/CMakeLists.txt:7 (find_package)
+[1.420s] This warning is for project developers.  Use -Wno-dev to suppress it.
+[1.420s] [0m
+[1.421s] -- OpenNI found (include: /usr/include/ni, lib: /usr/lib/libOpenNI.so)
+[1.442s] -- looking for PCL_KDTREE
+[1.442s] [33mCMake Warning (dev) at /home/tdeng23/.local/lib/python3.8/site-packages/cmake/data/share/cmake-3.26/Modules/FindPackageHandleStandardArgs.cmake:438 (message):
+[1.442s]   The package name passed to `find_package_handle_standard_args` (PCL_KDTREE)
+[1.442s]   does not match the name of the calling package (PCL).  This can lead to
+[1.442s]   problems in calling code that expects `find_package` result variables
+[1.442s]   (e.g., `_FOUND`) to follow a certain pattern.
+[1.442s] Call Stack (most recent call first):
+[1.443s]   /usr/lib/x86_64-linux-gnu/cmake/pcl/PCLConfig.cmake:616 (find_package_handle_standard_args)
+[1.443s]   deps/librigidbodytracker/CMakeLists.txt:7 (find_package)
+[1.443s] This warning is for project developers.  Use -Wno-dev to suppress it.
+[1.443s] [0m
+[1.443s] -- looking for PCL_OCTREE
+[1.443s] [33mCMake Warning (dev) at /home/tdeng23/.local/lib/python3.8/site-packages/cmake/data/share/cmake-3.26/Modules/FindPackageHandleStandardArgs.cmake:438 (message):
+[1.443s]   The package name passed to `find_package_handle_standard_args` (PCL_OCTREE)
+[1.443s]   does not match the name of the calling package (PCL).  This can lead to
+[1.444s]   problems in calling code that expects `find_package` result variables
+[1.444s]   (e.g., `_FOUND`) to follow a certain pattern.
+[1.444s] Call Stack (most recent call first):
+[1.444s]   /usr/lib/x86_64-linux-gnu/cmake/pcl/PCLConfig.cmake:616 (find_package_handle_standard_args)
+[1.444s]   deps/librigidbodytracker/CMakeLists.txt:7 (find_package)
+[1.444s] This warning is for project developers.  Use -Wno-dev to suppress it.
+[1.444s] [0m
+[1.444s] -- looking for PCL_SEARCH
+[1.444s] -- looking for PCL_SAMPLE_CONSENSUS
+[1.445s] [33mCMake Warning (dev) at /home/tdeng23/.local/lib/python3.8/site-packages/cmake/data/share/cmake-3.26/Modules/FindPackageHandleStandardArgs.cmake:438 (message):
+[1.445s]   The package name passed to `find_package_handle_standard_args` (PCL_SEARCH)
+[1.445s]   does not match the name of the calling package (PCL).  This can lead to
+[1.445s]   problems in calling code that expects `find_package` result variables
+[1.445s]   (e.g., `_FOUND`) to follow a certain pattern.
+[1.445s] Call Stack (most recent call first):
+[1.445s]   /usr/lib/x86_64-linux-gnu/cmake/pcl/PCLConfig.cmake:616 (find_package_handle_standard_args)
+[1.445s]   deps/librigidbodytracker/CMakeLists.txt:7 (find_package)
+[1.445s] This warning is for project developers.  Use -Wno-dev to suppress it.
+[1.446s] [0m
+[1.446s] [33mCMake Warning (dev) at /home/tdeng23/.local/lib/python3.8/site-packages/cmake/data/share/cmake-3.26/Modules/FindPackageHandleStandardArgs.cmake:438 (message):
+[1.446s]   The package name passed to `find_package_handle_standard_args`
+[1.446s]   (PCL_SAMPLE_CONSENSUS) does not match the name of the calling package
+[1.446s]   (PCL).  This can lead to problems in calling code that expects
+[1.446s]   `find_package` result variables (e.g., `_FOUND`) to follow a certain
+[1.446s]   pattern.
+[1.446s] Call Stack (most recent call first):
+[1.446s]   /usr/lib/x86_64-linux-gnu/cmake/pcl/PCLConfig.cmake:616 (find_package_handle_standard_args)
+[1.447s]   deps/librigidbodytracker/CMakeLists.txt:7 (find_package)
+[1.447s] This warning is for project developers.  Use -Wno-dev to suppress it.
+[1.447s] [0m
+[1.447s] -- looking for PCL_FILTERS
+[1.447s] [33mCMake Warning (dev) at /home/tdeng23/.local/lib/python3.8/site-packages/cmake/data/share/cmake-3.26/Modules/FindPackageHandleStandardArgs.cmake:438 (message):
+[1.448s]   The package name passed to `find_package_handle_standard_args`
+[1.448s]   (PCL_FILTERS) does not match the name of the calling package (PCL).  This
+[1.448s]   can lead to problems in calling code that expects `find_package` result
+[1.448s]   variables (e.g., `_FOUND`) to follow a certain pattern.
+[1.448s] Call Stack (most recent call first):
+[1.448s]   /usr/lib/x86_64-linux-gnu/cmake/pcl/PCLConfig.cmake:616 (find_package_handle_standard_args)
+[1.448s]   deps/librigidbodytracker/CMakeLists.txt:7 (find_package)
+[1.448s] This warning is for project developers.  Use -Wno-dev to suppress it.
+[1.448s] [0m
+[1.448s] -- looking for PCL_2D
+[1.448s] -- looking for PCL_GEOMETRY
+[1.449s] [33mCMake Warning (dev) at /home/tdeng23/.local/lib/python3.8/site-packages/cmake/data/share/cmake-3.26/Modules/FindPackageHandleStandardArgs.cmake:438 (message):
+[1.449s]   The package name passed to `find_package_handle_standard_args` (PCL_2D)
+[1.449s]   does not match the name of the calling package (PCL).  This can lead to
+[1.449s]   problems in calling code that expects `find_package` result variables
+[1.449s]   (e.g., `_FOUND`) to follow a certain pattern.
+[1.449s] Call Stack (most recent call first):
+[1.449s]   /usr/lib/x86_64-linux-gnu/cmake/pcl/PCLConfig.cmake:619 (find_package_handle_standard_args)
+[1.449s]   deps/librigidbodytracker/CMakeLists.txt:7 (find_package)
+[1.449s] This warning is for project developers.  Use -Wno-dev to suppress it.
+[1.450s] [0m
+[1.450s] [33mCMake Warning (dev) at /home/tdeng23/.local/lib/python3.8/site-packages/cmake/data/share/cmake-3.26/Modules/FindPackageHandleStandardArgs.cmake:438 (message):
+[1.450s]   The package name passed to `find_package_handle_standard_args`
+[1.450s]   (PCL_GEOMETRY) does not match the name of the calling package (PCL).  This
+[1.450s]   can lead to problems in calling code that expects `find_package` result
+[1.450s]   variables (e.g., `_FOUND`) to follow a certain pattern.
+[1.450s] Call Stack (most recent call first):
+[1.450s]   /usr/lib/x86_64-linux-gnu/cmake/pcl/PCLConfig.cmake:619 (find_package_handle_standard_args)
+[1.450s]   deps/librigidbodytracker/CMakeLists.txt:7 (find_package)
+[1.450s] This warning is for project developers.  Use -Wno-dev to suppress it.
+[1.451s] [0m
+[1.451s] -- looking for PCL_IO
+[1.451s] -- looking for PCL_FEATURES
+[1.451s] [33mCMake Warning (dev) at /home/tdeng23/.local/lib/python3.8/site-packages/cmake/data/share/cmake-3.26/Modules/FindPackageHandleStandardArgs.cmake:438 (message):
+[1.451s]   The package name passed to `find_package_handle_standard_args` (PCL_IO)
+[1.451s]   does not match the name of the calling package (PCL).  This can lead to
+[1.451s]   problems in calling code that expects `find_package` result variables
+[1.452s]   (e.g., `_FOUND`) to follow a certain pattern.
+[1.452s] Call Stack (most recent call first):
+[1.452s]   /usr/lib/x86_64-linux-gnu/cmake/pcl/PCLConfig.cmake:616 (find_package_handle_standard_args)
+[1.452s]   deps/librigidbodytracker/CMakeLists.txt:7 (find_package)
+[1.452s] This warning is for project developers.  Use -Wno-dev to suppress it.
+[1.452s] [0m
+[1.452s] [33mCMake Warning (dev) at /home/tdeng23/.local/lib/python3.8/site-packages/cmake/data/share/cmake-3.26/Modules/FindPackageHandleStandardArgs.cmake:438 (message):
+[1.452s]   The package name passed to `find_package_handle_standard_args`
+[1.452s]   (PCL_FEATURES) does not match the name of the calling package (PCL).  This
+[1.453s]   can lead to problems in calling code that expects `find_package` result
+[1.453s]   variables (e.g., `_FOUND`) to follow a certain pattern.
+[1.453s] Call Stack (most recent call first):
+[1.453s]   /usr/lib/x86_64-linux-gnu/cmake/pcl/PCLConfig.cmake:616 (find_package_handle_standard_args)
+[1.453s]   deps/librigidbodytracker/CMakeLists.txt:7 (find_package)
+[1.453s] This warning is for project developers.  Use -Wno-dev to suppress it.
+[1.453s] [0m
+[1.453s] -- looking for PCL_ML
+[1.453s] -- looking for PCL_SEGMENTATION
+[1.453s] [33mCMake Warning (dev) at /home/tdeng23/.local/lib/python3.8/site-packages/cmake/data/share/cmake-3.26/Modules/FindPackageHandleStandardArgs.cmake:438 (message):
+[1.454s]   The package name passed to `find_package_handle_standard_args` (PCL_ML)
+[1.454s]   does not match the name of the calling package (PCL).  This can lead to
+[1.454s]   problems in calling code that expects `find_package` result variables
+[1.455s]   (e.g., `_FOUND`) to follow a certain pattern.
+[1.455s] Call Stack (most recent call first):
+[1.455s]   /usr/lib/x86_64-linux-gnu/cmake/pcl/PCLConfig.cmake:616 (find_package_handle_standard_args)
+[1.455s]   deps/librigidbodytracker/CMakeLists.txt:7 (find_package)
+[1.455s] This warning is for project developers.  Use -Wno-dev to suppress it.
+[1.455s] [0m
+[1.455s] [33mCMake Warning (dev) at /home/tdeng23/.local/lib/python3.8/site-packages/cmake/data/share/cmake-3.26/Modules/FindPackageHandleStandardArgs.cmake:438 (message):
+[1.455s]   The package name passed to `find_package_handle_standard_args`
+[1.455s]   (PCL_SEGMENTATION) does not match the name of the calling package (PCL).
+[1.456s]   This can lead to problems in calling code that expects `find_package`
+[1.456s]   result variables (e.g., `_FOUND`) to follow a certain pattern.
+[1.456s] Call Stack (most recent call first):
+[1.456s]   /usr/lib/x86_64-linux-gnu/cmake/pcl/PCLConfig.cmake:616 (find_package_handle_standard_args)
+[1.456s]   deps/librigidbodytracker/CMakeLists.txt:7 (find_package)
+[1.456s] This warning is for project developers.  Use -Wno-dev to suppress it.
+[1.456s] [0m
+[1.456s] -- looking for PCL_VISUALIZATION
+[1.456s] [33mCMake Warning (dev) at /home/tdeng23/.local/lib/python3.8/site-packages/cmake/data/share/cmake-3.26/Modules/FindPackageHandleStandardArgs.cmake:438 (message):
+[1.457s]   The package name passed to `find_package_handle_standard_args`
+[1.457s]   (PCL_VISUALIZATION) does not match the name of the calling package (PCL).
+[1.457s]   This can lead to problems in calling code that expects `find_package`
+[1.457s]   result variables (e.g., `_FOUND`) to follow a certain pattern.
+[1.457s] Call Stack (most recent call first):
+[1.457s]   /usr/lib/x86_64-linux-gnu/cmake/pcl/PCLConfig.cmake:616 (find_package_handle_standard_args)
+[1.457s]   deps/librigidbodytracker/CMakeLists.txt:7 (find_package)
+[1.457s] This warning is for project developers.  Use -Wno-dev to suppress it.
+[1.457s] [0m
+[1.458s] [33mCMake Warning (dev) at /home/tdeng23/.local/lib/python3.8/site-packages/cmake/data/share/cmake-3.26/Modules/FindPackageHandleStandardArgs.cmake:438 (message):
+[1.458s]   The package name passed to `find_package_handle_standard_args`
+[1.458s]   (PCL_SURFACE) does not match the name of the calling package (PCL).  This
+[1.458s]   can lead to problems in calling code that expects `find_package` result
+[1.458s]   variables (e.g., `_FOUND`) to follow a certain pattern.
+[1.458s] Call Stack (most recent call first):
+[1.458s]   /usr/lib/x86_64-linux-gnu/cmake/pcl/PCLConfig.cmake:616 (find_package_handle_standard_args)
+[1.458s]   deps/librigidbodytracker/CMakeLists.txt:7 (find_package)
+[1.458s] This warning is for project developers.  Use -Wno-dev to suppress it.
+[1.459s] [0m
+[1.459s] -- looking for PCL_SURFACE
+[1.459s] -- looking for PCL_REGISTRATION
+[1.459s] [33mCMake Warning (dev) at /home/tdeng23/.local/lib/python3.8/site-packages/cmake/data/share/cmake-3.26/Modules/FindPackageHandleStandardArgs.cmake:438 (message):
+[1.459s]   The package name passed to `find_package_handle_standard_args`
+[1.459s]   (PCL_REGISTRATION) does not match the name of the calling package (PCL).
+[1.459s]   This can lead to problems in calling code that expects `find_package`
+[1.459s]   result variables (e.g., `_FOUND`) to follow a certain pattern.
+[1.460s] Call Stack (most recent call first):
+[1.460s]   /usr/lib/x86_64-linux-gnu/cmake/pcl/PCLConfig.cmake:616 (find_package_handle_standard_args)
+[1.460s]   deps/librigidbodytracker/CMakeLists.txt:7 (find_package)
+[1.460s] This warning is for project developers.  Use -Wno-dev to suppress it.
+[1.460s] [0m
+[1.460s] [33mCMake Warning (dev) at /home/tdeng23/.local/lib/python3.8/site-packages/cmake/data/share/cmake-3.26/Modules/FindPackageHandleStandardArgs.cmake:438 (message):
+[1.460s]   The package name passed to `find_package_handle_standard_args`
+[1.460s]   (PCL_KEYPOINTS) does not match the name of the calling package (PCL).  This
+[1.460s]   can lead to problems in calling code that expects `find_package` result
+[1.461s]   variables (e.g., `_FOUND`) to follow a certain pattern.
+[1.461s] Call Stack (most recent call first):
+[1.461s]   /usr/lib/x86_64-linux-gnu/cmake/pcl/PCLConfig.cmake:616 (find_package_handle_standard_args)
+[1.461s]   deps/librigidbodytracker/CMakeLists.txt:7 (find_package)
+[1.461s] This warning is for project developers.  Use -Wno-dev to suppress it.
+[1.461s] [0m
+[1.461s] -- looking for PCL_KEYPOINTS
+[1.461s] [33mCMake Warning (dev) at /home/tdeng23/.local/lib/python3.8/site-packages/cmake/data/share/cmake-3.26/Modules/FindPackageHandleStandardArgs.cmake:438 (message):
+[1.461s]   The package name passed to `find_package_handle_standard_args`
+[1.462s]   (PCL_TRACKING) does not match the name of the calling package (PCL).  This
+[1.462s]   can lead to problems in calling code that expects `find_package` result
+[1.462s]   variables (e.g., `_FOUND`) to follow a certain pattern.
+[1.462s] Call Stack (most recent call first):
+[1.462s]   /usr/lib/x86_64-linux-gnu/cmake/pcl/PCLConfig.cmake:616 (find_package_handle_standard_args)
+[1.462s]   deps/librigidbodytracker/CMakeLists.txt:7 (find_package)
+[1.462s] This warning is for project developers.  Use -Wno-dev to suppress it.
+[1.463s] [0m
+[1.463s] -- looking for PCL_TRACKING
+[1.463s] -- looking for PCL_RECOGNITION
+[1.463s] [33mCMake Warning (dev) at /home/tdeng23/.local/lib/python3.8/site-packages/cmake/data/share/cmake-3.26/Modules/FindPackageHandleStandardArgs.cmake:438 (message):
+[1.463s]   The package name passed to `find_package_handle_standard_args`
+[1.463s]   (PCL_RECOGNITION) does not match the name of the calling package (PCL).
+[1.463s]   This can lead to problems in calling code that expects `find_package`
+[1.464s]   result variables (e.g., `_FOUND`) to follow a certain pattern.
+[1.464s] Call Stack (most recent call first):
+[1.464s]   /usr/lib/x86_64-linux-gnu/cmake/pcl/PCLConfig.cmake:616 (find_package_handle_standard_args)
+[1.464s]   deps/librigidbodytracker/CMakeLists.txt:7 (find_package)
+[1.464s] This warning is for project developers.  Use -Wno-dev to suppress it.
+[1.464s] [0m
+[1.464s] [33mCMake Warning (dev) at /home/tdeng23/.local/lib/python3.8/site-packages/cmake/data/share/cmake-3.26/Modules/FindPackageHandleStandardArgs.cmake:438 (message):
+[1.464s]   The package name passed to `find_package_handle_standard_args` (PCL_STEREO)
+[1.465s]   does not match the name of the calling package (PCL).  This can lead to
+[1.465s]   problems in calling code that expects `find_package` result variables
+[1.465s]   (e.g., `_FOUND`) to follow a certain pattern.
+[1.465s] Call Stack (most recent call first):
+[1.465s]   /usr/lib/x86_64-linux-gnu/cmake/pcl/PCLConfig.cmake:616 (find_package_handle_standard_args)
+[1.465s]   deps/librigidbodytracker/CMakeLists.txt:7 (find_package)
+[1.465s] This warning is for project developers.  Use -Wno-dev to suppress it.
+[1.465s] [0m
+[1.465s] -- looking for PCL_STEREO
+[1.466s] [33mCMake Warning (dev) at /home/tdeng23/.local/lib/python3.8/site-packages/cmake/data/share/cmake-3.26/Modules/FindPackageHandleStandardArgs.cmake:438 (message):
+[1.466s]   The package name passed to `find_package_handle_standard_args` (PCL_APPS)
+[1.466s]   does not match the name of the calling package (PCL).  This can lead to
+[1.466s]   problems in calling code that expects `find_package` result variables
+[1.466s]   (e.g., `_FOUND`) to follow a certain pattern.
+[1.466s] Call Stack (most recent call first):
+[1.466s]   /usr/lib/x86_64-linux-gnu/cmake/pcl/PCLConfig.cmake:616 (find_package_handle_standard_args)
+[1.466s]   deps/librigidbodytracker/CMakeLists.txt:7 (find_package)
+[1.466s] This warning is for project developers.  Use -Wno-dev to suppress it.
+[1.466s] [0m
+[1.467s] -- looking for PCL_APPS
+[1.467s] [33mCMake Warning (dev) at /home/tdeng23/.local/lib/python3.8/site-packages/cmake/data/share/cmake-3.26/Modules/FindPackageHandleStandardArgs.cmake:438 (message):
+[1.467s]   The package name passed to `find_package_handle_standard_args`
+[1.467s]   (PCL_IN_HAND_SCANNER) does not match the name of the calling package (PCL).
+[1.467s]   This can lead to problems in calling code that expects `find_package`
+[1.467s]   result variables (e.g., `_FOUND`) to follow a certain pattern.
+[1.467s] Call Stack (most recent call first):
+[1.467s]   /usr/lib/x86_64-linux-gnu/cmake/pcl/PCLConfig.cmake:619 (find_package_handle_standard_args)
+[1.467s]   deps/librigidbodytracker/CMakeLists.txt:7 (find_package)
+[1.467s] This warning is for project developers.  Use -Wno-dev to suppress it.
+[1.468s] [0m
+[1.468s] -- looking for PCL_IN_HAND_SCANNER
+[1.468s] -- looking for PCL_POINT_CLOUD_EDITOR
+[1.468s] [33mCMake Warning (dev) at /home/tdeng23/.local/lib/python3.8/site-packages/cmake/data/share/cmake-3.26/Modules/FindPackageHandleStandardArgs.cmake:438 (message):
+[1.468s]   The package name passed to `find_package_handle_standard_args`
+[1.468s]   (PCL_POINT_CLOUD_EDITOR) does not match the name of the calling package
+[1.468s]   (PCL).  This can lead to problems in calling code that expects
+[1.468s]   `find_package` result variables (e.g., `_FOUND`) to follow a certain
+[1.468s]   pattern.
+[1.468s] Call Stack (most recent call first):
+[1.469s]   /usr/lib/x86_64-linux-gnu/cmake/pcl/PCLConfig.cmake:619 (find_package_handle_standard_args)
+[1.469s]   deps/librigidbodytracker/CMakeLists.txt:7 (find_package)
+[1.469s] This warning is for project developers.  Use -Wno-dev to suppress it.
+[1.469s] [0m
+[1.469s] -- looking for PCL_OUTOFCORE
+[1.469s] [33mCMake Warning (dev) at /home/tdeng23/.local/lib/python3.8/site-packages/cmake/data/share/cmake-3.26/Modules/FindPackageHandleStandardArgs.cmake:438 (message):
+[1.469s]   The package name passed to `find_package_handle_standard_args`
+[1.469s]   (PCL_OUTOFCORE) does not match the name of the calling package (PCL).  This
+[1.469s]   can lead to problems in calling code that expects `find_package` result
+[1.469s]   variables (e.g., `_FOUND`) to follow a certain pattern.
+[1.469s] Call Stack (most recent call first):
+[1.470s]   /usr/lib/x86_64-linux-gnu/cmake/pcl/PCLConfig.cmake:616 (find_package_handle_standard_args)
+[1.470s]   deps/librigidbodytracker/CMakeLists.txt:7 (find_package)
+[1.470s] This warning is for project developers.  Use -Wno-dev to suppress it.
+[1.470s] -- looking for PCL_PEOPLE
+[1.470s] [0m
+[1.470s] [33mCMake Warning (dev) at /home/tdeng23/.local/lib/python3.8/site-packages/cmake/data/share/cmake-3.26/Modules/FindPackageHandleStandardArgs.cmake:438 (message):
+[1.470s]   The package name passed to `find_package_handle_standard_args` (PCL_PEOPLE)
+[1.470s]   does not match the name of the calling package (PCL).  This can lead to
+[1.470s]   problems in calling code that expects `find_package` result variables
+[1.471s]   (e.g., `_FOUND`) to follow a certain pattern.
+[1.471s] Call Stack (most recent call first):
+[1.471s]   /usr/lib/x86_64-linux-gnu/cmake/pcl/PCLConfig.cmake:616 (find_package_handle_standard_args)
+[1.471s]   deps/librigidbodytracker/CMakeLists.txt:7 (find_package)
+[1.471s] This warning is for project developers.  Use -Wno-dev to suppress it.
+[1.471s] [0m
+[1.471s] -- Found PCL: pcl_common;pcl_kdtree;pcl_octree;pcl_search;pcl_sample_consensus;pcl_filters;pcl_io;pcl_features;pcl_ml;pcl_segmentation;pcl_visualization;pcl_surface;pcl_registration;pcl_keypoints;pcl_tracking;pcl_recognition;pcl_stereo;pcl_apps;pcl_outofcore;pcl_people;/usr/lib/x86_64-linux-gnu/libboost_system.so;/usr/lib/x86_64-linux-gnu/libboost_filesystem.so;/usr/lib/x86_64-linux-gnu/libboost_date_time.so;/usr/lib/x86_64-linux-gnu/libboost_iostreams.so;/usr/lib/x86_64-linux-gnu/libboost_regex.so;optimized;/usr/lib/x86_64-linux-gnu/libqhull.so;debug;/usr/lib/x86_64-linux-gnu/libqhull.so;/usr/lib/libOpenNI.so;/usr/lib/libOpenNI2.so;vtkChartsCore;vtkCommonColor;vtkCommonCore;vtksys;vtkCommonDataModel;vtkCommonMath;vtkCommonMisc;vtkCommonSystem;vtkCommonTransforms;vtkCommonExecutionModel;vtkFiltersGeneral;vtkCommonComputationalGeometry;vtkFiltersCore;vtkInfovisCore;vtkFiltersExtraction;vtkFiltersStatistics;vtkImagingFourier;vtkImagingCore;vtkalglib;vtkRenderingContext2D;vtkRenderingCore;vtkFiltersGeometry;vtkFiltersSources;vtkRenderingFreeType;/usr/lib/x86_64-linux-gnu/libfreetype.so;/usr/lib/x86_64-linux-gnu/libz.so;vtkFiltersModeling;vtkImagingSources;vtkInteractionStyle;vtkInteractionWidgets;vtkFiltersHybrid;vtkImagingColor;vtkImagingGeneral;vtkImagingHybrid;vtkIOImage;vtkDICOMParser;vtkmetaio;/usr/lib/x86_64-linux-gnu/libjpeg.so;/usr/lib/x86_64-linux-gnu/libpng.so;/usr/lib/x86_64-linux-gnu/libtiff.so;vtkRenderingAnnotation;vtkRenderingVolume;vtkIOXML;vtkIOCore;vtkIOXMLParser;/usr/lib/x86_64-linux-gnu/libexpat.so;vtkIOGeometry;vtkIOLegacy;vtkIOPLY;vtkRenderingLOD;vtkViewsContext2D;vtkViewsCore;vtkRenderingContextOpenGL2;vtkRenderingOpenGL2;FLANN::FLANN  
+[1.479s] -- Found Boost: /usr/include (found suitable version "1.71.0", minimum required is "1.5") found components: system 
+[1.501s] -- Found Boost: /usr/include (found suitable version "1.71.0", minimum required is "1.5") found components: system thread chrono date_time atomic 
+[1.513s] [0mCMake Deprecation Warning at deps/libmotioncapture/deps/vrpn/CMakeLists.txt:1 (cmake_minimum_required):
+[1.514s]   Compatibility with CMake < 2.8.12 will be removed from a future version of
+[1.514s]   CMake.
+[1.514s] 
+[1.514s]   Update the VERSION argument <min> value or use a ...<max> suffix to tell
+[1.514s]   CMake that the project does not need compatibility with older versions.
+[1.514s] 
+[1.514s] [0m
+[1.602s] [0mCMake Deprecation Warning at deps/libmotioncapture/deps/vrpn/quat/CMakeLists.txt:1 (cmake_minimum_required):
+[1.602s]   Compatibility with CMake < 2.8.12 will be removed from a future version of
+[1.602s]   CMake.
+[1.602s] 
+[1.602s]   Update the VERSION argument <min> value or use a ...<max> suffix to tell
+[1.602s]   CMake that the project does not need compatibility with older versions.
+[1.602s] 
+[1.602s] [0m
+[2.900s] [0mCMake Deprecation Warning at deps/libmotioncapture/deps/vrpn/cmake/FindOpenHaptics.cmake:56 (cmake_minimum_required):
+[2.900s]   Compatibility with CMake < 2.8.12 will be removed from a future version of
+[2.900s]   CMake.
+[2.900s] 
+[2.900s]   Update the VERSION argument <min> value or use a ...<max> suffix to tell
+[2.900s]   CMake that the project does not need compatibility with older versions.
+[2.900s] Call Stack (most recent call first):
+[2.901s]   deps/libmotioncapture/deps/vrpn/CMakeLists.txt:468 (find_package)
+[2.901s] 
+[2.901s] [0m
+[2.928s] [33mCMake Warning (dev) at /home/tdeng23/.local/lib/python3.8/site-packages/cmake/data/share/cmake-3.26/Modules/FindPackageHandleStandardArgs.cmake:438 (message):
+[2.928s]   The package name passed to `find_package_handle_standard_args` (I2CDEV)
+[2.928s]   does not match the name of the calling package (libi2c-dev).  This can lead
+[2.928s]   to problems in calling code that expects `find_package` result variables
+[2.928s]   (e.g., `_FOUND`) to follow a certain pattern.
+[2.928s] Call Stack (most recent call first):
+[2.928s]   deps/libmotioncapture/deps/vrpn/cmake/Findlibi2c-dev.cmake:43 (find_package_handle_standard_args)
+[2.928s]   deps/libmotioncapture/deps/vrpn/CMakeLists.txt:518 (find_package)
+[2.928s] This warning is for project developers.  Use -Wno-dev to suppress it.
+[2.928s] [0m
+[2.982s] [0mCMake Deprecation Warning at deps/libmotioncapture/deps/vrpn/client_src/CMakeLists.txt:1 (cmake_minimum_required):
+[2.982s]   Compatibility with CMake < 2.8.12 will be removed from a future version of
+[2.982s]   CMake.
+[2.982s] 
+[2.982s]   Update the VERSION argument <min> value or use a ...<max> suffix to tell
+[2.982s]   CMake that the project does not need compatibility with older versions.
+[2.982s] 
+[2.982s] [0m
+[3.066s] -- Configuring done (3.0s)
+[3.194s] -- Generating done (0.1s)
+[3.199s] -- Build files have been written to: /home/tdeng23/ros2_ws/build/motion_capture_tracking
+[3.219s] Invoked command in '/home/tdeng23/ros2_ws/build/motion_capture_tracking' returned '0': CMAKE_PREFIX_PATH=/home/tdeng23/ros2_ws/install/motion_capture_tracking_interfaces:/home/tdeng23/ros2_ws/install/motion_capture_tracking:/home/tdeng23/ros2_ws/install/crazyflie:/home/tdeng23/ros2_ws/install/crazyflie_sim:/home/tdeng23/ros2_ws/install/crazyflie_ros2_slam:/home/tdeng23/ros2_ws/install/crazyflie_ros2_navigation:/home/tdeng23/ros2_ws/install/crazyflie_ros2_interfaces:/home/tdeng23/ros2_ws/install/crazyflie_ros2_description:/home/tdeng23/ros2_ws/install/crazyflie_examples:/home/tdeng23/ros2_ws/install/crazyflie_interfaces:/home/tdeng23/ros2_ws/install/my_package:/home/tdeng23/ros2_ws/install/crazyflie_simulation:/home/tdeng23/ros2_ws/install/crazyflie_ros2_simulation:/home/tdeng23/ros2_ws/install/crazyflie_ros2_simple_mapper:/home/tdeng23/ros2_ws/install/crazyflie_ros2_scan:/home/tdeng23/ros2_ws/install/crazyflie_ros2:/home/tdeng23/ros2_ws/install/crazyflie_py:/opt/ros/galactic PYTHONPATH=/home/tdeng23/ros2_ws/install/motion_capture_tracking_interfaces/lib/python3.8/site-packages:/home/tdeng23/ros2_ws/install/my_package/lib/python3.8/site-packages:/home/tdeng23/ros2_ws/install/crazyflie_simulation/lib/python3.8/site-packages:/home/tdeng23/ros2_ws/install/crazyflie_sim/lib/python3.8/site-packages:/home/tdeng23/ros2_ws/install/crazyflie_ros2_simulation/lib/python3.8/site-packages:/home/tdeng23/ros2_ws/install/crazyflie_ros2_simple_mapper/lib/python3.8/site-packages:/home/tdeng23/ros2_ws/install/crazyflie_ros2_scan/lib/python3.8/site-packages:/home/tdeng23/ros2_ws/install/crazyflie_ros2_interfaces/lib/python3.8/site-packages:/home/tdeng23/ros2_ws/install/crazyflie_ros2/lib/python3.8/site-packages:/home/tdeng23/ros2_ws/install/crazyflie_examples/lib/python3.8/site-packages:/home/tdeng23/ros2_ws/install/crazyflie_py/lib/python3.8/site-packages:/home/tdeng23/ros2_ws/install/crazyflie_interfaces/lib/python3.8/site-packages:/opt/ros/galactic/lib/python3.8/site-packages /home/tdeng23/.local/bin/cmake /home/tdeng23/ros2_ws/src/motion_capture_tracking/motion_capture_tracking -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/tdeng23/ros2_ws/install/motion_capture_tracking
+[3.222s] Invoking command in '/home/tdeng23/ros2_ws/build/motion_capture_tracking': CMAKE_PREFIX_PATH=/home/tdeng23/ros2_ws/install/motion_capture_tracking_interfaces:/home/tdeng23/ros2_ws/install/motion_capture_tracking:/home/tdeng23/ros2_ws/install/crazyflie:/home/tdeng23/ros2_ws/install/crazyflie_sim:/home/tdeng23/ros2_ws/install/crazyflie_ros2_slam:/home/tdeng23/ros2_ws/install/crazyflie_ros2_navigation:/home/tdeng23/ros2_ws/install/crazyflie_ros2_interfaces:/home/tdeng23/ros2_ws/install/crazyflie_ros2_description:/home/tdeng23/ros2_ws/install/crazyflie_examples:/home/tdeng23/ros2_ws/install/crazyflie_interfaces:/home/tdeng23/ros2_ws/install/my_package:/home/tdeng23/ros2_ws/install/crazyflie_simulation:/home/tdeng23/ros2_ws/install/crazyflie_ros2_simulation:/home/tdeng23/ros2_ws/install/crazyflie_ros2_simple_mapper:/home/tdeng23/ros2_ws/install/crazyflie_ros2_scan:/home/tdeng23/ros2_ws/install/crazyflie_ros2:/home/tdeng23/ros2_ws/install/crazyflie_py:/opt/ros/galactic PYTHONPATH=/home/tdeng23/ros2_ws/install/motion_capture_tracking_interfaces/lib/python3.8/site-packages:/home/tdeng23/ros2_ws/install/my_package/lib/python3.8/site-packages:/home/tdeng23/ros2_ws/install/crazyflie_simulation/lib/python3.8/site-packages:/home/tdeng23/ros2_ws/install/crazyflie_sim/lib/python3.8/site-packages:/home/tdeng23/ros2_ws/install/crazyflie_ros2_simulation/lib/python3.8/site-packages:/home/tdeng23/ros2_ws/install/crazyflie_ros2_simple_mapper/lib/python3.8/site-packages:/home/tdeng23/ros2_ws/install/crazyflie_ros2_scan/lib/python3.8/site-packages:/home/tdeng23/ros2_ws/install/crazyflie_ros2_interfaces/lib/python3.8/site-packages:/home/tdeng23/ros2_ws/install/crazyflie_ros2/lib/python3.8/site-packages:/home/tdeng23/ros2_ws/install/crazyflie_examples/lib/python3.8/site-packages:/home/tdeng23/ros2_ws/install/crazyflie_py/lib/python3.8/site-packages:/home/tdeng23/ros2_ws/install/crazyflie_interfaces/lib/python3.8/site-packages:/opt/ros/galactic/lib/python3.8/site-packages /home/tdeng23/.local/bin/cmake --build /home/tdeng23/ros2_ws/build/motion_capture_tracking -- -j8 -l8
+[3.303s] [  8%] Built target quat
+[3.310s] [ 16%] Built target qualisys_cpp_sdk
+[3.340s] [ 62%] Built target vrpn
+[3.345s] [ 66%] Built target librigidbodytracker
+[3.378s] [ 83%] Built target ViconDataStreamSDK_CPP
+[3.426s] [ 96%] Built target libmotioncapture
+[3.467s] [100%] Built target motion_capture_tracking_node
+[3.481s] Invoked command in '/home/tdeng23/ros2_ws/build/motion_capture_tracking' returned '0': CMAKE_PREFIX_PATH=/home/tdeng23/ros2_ws/install/motion_capture_tracking_interfaces:/home/tdeng23/ros2_ws/install/motion_capture_tracking:/home/tdeng23/ros2_ws/install/crazyflie:/home/tdeng23/ros2_ws/install/crazyflie_sim:/home/tdeng23/ros2_ws/install/crazyflie_ros2_slam:/home/tdeng23/ros2_ws/install/crazyflie_ros2_navigation:/home/tdeng23/ros2_ws/install/crazyflie_ros2_interfaces:/home/tdeng23/ros2_ws/install/crazyflie_ros2_description:/home/tdeng23/ros2_ws/install/crazyflie_examples:/home/tdeng23/ros2_ws/install/crazyflie_interfaces:/home/tdeng23/ros2_ws/install/my_package:/home/tdeng23/ros2_ws/install/crazyflie_simulation:/home/tdeng23/ros2_ws/install/crazyflie_ros2_simulation:/home/tdeng23/ros2_ws/install/crazyflie_ros2_simple_mapper:/home/tdeng23/ros2_ws/install/crazyflie_ros2_scan:/home/tdeng23/ros2_ws/install/crazyflie_ros2:/home/tdeng23/ros2_ws/install/crazyflie_py:/opt/ros/galactic PYTHONPATH=/home/tdeng23/ros2_ws/install/motion_capture_tracking_interfaces/lib/python3.8/site-packages:/home/tdeng23/ros2_ws/install/my_package/lib/python3.8/site-packages:/home/tdeng23/ros2_ws/install/crazyflie_simulation/lib/python3.8/site-packages:/home/tdeng23/ros2_ws/install/crazyflie_sim/lib/python3.8/site-packages:/home/tdeng23/ros2_ws/install/crazyflie_ros2_simulation/lib/python3.8/site-packages:/home/tdeng23/ros2_ws/install/crazyflie_ros2_simple_mapper/lib/python3.8/site-packages:/home/tdeng23/ros2_ws/install/crazyflie_ros2_scan/lib/python3.8/site-packages:/home/tdeng23/ros2_ws/install/crazyflie_ros2_interfaces/lib/python3.8/site-packages:/home/tdeng23/ros2_ws/install/crazyflie_ros2/lib/python3.8/site-packages:/home/tdeng23/ros2_ws/install/crazyflie_examples/lib/python3.8/site-packages:/home/tdeng23/ros2_ws/install/crazyflie_py/lib/python3.8/site-packages:/home/tdeng23/ros2_ws/install/crazyflie_interfaces/lib/python3.8/site-packages:/opt/ros/galactic/lib/python3.8/site-packages /home/tdeng23/.local/bin/cmake --build /home/tdeng23/ros2_ws/build/motion_capture_tracking -- -j8 -l8
+[3.592s] Invoking command in '/home/tdeng23/ros2_ws/build/motion_capture_tracking': CMAKE_PREFIX_PATH=/home/tdeng23/ros2_ws/install/motion_capture_tracking_interfaces:/home/tdeng23/ros2_ws/install/motion_capture_tracking:/home/tdeng23/ros2_ws/install/crazyflie:/home/tdeng23/ros2_ws/install/crazyflie_sim:/home/tdeng23/ros2_ws/install/crazyflie_ros2_slam:/home/tdeng23/ros2_ws/install/crazyflie_ros2_navigation:/home/tdeng23/ros2_ws/install/crazyflie_ros2_interfaces:/home/tdeng23/ros2_ws/install/crazyflie_ros2_description:/home/tdeng23/ros2_ws/install/crazyflie_examples:/home/tdeng23/ros2_ws/install/crazyflie_interfaces:/home/tdeng23/ros2_ws/install/my_package:/home/tdeng23/ros2_ws/install/crazyflie_simulation:/home/tdeng23/ros2_ws/install/crazyflie_ros2_simulation:/home/tdeng23/ros2_ws/install/crazyflie_ros2_simple_mapper:/home/tdeng23/ros2_ws/install/crazyflie_ros2_scan:/home/tdeng23/ros2_ws/install/crazyflie_ros2:/home/tdeng23/ros2_ws/install/crazyflie_py:/opt/ros/galactic PYTHONPATH=/home/tdeng23/ros2_ws/install/motion_capture_tracking_interfaces/lib/python3.8/site-packages:/home/tdeng23/ros2_ws/install/my_package/lib/python3.8/site-packages:/home/tdeng23/ros2_ws/install/crazyflie_simulation/lib/python3.8/site-packages:/home/tdeng23/ros2_ws/install/crazyflie_sim/lib/python3.8/site-packages:/home/tdeng23/ros2_ws/install/crazyflie_ros2_simulation/lib/python3.8/site-packages:/home/tdeng23/ros2_ws/install/crazyflie_ros2_simple_mapper/lib/python3.8/site-packages:/home/tdeng23/ros2_ws/install/crazyflie_ros2_scan/lib/python3.8/site-packages:/home/tdeng23/ros2_ws/install/crazyflie_ros2_interfaces/lib/python3.8/site-packages:/home/tdeng23/ros2_ws/install/crazyflie_ros2/lib/python3.8/site-packages:/home/tdeng23/ros2_ws/install/crazyflie_examples/lib/python3.8/site-packages:/home/tdeng23/ros2_ws/install/crazyflie_py/lib/python3.8/site-packages:/home/tdeng23/ros2_ws/install/crazyflie_interfaces/lib/python3.8/site-packages:/opt/ros/galactic/lib/python3.8/site-packages /home/tdeng23/.local/bin/cmake --install /home/tdeng23/ros2_ws/build/motion_capture_tracking
+[3.639s] -- Install configuration: ""
+[3.640s] -- Execute custom install script
+[3.640s] -- Up-to-date symlink: /home/tdeng23/ros2_ws/install/motion_capture_tracking/lib/motion_capture_tracking/motion_capture_tracking_node
+[3.641s] -- Up-to-date symlink: /home/tdeng23/ros2_ws/install/motion_capture_tracking/share/motion_capture_tracking//launch/launch.py
+[3.642s] -- Up-to-date symlink: /home/tdeng23/ros2_ws/install/motion_capture_tracking/share/motion_capture_tracking//launch/node.launch
+[3.642s] -- Up-to-date symlink: /home/tdeng23/ros2_ws/install/motion_capture_tracking/share/motion_capture_tracking//config/cfg.yaml
+[3.642s] -- Up-to-date symlink: /home/tdeng23/ros2_ws/install/motion_capture_tracking/share/motion_capture_tracking//config/rviz.rviz
+[3.643s] -- Up-to-date symlink: /home/tdeng23/ros2_ws/install/motion_capture_tracking/share/ament_index/resource_index/package_run_dependencies/motion_capture_tracking
+[3.643s] -- Up-to-date symlink: /home/tdeng23/ros2_ws/install/motion_capture_tracking/share/ament_index/resource_index/parent_prefix_path/motion_capture_tracking
+[3.644s] -- Up-to-date symlink: /home/tdeng23/ros2_ws/install/motion_capture_tracking/share/motion_capture_tracking/environment/ament_prefix_path.sh
+[3.644s] -- Up-to-date symlink: /home/tdeng23/ros2_ws/install/motion_capture_tracking/share/motion_capture_tracking/environment/ament_prefix_path.dsv
+[3.644s] -- Up-to-date symlink: /home/tdeng23/ros2_ws/install/motion_capture_tracking/share/motion_capture_tracking/environment/path.sh
+[3.644s] -- Up-to-date symlink: /home/tdeng23/ros2_ws/install/motion_capture_tracking/share/motion_capture_tracking/environment/path.dsv
+[3.644s] -- Up-to-date symlink: /home/tdeng23/ros2_ws/install/motion_capture_tracking/share/motion_capture_tracking/local_setup.bash
+[3.645s] -- Up-to-date symlink: /home/tdeng23/ros2_ws/install/motion_capture_tracking/share/motion_capture_tracking/local_setup.sh
+[3.645s] -- Up-to-date symlink: /home/tdeng23/ros2_ws/install/motion_capture_tracking/share/motion_capture_tracking/local_setup.zsh
+[3.645s] -- Up-to-date symlink: /home/tdeng23/ros2_ws/install/motion_capture_tracking/share/motion_capture_tracking/local_setup.dsv
+[3.646s] -- Symlinking: /home/tdeng23/ros2_ws/install/motion_capture_tracking/share/motion_capture_tracking/package.dsv
+[3.650s] -- Up-to-date symlink: /home/tdeng23/ros2_ws/install/motion_capture_tracking/share/ament_index/resource_index/packages/motion_capture_tracking
+[3.650s] -- Up-to-date symlink: /home/tdeng23/ros2_ws/install/motion_capture_tracking/share/motion_capture_tracking/cmake/motion_capture_trackingConfig.cmake
+[3.650s] -- Up-to-date symlink: /home/tdeng23/ros2_ws/install/motion_capture_tracking/share/motion_capture_tracking/cmake/motion_capture_trackingConfig-version.cmake
+[3.651s] -- Up-to-date symlink: /home/tdeng23/ros2_ws/install/motion_capture_tracking/share/motion_capture_tracking/package.xml
+[3.665s] Invoked command in '/home/tdeng23/ros2_ws/build/motion_capture_tracking' returned '0': CMAKE_PREFIX_PATH=/home/tdeng23/ros2_ws/install/motion_capture_tracking_interfaces:/home/tdeng23/ros2_ws/install/motion_capture_tracking:/home/tdeng23/ros2_ws/install/crazyflie:/home/tdeng23/ros2_ws/install/crazyflie_sim:/home/tdeng23/ros2_ws/install/crazyflie_ros2_slam:/home/tdeng23/ros2_ws/install/crazyflie_ros2_navigation:/home/tdeng23/ros2_ws/install/crazyflie_ros2_interfaces:/home/tdeng23/ros2_ws/install/crazyflie_ros2_description:/home/tdeng23/ros2_ws/install/crazyflie_examples:/home/tdeng23/ros2_ws/install/crazyflie_interfaces:/home/tdeng23/ros2_ws/install/my_package:/home/tdeng23/ros2_ws/install/crazyflie_simulation:/home/tdeng23/ros2_ws/install/crazyflie_ros2_simulation:/home/tdeng23/ros2_ws/install/crazyflie_ros2_simple_mapper:/home/tdeng23/ros2_ws/install/crazyflie_ros2_scan:/home/tdeng23/ros2_ws/install/crazyflie_ros2:/home/tdeng23/ros2_ws/install/crazyflie_py:/opt/ros/galactic PYTHONPATH=/home/tdeng23/ros2_ws/install/motion_capture_tracking_interfaces/lib/python3.8/site-packages:/home/tdeng23/ros2_ws/install/my_package/lib/python3.8/site-packages:/home/tdeng23/ros2_ws/install/crazyflie_simulation/lib/python3.8/site-packages:/home/tdeng23/ros2_ws/install/crazyflie_sim/lib/python3.8/site-packages:/home/tdeng23/ros2_ws/install/crazyflie_ros2_simulation/lib/python3.8/site-packages:/home/tdeng23/ros2_ws/install/crazyflie_ros2_simple_mapper/lib/python3.8/site-packages:/home/tdeng23/ros2_ws/install/crazyflie_ros2_scan/lib/python3.8/site-packages:/home/tdeng23/ros2_ws/install/crazyflie_ros2_interfaces/lib/python3.8/site-packages:/home/tdeng23/ros2_ws/install/crazyflie_ros2/lib/python3.8/site-packages:/home/tdeng23/ros2_ws/install/crazyflie_examples/lib/python3.8/site-packages:/home/tdeng23/ros2_ws/install/crazyflie_py/lib/python3.8/site-packages:/home/tdeng23/ros2_ws/install/crazyflie_interfaces/lib/python3.8/site-packages:/opt/ros/galactic/lib/python3.8/site-packages /home/tdeng23/.local/bin/cmake --install /home/tdeng23/ros2_ws/build/motion_capture_tracking

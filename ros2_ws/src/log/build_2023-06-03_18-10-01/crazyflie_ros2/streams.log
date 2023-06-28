@@ -1,0 +1,25 @@
+[2.232s] Invoking command in '/home/tdeng23/ros2_ws/src/build/crazyflie_ros2': PYTHONPATH=/home/tdeng23/ros2_ws/src/build/crazyflie_ros2/prefix_override:/home/tdeng23/ros2_ws/src/install/crazyflie_ros2/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --editable --build-directory /home/tdeng23/ros2_ws/src/build/crazyflie_ros2/build --no-deps install_data
+[2.736s] running develop
+[3.081s] running egg_info
+[3.081s] creating crazyflie_ros2.egg-info
+[3.082s] writing crazyflie_ros2.egg-info/PKG-INFO
+[3.082s] writing dependency_links to crazyflie_ros2.egg-info/dependency_links.txt
+[3.082s] writing entry points to crazyflie_ros2.egg-info/entry_points.txt
+[3.082s] writing requirements to crazyflie_ros2.egg-info/requires.txt
+[3.083s] writing top-level names to crazyflie_ros2.egg-info/top_level.txt
+[3.084s] writing manifest file 'crazyflie_ros2.egg-info/SOURCES.txt'
+[3.145s] reading manifest file 'crazyflie_ros2.egg-info/SOURCES.txt'
+[3.146s] writing manifest file 'crazyflie_ros2.egg-info/SOURCES.txt'
+[3.210s] running build_ext
+[3.210s] Creating /home/tdeng23/ros2_ws/src/install/crazyflie_ros2/lib/python3.8/site-packages/site.py
+[3.214s] Creating /home/tdeng23/ros2_ws/src/install/crazyflie_ros2/lib/python3.8/site-packages/crazyflie-ros2.egg-link (link to .)
+[3.216s] Installing crazyflie_publisher script to /home/tdeng23/ros2_ws/src/install/crazyflie_ros2/lib/crazyflie_ros2
+[3.216s] 
+[3.216s] Installed /home/tdeng23/ros2_ws/src/build/crazyflie_ros2
+[3.216s] running install_data
+[3.223s] copying package.xml -> /home/tdeng23/ros2_ws/src/install/crazyflie_ros2/share/crazyflie_ros2
+[3.223s] creating /home/tdeng23/ros2_ws/src/install/crazyflie_ros2/share/crazyflie_ros2/resource
+[3.223s] copying resource/crazyflie_ros2 -> /home/tdeng23/ros2_ws/src/install/crazyflie_ros2/share/crazyflie_ros2/resource/
+[3.223s] creating /home/tdeng23/ros2_ws/src/install/crazyflie_ros2/share/crazyflie_ros2/launch
+[3.223s] copying launch/crazyflie_publisher_launch.py -> /home/tdeng23/ros2_ws/src/install/crazyflie_ros2/share/crazyflie_ros2/launch/
+[3.292s] Invoked command in '/home/tdeng23/ros2_ws/src/build/crazyflie_ros2' returned '0': PYTHONPATH=/home/tdeng23/ros2_ws/src/build/crazyflie_ros2/prefix_override:/home/tdeng23/ros2_ws/src/install/crazyflie_ros2/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --editable --build-directory /home/tdeng23/ros2_ws/src/build/crazyflie_ros2/build --no-deps install_data

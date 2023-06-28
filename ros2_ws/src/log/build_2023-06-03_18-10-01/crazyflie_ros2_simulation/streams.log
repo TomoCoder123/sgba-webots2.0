@@ -1,0 +1,39 @@
+[1.234s] Invoking command in '/home/tdeng23/ros2_ws/src/build/crazyflie_ros2_simulation': PYTHONPATH=/home/tdeng23/ros2_ws/src/build/crazyflie_ros2_simulation/prefix_override:/home/tdeng23/ros2_ws/src/install/crazyflie_ros2_simulation/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --editable --build-directory /home/tdeng23/ros2_ws/src/build/crazyflie_ros2_simulation/build --no-deps install_data
+[1.920s] running develop
+[2.338s] running egg_info
+[2.339s] creating crazyflie_ros2_simulation.egg-info
+[2.339s] writing crazyflie_ros2_simulation.egg-info/PKG-INFO
+[2.340s] writing dependency_links to crazyflie_ros2_simulation.egg-info/dependency_links.txt
+[2.340s] writing entry points to crazyflie_ros2_simulation.egg-info/entry_points.txt
+[2.341s] writing requirements to crazyflie_ros2_simulation.egg-info/requires.txt
+[2.341s] writing top-level names to crazyflie_ros2_simulation.egg-info/top_level.txt
+[2.357s] writing manifest file 'crazyflie_ros2_simulation.egg-info/SOURCES.txt'
+[2.475s] reading manifest file 'crazyflie_ros2_simulation.egg-info/SOURCES.txt'
+[2.475s] writing manifest file 'crazyflie_ros2_simulation.egg-info/SOURCES.txt'
+[2.593s] running build_ext
+[2.593s] Creating /home/tdeng23/ros2_ws/src/install/crazyflie_ros2_simulation/lib/python3.8/site-packages/site.py
+[2.597s] Creating /home/tdeng23/ros2_ws/src/install/crazyflie_ros2_simulation/lib/python3.8/site-packages/crazyflie-ros2-simulation.egg-link (link to .)
+[2.599s] Installing crazyflie_webots_driver script to /home/tdeng23/ros2_ws/src/install/crazyflie_ros2_simulation/lib/crazyflie_ros2_simulation
+[2.599s] 
+[2.600s] Installed /home/tdeng23/ros2_ws/src/build/crazyflie_ros2_simulation
+[2.600s] running install_data
+[2.600s] copying package.xml -> /home/tdeng23/ros2_ws/src/install/crazyflie_ros2_simulation/share/crazyflie_ros2_simulation
+[2.600s] creating /home/tdeng23/ros2_ws/src/install/crazyflie_ros2_simulation/share/crazyflie_ros2_simulation/resource
+[2.613s] copying resource/crazyflie.urdf -> /home/tdeng23/ros2_ws/src/install/crazyflie_ros2_simulation/share/crazyflie_ros2_simulation/resource/
+[2.613s] copying resource/crazyflie_ros2_simulation -> /home/tdeng23/ros2_ws/src/install/crazyflie_ros2_simulation/share/crazyflie_ros2_simulation/resource/
+[2.614s] creating /home/tdeng23/ros2_ws/src/install/crazyflie_ros2_simulation/share/crazyflie_ros2_simulation/launch
+[2.614s] copying launch/robot_launch.py -> /home/tdeng23/ros2_ws/src/install/crazyflie_ros2_simulation/share/crazyflie_ros2_simulation/launch/
+[2.614s] creating /home/tdeng23/ros2_ws/src/install/crazyflie_ros2_simulation/share/crazyflie_ros2_simulation/worlds
+[2.614s] copying worlds/crazyflie_apartment.wbt -> /home/tdeng23/ros2_ws/src/install/crazyflie_ros2_simulation/share/crazyflie_ros2_simulation/worlds/
+[2.615s] copying worlds/crazyflie.wbt -> /home/tdeng23/ros2_ws/src/install/crazyflie_ros2_simulation/share/crazyflie_ros2_simulation/worlds/
+[2.615s] creating /home/tdeng23/ros2_ws/src/install/crazyflie_ros2_simulation/share/crazyflie_ros2_simulation/worlds/meshes
+[2.615s] copying worlds/meshes/cw_prop.stl -> /home/tdeng23/ros2_ws/src/install/crazyflie_ros2_simulation/share/crazyflie_ros2_simulation/worlds/meshes
+[2.615s] copying worlds/meshes/2_pinheaders.stl -> /home/tdeng23/ros2_ws/src/install/crazyflie_ros2_simulation/share/crazyflie_ros2_simulation/worlds/meshes
+[2.616s] copying worlds/meshes/ccw_prop.stl -> /home/tdeng23/ros2_ws/src/install/crazyflie_ros2_simulation/share/crazyflie_ros2_simulation/worlds/meshes
+[2.616s] copying worlds/meshes/4_motors.stl -> /home/tdeng23/ros2_ws/src/install/crazyflie_ros2_simulation/share/crazyflie_ros2_simulation/worlds/meshes
+[2.617s] copying worlds/meshes/battery.stl -> /home/tdeng23/ros2_ws/src/install/crazyflie_ros2_simulation/share/crazyflie_ros2_simulation/worlds/meshes
+[2.617s] copying worlds/meshes/4_motormounts.stl -> /home/tdeng23/ros2_ws/src/install/crazyflie_ros2_simulation/share/crazyflie_ros2_simulation/worlds/meshes
+[2.617s] copying worlds/meshes/battery_holder.stl -> /home/tdeng23/ros2_ws/src/install/crazyflie_ros2_simulation/share/crazyflie_ros2_simulation/worlds/meshes
+[2.618s] copying worlds/meshes/cf_body.stl -> /home/tdeng23/ros2_ws/src/install/crazyflie_ros2_simulation/share/crazyflie_ros2_simulation/worlds/meshes
+[2.618s] copying worlds/meshes/cf2_assembly.stl -> /home/tdeng23/ros2_ws/src/install/crazyflie_ros2_simulation/share/crazyflie_ros2_simulation/worlds/meshes
+[3.527s] Invoked command in '/home/tdeng23/ros2_ws/src/build/crazyflie_ros2_simulation' returned '0': PYTHONPATH=/home/tdeng23/ros2_ws/src/build/crazyflie_ros2_simulation/prefix_override:/home/tdeng23/ros2_ws/src/install/crazyflie_ros2_simulation/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --editable --build-directory /home/tdeng23/ros2_ws/src/build/crazyflie_ros2_simulation/build --no-deps install_data

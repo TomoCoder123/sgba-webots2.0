@@ -37,6 +37,7 @@ if(NOT DEFINED CMAKE_CROSSCOMPILING)
   set(CMAKE_CROSSCOMPILING "FALSE")
 endif()
 
+<<<<<<< HEAD
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
   file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/ament_index/resource_index/rosidl_interfaces" TYPE FILE FILES "/home/nicxe/ros2_ws/build/crazyflie_interfaces/ament_cmake_index/share/ament_index/resource_index/rosidl_interfaces/crazyflie_interfaces")
 endif()
@@ -51,9 +52,18 @@ endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
   file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/crazyflie_interfaces/environment" TYPE FILE FILES "/home/nicxe/ros2_ws/build/crazyflie_interfaces/ament_cmake_environment_hooks/library_path.dsv")
+=======
+# Set default install directory permissions.
+if(NOT DEFINED CMAKE_OBJDUMP)
+  set(CMAKE_OBJDUMP "/usr/bin/objdump")
 endif()
 
-if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
+if(CMAKE_INSTALL_COMPONENT STREQUAL "Unspecified" OR NOT CMAKE_INSTALL_COMPONENT)
+  include("/home/tdeng23/ros2_ws/build/crazyflie_interfaces/ament_cmake_symlink_install/ament_cmake_symlink_install.cmake")
+>>>>>>> 94884f5968f4d63cd711e9429da5204c445b3486
+endif()
+
+if(CMAKE_INSTALL_COMPONENT STREQUAL "Unspecified" OR NOT CMAKE_INSTALL_COMPONENT)
   if(EXISTS "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/libcrazyflie_interfaces__rosidl_generator_c.so" AND
      NOT IS_SYMLINK "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/libcrazyflie_interfaces__rosidl_generator_c.so")
     file(RPATH_CHECK
@@ -73,9 +83,10 @@ if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_
   endif()
 endif()
 
-if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
+if(CMAKE_INSTALL_COMPONENT STREQUAL "Unspecified" OR NOT CMAKE_INSTALL_COMPONENT)
 endif()
 
+<<<<<<< HEAD
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
   file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/include/crazyflie_interfaces" TYPE DIRECTORY FILES "/home/nicxe/ros2_ws/build/crazyflie_interfaces/rosidl_typesupport_fastrtps_c/crazyflie_interfaces/" REGEX "/[^/]*\\.cpp$" EXCLUDE)
 endif()
@@ -135,6 +146,9 @@ if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
+=======
+if(CMAKE_INSTALL_COMPONENT STREQUAL "Unspecified" OR NOT CMAKE_INSTALL_COMPONENT)
+>>>>>>> 94884f5968f4d63cd711e9429da5204c445b3486
   if(EXISTS "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/libcrazyflie_interfaces__rosidl_typesupport_introspection_c.so" AND
      NOT IS_SYMLINK "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/libcrazyflie_interfaces__rosidl_typesupport_introspection_c.so")
     file(RPATH_CHECK
@@ -154,10 +168,10 @@ if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_
   endif()
 endif()
 
-if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
+if(CMAKE_INSTALL_COMPONENT STREQUAL "Unspecified" OR NOT CMAKE_INSTALL_COMPONENT)
 endif()
 
-if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
+if(CMAKE_INSTALL_COMPONENT STREQUAL "Unspecified" OR NOT CMAKE_INSTALL_COMPONENT)
   if(EXISTS "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/libcrazyflie_interfaces__rosidl_typesupport_c.so" AND
      NOT IS_SYMLINK "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/libcrazyflie_interfaces__rosidl_typesupport_c.so")
     file(RPATH_CHECK
@@ -177,9 +191,10 @@ if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_
   endif()
 endif()
 
-if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
+if(CMAKE_INSTALL_COMPONENT STREQUAL "Unspecified" OR NOT CMAKE_INSTALL_COMPONENT)
 endif()
 
+<<<<<<< HEAD
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
   file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/include/crazyflie_interfaces" TYPE DIRECTORY FILES "/home/nicxe/ros2_ws/build/crazyflie_interfaces/rosidl_generator_cpp/crazyflie_interfaces/" REGEX "/[^/]*\\.hpp$")
 endif()
@@ -189,6 +204,9 @@ if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
+=======
+if(CMAKE_INSTALL_COMPONENT STREQUAL "Unspecified" OR NOT CMAKE_INSTALL_COMPONENT)
+>>>>>>> 94884f5968f4d63cd711e9429da5204c445b3486
   if(EXISTS "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/libcrazyflie_interfaces__rosidl_typesupport_introspection_cpp.so" AND
      NOT IS_SYMLINK "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/libcrazyflie_interfaces__rosidl_typesupport_introspection_cpp.so")
     file(RPATH_CHECK
@@ -208,10 +226,10 @@ if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_
   endif()
 endif()
 
-if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
+if(CMAKE_INSTALL_COMPONENT STREQUAL "Unspecified" OR NOT CMAKE_INSTALL_COMPONENT)
 endif()
 
-if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
+if(CMAKE_INSTALL_COMPONENT STREQUAL "Unspecified" OR NOT CMAKE_INSTALL_COMPONENT)
   if(EXISTS "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/libcrazyflie_interfaces__rosidl_typesupport_cpp.so" AND
      NOT IS_SYMLINK "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/libcrazyflie_interfaces__rosidl_typesupport_cpp.so")
     file(RPATH_CHECK
@@ -231,9 +249,10 @@ if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_
   endif()
 endif()
 
-if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
+if(CMAKE_INSTALL_COMPONENT STREQUAL "Unspecified" OR NOT CMAKE_INSTALL_COMPONENT)
 endif()
 
+<<<<<<< HEAD
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
   file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/crazyflie_interfaces/environment" TYPE FILE FILES "/home/nicxe/ros2_ws/build/crazyflie_interfaces/ament_cmake_environment_hooks/pythonpath.sh")
 endif()
@@ -247,6 +266,9 @@ if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
+=======
+if(CMAKE_INSTALL_COMPONENT STREQUAL "Unspecified" OR NOT CMAKE_INSTALL_COMPONENT)
+>>>>>>> 94884f5968f4d63cd711e9429da5204c445b3486
   execute_process(
         COMMAND
         "/usr/bin/python3" "-m" "compileall"
@@ -254,6 +276,7 @@ if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_
       )
 endif()
 
+<<<<<<< HEAD
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
   file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/python3.8/site-packages/crazyflie_interfaces/msg" TYPE DIRECTORY FILES "/home/nicxe/ros2_ws/build/crazyflie_interfaces/rosidl_generator_py/crazyflie_interfaces/msg/" REGEX "/[^/]*\\.py$")
 endif()
@@ -635,113 +658,228 @@ if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
+=======
+if(CMAKE_INSTALL_COMPONENT STREQUAL "Unspecified" OR NOT CMAKE_INSTALL_COMPONENT)
+>>>>>>> 94884f5968f4d63cd711e9429da5204c445b3486
   if(EXISTS "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/share/crazyflie_interfaces/cmake/crazyflie_interfaces__rosidl_generator_cExport.cmake")
-    file(DIFFERENT EXPORT_FILE_CHANGED FILES
+    file(DIFFERENT _cmake_export_file_changed FILES
          "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/share/crazyflie_interfaces/cmake/crazyflie_interfaces__rosidl_generator_cExport.cmake"
+<<<<<<< HEAD
          "/home/nicxe/ros2_ws/build/crazyflie_interfaces/CMakeFiles/Export/share/crazyflie_interfaces/cmake/crazyflie_interfaces__rosidl_generator_cExport.cmake")
     if(EXPORT_FILE_CHANGED)
       file(GLOB OLD_CONFIG_FILES "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/share/crazyflie_interfaces/cmake/crazyflie_interfaces__rosidl_generator_cExport-*.cmake")
       if(OLD_CONFIG_FILES)
         message(STATUS "Old export file \"$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/share/crazyflie_interfaces/cmake/crazyflie_interfaces__rosidl_generator_cExport.cmake\" will be replaced.  Removing files [${OLD_CONFIG_FILES}].")
         file(REMOVE ${OLD_CONFIG_FILES})
+=======
+         "/home/tdeng23/ros2_ws/build/crazyflie_interfaces/CMakeFiles/Export/32554539d7a2160f7ec6af1faf173bc9/crazyflie_interfaces__rosidl_generator_cExport.cmake")
+    if(_cmake_export_file_changed)
+      file(GLOB _cmake_old_config_files "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/share/crazyflie_interfaces/cmake/crazyflie_interfaces__rosidl_generator_cExport-*.cmake")
+      if(_cmake_old_config_files)
+        string(REPLACE ";" ", " _cmake_old_config_files_text "${_cmake_old_config_files}")
+        message(STATUS "Old export file \"$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/share/crazyflie_interfaces/cmake/crazyflie_interfaces__rosidl_generator_cExport.cmake\" will be replaced.  Removing files [${_cmake_old_config_files_text}].")
+        unset(_cmake_old_config_files_text)
+        file(REMOVE ${_cmake_old_config_files})
+>>>>>>> 94884f5968f4d63cd711e9429da5204c445b3486
       endif()
+      unset(_cmake_old_config_files)
     endif()
+    unset(_cmake_export_file_changed)
   endif()
+<<<<<<< HEAD
   file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/crazyflie_interfaces/cmake" TYPE FILE FILES "/home/nicxe/ros2_ws/build/crazyflie_interfaces/CMakeFiles/Export/share/crazyflie_interfaces/cmake/crazyflie_interfaces__rosidl_generator_cExport.cmake")
   if("${CMAKE_INSTALL_CONFIG_NAME}" MATCHES "^()$")
     file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/crazyflie_interfaces/cmake" TYPE FILE FILES "/home/nicxe/ros2_ws/build/crazyflie_interfaces/CMakeFiles/Export/share/crazyflie_interfaces/cmake/crazyflie_interfaces__rosidl_generator_cExport-noconfig.cmake")
+=======
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/crazyflie_interfaces/cmake" TYPE FILE FILES "/home/tdeng23/ros2_ws/build/crazyflie_interfaces/CMakeFiles/Export/32554539d7a2160f7ec6af1faf173bc9/crazyflie_interfaces__rosidl_generator_cExport.cmake")
+  if(CMAKE_INSTALL_CONFIG_NAME MATCHES "^()$")
+    file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/crazyflie_interfaces/cmake" TYPE FILE FILES "/home/tdeng23/ros2_ws/build/crazyflie_interfaces/CMakeFiles/Export/32554539d7a2160f7ec6af1faf173bc9/crazyflie_interfaces__rosidl_generator_cExport-noconfig.cmake")
+>>>>>>> 94884f5968f4d63cd711e9429da5204c445b3486
   endif()
 endif()
 
-if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
+if(CMAKE_INSTALL_COMPONENT STREQUAL "Unspecified" OR NOT CMAKE_INSTALL_COMPONENT)
   if(EXISTS "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/share/crazyflie_interfaces/cmake/crazyflie_interfaces__rosidl_typesupport_introspection_cExport.cmake")
-    file(DIFFERENT EXPORT_FILE_CHANGED FILES
+    file(DIFFERENT _cmake_export_file_changed FILES
          "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/share/crazyflie_interfaces/cmake/crazyflie_interfaces__rosidl_typesupport_introspection_cExport.cmake"
+<<<<<<< HEAD
          "/home/nicxe/ros2_ws/build/crazyflie_interfaces/CMakeFiles/Export/share/crazyflie_interfaces/cmake/crazyflie_interfaces__rosidl_typesupport_introspection_cExport.cmake")
     if(EXPORT_FILE_CHANGED)
       file(GLOB OLD_CONFIG_FILES "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/share/crazyflie_interfaces/cmake/crazyflie_interfaces__rosidl_typesupport_introspection_cExport-*.cmake")
       if(OLD_CONFIG_FILES)
         message(STATUS "Old export file \"$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/share/crazyflie_interfaces/cmake/crazyflie_interfaces__rosidl_typesupport_introspection_cExport.cmake\" will be replaced.  Removing files [${OLD_CONFIG_FILES}].")
         file(REMOVE ${OLD_CONFIG_FILES})
+=======
+         "/home/tdeng23/ros2_ws/build/crazyflie_interfaces/CMakeFiles/Export/32554539d7a2160f7ec6af1faf173bc9/crazyflie_interfaces__rosidl_typesupport_introspection_cExport.cmake")
+    if(_cmake_export_file_changed)
+      file(GLOB _cmake_old_config_files "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/share/crazyflie_interfaces/cmake/crazyflie_interfaces__rosidl_typesupport_introspection_cExport-*.cmake")
+      if(_cmake_old_config_files)
+        string(REPLACE ";" ", " _cmake_old_config_files_text "${_cmake_old_config_files}")
+        message(STATUS "Old export file \"$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/share/crazyflie_interfaces/cmake/crazyflie_interfaces__rosidl_typesupport_introspection_cExport.cmake\" will be replaced.  Removing files [${_cmake_old_config_files_text}].")
+        unset(_cmake_old_config_files_text)
+        file(REMOVE ${_cmake_old_config_files})
+>>>>>>> 94884f5968f4d63cd711e9429da5204c445b3486
       endif()
+      unset(_cmake_old_config_files)
     endif()
+    unset(_cmake_export_file_changed)
   endif()
+<<<<<<< HEAD
   file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/crazyflie_interfaces/cmake" TYPE FILE FILES "/home/nicxe/ros2_ws/build/crazyflie_interfaces/CMakeFiles/Export/share/crazyflie_interfaces/cmake/crazyflie_interfaces__rosidl_typesupport_introspection_cExport.cmake")
   if("${CMAKE_INSTALL_CONFIG_NAME}" MATCHES "^()$")
     file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/crazyflie_interfaces/cmake" TYPE FILE FILES "/home/nicxe/ros2_ws/build/crazyflie_interfaces/CMakeFiles/Export/share/crazyflie_interfaces/cmake/crazyflie_interfaces__rosidl_typesupport_introspection_cExport-noconfig.cmake")
+=======
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/crazyflie_interfaces/cmake" TYPE FILE FILES "/home/tdeng23/ros2_ws/build/crazyflie_interfaces/CMakeFiles/Export/32554539d7a2160f7ec6af1faf173bc9/crazyflie_interfaces__rosidl_typesupport_introspection_cExport.cmake")
+  if(CMAKE_INSTALL_CONFIG_NAME MATCHES "^()$")
+    file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/crazyflie_interfaces/cmake" TYPE FILE FILES "/home/tdeng23/ros2_ws/build/crazyflie_interfaces/CMakeFiles/Export/32554539d7a2160f7ec6af1faf173bc9/crazyflie_interfaces__rosidl_typesupport_introspection_cExport-noconfig.cmake")
+>>>>>>> 94884f5968f4d63cd711e9429da5204c445b3486
   endif()
 endif()
 
-if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
+if(CMAKE_INSTALL_COMPONENT STREQUAL "Unspecified" OR NOT CMAKE_INSTALL_COMPONENT)
   if(EXISTS "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/share/crazyflie_interfaces/cmake/crazyflie_interfaces__rosidl_typesupport_cExport.cmake")
-    file(DIFFERENT EXPORT_FILE_CHANGED FILES
+    file(DIFFERENT _cmake_export_file_changed FILES
          "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/share/crazyflie_interfaces/cmake/crazyflie_interfaces__rosidl_typesupport_cExport.cmake"
+<<<<<<< HEAD
          "/home/nicxe/ros2_ws/build/crazyflie_interfaces/CMakeFiles/Export/share/crazyflie_interfaces/cmake/crazyflie_interfaces__rosidl_typesupport_cExport.cmake")
     if(EXPORT_FILE_CHANGED)
       file(GLOB OLD_CONFIG_FILES "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/share/crazyflie_interfaces/cmake/crazyflie_interfaces__rosidl_typesupport_cExport-*.cmake")
       if(OLD_CONFIG_FILES)
         message(STATUS "Old export file \"$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/share/crazyflie_interfaces/cmake/crazyflie_interfaces__rosidl_typesupport_cExport.cmake\" will be replaced.  Removing files [${OLD_CONFIG_FILES}].")
         file(REMOVE ${OLD_CONFIG_FILES})
+=======
+         "/home/tdeng23/ros2_ws/build/crazyflie_interfaces/CMakeFiles/Export/32554539d7a2160f7ec6af1faf173bc9/crazyflie_interfaces__rosidl_typesupport_cExport.cmake")
+    if(_cmake_export_file_changed)
+      file(GLOB _cmake_old_config_files "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/share/crazyflie_interfaces/cmake/crazyflie_interfaces__rosidl_typesupport_cExport-*.cmake")
+      if(_cmake_old_config_files)
+        string(REPLACE ";" ", " _cmake_old_config_files_text "${_cmake_old_config_files}")
+        message(STATUS "Old export file \"$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/share/crazyflie_interfaces/cmake/crazyflie_interfaces__rosidl_typesupport_cExport.cmake\" will be replaced.  Removing files [${_cmake_old_config_files_text}].")
+        unset(_cmake_old_config_files_text)
+        file(REMOVE ${_cmake_old_config_files})
+>>>>>>> 94884f5968f4d63cd711e9429da5204c445b3486
       endif()
+      unset(_cmake_old_config_files)
     endif()
+    unset(_cmake_export_file_changed)
   endif()
+<<<<<<< HEAD
   file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/crazyflie_interfaces/cmake" TYPE FILE FILES "/home/nicxe/ros2_ws/build/crazyflie_interfaces/CMakeFiles/Export/share/crazyflie_interfaces/cmake/crazyflie_interfaces__rosidl_typesupport_cExport.cmake")
   if("${CMAKE_INSTALL_CONFIG_NAME}" MATCHES "^()$")
     file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/crazyflie_interfaces/cmake" TYPE FILE FILES "/home/nicxe/ros2_ws/build/crazyflie_interfaces/CMakeFiles/Export/share/crazyflie_interfaces/cmake/crazyflie_interfaces__rosidl_typesupport_cExport-noconfig.cmake")
+=======
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/crazyflie_interfaces/cmake" TYPE FILE FILES "/home/tdeng23/ros2_ws/build/crazyflie_interfaces/CMakeFiles/Export/32554539d7a2160f7ec6af1faf173bc9/crazyflie_interfaces__rosidl_typesupport_cExport.cmake")
+  if(CMAKE_INSTALL_CONFIG_NAME MATCHES "^()$")
+    file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/crazyflie_interfaces/cmake" TYPE FILE FILES "/home/tdeng23/ros2_ws/build/crazyflie_interfaces/CMakeFiles/Export/32554539d7a2160f7ec6af1faf173bc9/crazyflie_interfaces__rosidl_typesupport_cExport-noconfig.cmake")
+>>>>>>> 94884f5968f4d63cd711e9429da5204c445b3486
   endif()
 endif()
 
-if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
+if(CMAKE_INSTALL_COMPONENT STREQUAL "Unspecified" OR NOT CMAKE_INSTALL_COMPONENT)
   if(EXISTS "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/share/crazyflie_interfaces/cmake/crazyflie_interfaces__rosidl_generator_cppExport.cmake")
-    file(DIFFERENT EXPORT_FILE_CHANGED FILES
+    file(DIFFERENT _cmake_export_file_changed FILES
          "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/share/crazyflie_interfaces/cmake/crazyflie_interfaces__rosidl_generator_cppExport.cmake"
+<<<<<<< HEAD
          "/home/nicxe/ros2_ws/build/crazyflie_interfaces/CMakeFiles/Export/share/crazyflie_interfaces/cmake/crazyflie_interfaces__rosidl_generator_cppExport.cmake")
     if(EXPORT_FILE_CHANGED)
       file(GLOB OLD_CONFIG_FILES "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/share/crazyflie_interfaces/cmake/crazyflie_interfaces__rosidl_generator_cppExport-*.cmake")
       if(OLD_CONFIG_FILES)
         message(STATUS "Old export file \"$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/share/crazyflie_interfaces/cmake/crazyflie_interfaces__rosidl_generator_cppExport.cmake\" will be replaced.  Removing files [${OLD_CONFIG_FILES}].")
         file(REMOVE ${OLD_CONFIG_FILES})
+=======
+         "/home/tdeng23/ros2_ws/build/crazyflie_interfaces/CMakeFiles/Export/32554539d7a2160f7ec6af1faf173bc9/crazyflie_interfaces__rosidl_generator_cppExport.cmake")
+    if(_cmake_export_file_changed)
+      file(GLOB _cmake_old_config_files "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/share/crazyflie_interfaces/cmake/crazyflie_interfaces__rosidl_generator_cppExport-*.cmake")
+      if(_cmake_old_config_files)
+        string(REPLACE ";" ", " _cmake_old_config_files_text "${_cmake_old_config_files}")
+        message(STATUS "Old export file \"$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/share/crazyflie_interfaces/cmake/crazyflie_interfaces__rosidl_generator_cppExport.cmake\" will be replaced.  Removing files [${_cmake_old_config_files_text}].")
+        unset(_cmake_old_config_files_text)
+        file(REMOVE ${_cmake_old_config_files})
+>>>>>>> 94884f5968f4d63cd711e9429da5204c445b3486
       endif()
+      unset(_cmake_old_config_files)
     endif()
+    unset(_cmake_export_file_changed)
   endif()
+<<<<<<< HEAD
   file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/crazyflie_interfaces/cmake" TYPE FILE FILES "/home/nicxe/ros2_ws/build/crazyflie_interfaces/CMakeFiles/Export/share/crazyflie_interfaces/cmake/crazyflie_interfaces__rosidl_generator_cppExport.cmake")
+=======
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/crazyflie_interfaces/cmake" TYPE FILE FILES "/home/tdeng23/ros2_ws/build/crazyflie_interfaces/CMakeFiles/Export/32554539d7a2160f7ec6af1faf173bc9/crazyflie_interfaces__rosidl_generator_cppExport.cmake")
+>>>>>>> 94884f5968f4d63cd711e9429da5204c445b3486
 endif()
 
-if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
+if(CMAKE_INSTALL_COMPONENT STREQUAL "Unspecified" OR NOT CMAKE_INSTALL_COMPONENT)
   if(EXISTS "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/share/crazyflie_interfaces/cmake/crazyflie_interfaces__rosidl_typesupport_introspection_cppExport.cmake")
-    file(DIFFERENT EXPORT_FILE_CHANGED FILES
+    file(DIFFERENT _cmake_export_file_changed FILES
          "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/share/crazyflie_interfaces/cmake/crazyflie_interfaces__rosidl_typesupport_introspection_cppExport.cmake"
+<<<<<<< HEAD
          "/home/nicxe/ros2_ws/build/crazyflie_interfaces/CMakeFiles/Export/share/crazyflie_interfaces/cmake/crazyflie_interfaces__rosidl_typesupport_introspection_cppExport.cmake")
     if(EXPORT_FILE_CHANGED)
       file(GLOB OLD_CONFIG_FILES "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/share/crazyflie_interfaces/cmake/crazyflie_interfaces__rosidl_typesupport_introspection_cppExport-*.cmake")
       if(OLD_CONFIG_FILES)
         message(STATUS "Old export file \"$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/share/crazyflie_interfaces/cmake/crazyflie_interfaces__rosidl_typesupport_introspection_cppExport.cmake\" will be replaced.  Removing files [${OLD_CONFIG_FILES}].")
         file(REMOVE ${OLD_CONFIG_FILES})
+=======
+         "/home/tdeng23/ros2_ws/build/crazyflie_interfaces/CMakeFiles/Export/32554539d7a2160f7ec6af1faf173bc9/crazyflie_interfaces__rosidl_typesupport_introspection_cppExport.cmake")
+    if(_cmake_export_file_changed)
+      file(GLOB _cmake_old_config_files "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/share/crazyflie_interfaces/cmake/crazyflie_interfaces__rosidl_typesupport_introspection_cppExport-*.cmake")
+      if(_cmake_old_config_files)
+        string(REPLACE ";" ", " _cmake_old_config_files_text "${_cmake_old_config_files}")
+        message(STATUS "Old export file \"$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/share/crazyflie_interfaces/cmake/crazyflie_interfaces__rosidl_typesupport_introspection_cppExport.cmake\" will be replaced.  Removing files [${_cmake_old_config_files_text}].")
+        unset(_cmake_old_config_files_text)
+        file(REMOVE ${_cmake_old_config_files})
+>>>>>>> 94884f5968f4d63cd711e9429da5204c445b3486
       endif()
+      unset(_cmake_old_config_files)
     endif()
+    unset(_cmake_export_file_changed)
   endif()
+<<<<<<< HEAD
   file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/crazyflie_interfaces/cmake" TYPE FILE FILES "/home/nicxe/ros2_ws/build/crazyflie_interfaces/CMakeFiles/Export/share/crazyflie_interfaces/cmake/crazyflie_interfaces__rosidl_typesupport_introspection_cppExport.cmake")
   if("${CMAKE_INSTALL_CONFIG_NAME}" MATCHES "^()$")
     file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/crazyflie_interfaces/cmake" TYPE FILE FILES "/home/nicxe/ros2_ws/build/crazyflie_interfaces/CMakeFiles/Export/share/crazyflie_interfaces/cmake/crazyflie_interfaces__rosidl_typesupport_introspection_cppExport-noconfig.cmake")
+=======
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/crazyflie_interfaces/cmake" TYPE FILE FILES "/home/tdeng23/ros2_ws/build/crazyflie_interfaces/CMakeFiles/Export/32554539d7a2160f7ec6af1faf173bc9/crazyflie_interfaces__rosidl_typesupport_introspection_cppExport.cmake")
+  if(CMAKE_INSTALL_CONFIG_NAME MATCHES "^()$")
+    file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/crazyflie_interfaces/cmake" TYPE FILE FILES "/home/tdeng23/ros2_ws/build/crazyflie_interfaces/CMakeFiles/Export/32554539d7a2160f7ec6af1faf173bc9/crazyflie_interfaces__rosidl_typesupport_introspection_cppExport-noconfig.cmake")
+>>>>>>> 94884f5968f4d63cd711e9429da5204c445b3486
   endif()
 endif()
 
-if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
+if(CMAKE_INSTALL_COMPONENT STREQUAL "Unspecified" OR NOT CMAKE_INSTALL_COMPONENT)
   if(EXISTS "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/share/crazyflie_interfaces/cmake/crazyflie_interfaces__rosidl_typesupport_cppExport.cmake")
-    file(DIFFERENT EXPORT_FILE_CHANGED FILES
+    file(DIFFERENT _cmake_export_file_changed FILES
          "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/share/crazyflie_interfaces/cmake/crazyflie_interfaces__rosidl_typesupport_cppExport.cmake"
+<<<<<<< HEAD
          "/home/nicxe/ros2_ws/build/crazyflie_interfaces/CMakeFiles/Export/share/crazyflie_interfaces/cmake/crazyflie_interfaces__rosidl_typesupport_cppExport.cmake")
     if(EXPORT_FILE_CHANGED)
       file(GLOB OLD_CONFIG_FILES "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/share/crazyflie_interfaces/cmake/crazyflie_interfaces__rosidl_typesupport_cppExport-*.cmake")
       if(OLD_CONFIG_FILES)
         message(STATUS "Old export file \"$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/share/crazyflie_interfaces/cmake/crazyflie_interfaces__rosidl_typesupport_cppExport.cmake\" will be replaced.  Removing files [${OLD_CONFIG_FILES}].")
         file(REMOVE ${OLD_CONFIG_FILES})
+=======
+         "/home/tdeng23/ros2_ws/build/crazyflie_interfaces/CMakeFiles/Export/32554539d7a2160f7ec6af1faf173bc9/crazyflie_interfaces__rosidl_typesupport_cppExport.cmake")
+    if(_cmake_export_file_changed)
+      file(GLOB _cmake_old_config_files "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/share/crazyflie_interfaces/cmake/crazyflie_interfaces__rosidl_typesupport_cppExport-*.cmake")
+      if(_cmake_old_config_files)
+        string(REPLACE ";" ", " _cmake_old_config_files_text "${_cmake_old_config_files}")
+        message(STATUS "Old export file \"$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/share/crazyflie_interfaces/cmake/crazyflie_interfaces__rosidl_typesupport_cppExport.cmake\" will be replaced.  Removing files [${_cmake_old_config_files_text}].")
+        unset(_cmake_old_config_files_text)
+        file(REMOVE ${_cmake_old_config_files})
+>>>>>>> 94884f5968f4d63cd711e9429da5204c445b3486
       endif()
+      unset(_cmake_old_config_files)
     endif()
+    unset(_cmake_export_file_changed)
   endif()
+<<<<<<< HEAD
   file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/crazyflie_interfaces/cmake" TYPE FILE FILES "/home/nicxe/ros2_ws/build/crazyflie_interfaces/CMakeFiles/Export/share/crazyflie_interfaces/cmake/crazyflie_interfaces__rosidl_typesupport_cppExport.cmake")
   if("${CMAKE_INSTALL_CONFIG_NAME}" MATCHES "^()$")
     file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/crazyflie_interfaces/cmake" TYPE FILE FILES "/home/nicxe/ros2_ws/build/crazyflie_interfaces/CMakeFiles/Export/share/crazyflie_interfaces/cmake/crazyflie_interfaces__rosidl_typesupport_cppExport-noconfig.cmake")
+=======
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/crazyflie_interfaces/cmake" TYPE FILE FILES "/home/tdeng23/ros2_ws/build/crazyflie_interfaces/CMakeFiles/Export/32554539d7a2160f7ec6af1faf173bc9/crazyflie_interfaces__rosidl_typesupport_cppExport.cmake")
+  if(CMAKE_INSTALL_CONFIG_NAME MATCHES "^()$")
+    file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/crazyflie_interfaces/cmake" TYPE FILE FILES "/home/tdeng23/ros2_ws/build/crazyflie_interfaces/CMakeFiles/Export/32554539d7a2160f7ec6af1faf173bc9/crazyflie_interfaces__rosidl_typesupport_cppExport-noconfig.cmake")
+>>>>>>> 94884f5968f4d63cd711e9429da5204c445b3486
   endif()
 endif()
 

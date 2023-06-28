@@ -1,0 +1,134 @@
+-- The C compiler identification is GNU 9.4.0
+-- The CXX compiler identification is GNU 9.4.0
+-- Detecting C compiler ABI info
+-- Detecting C compiler ABI info - done
+-- Check for working C compiler: /usr/bin/cc - skipped
+-- Detecting C compile features
+-- Detecting C compile features - done
+-- Detecting CXX compiler ABI info
+-- Detecting CXX compiler ABI info - done
+-- Check for working CXX compiler: /usr/bin/c++ - skipped
+-- Detecting CXX compile features
+-- Detecting CXX compile features - done
+-- Found ament_cmake: 1.1.6 (/opt/ros/galactic/share/ament_cmake/cmake)
+-- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.10", minimum required is "3") 
+-- Using PYTHON_EXECUTABLE: /usr/bin/python3
+-- Override CMake install command with custom implementation using symlinks instead of copying resources
+-- Found rclcpp: 9.2.2 (/opt/ros/galactic/share/rclcpp/cmake)
+-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+-- Found rosidl_adapter: 2.2.3 (/opt/ros/galactic/share/rosidl_adapter/cmake)
+-- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "1.1.1f")  
+-- Found FastRTPS: /opt/ros/galactic/include  
+-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+-- Found rmw_implementation_cmake: 3.3.1 (/opt/ros/galactic/share/rmw_implementation_cmake/cmake)
+-- Found rmw_cyclonedds_cpp: 0.22.6 (/opt/ros/galactic/share/rmw_cyclonedds_cpp/cmake)
+-- Using RMW implementation 'rmw_cyclonedds_cpp' as default
+-- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+-- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Failed
+-- Looking for pthread_create in pthreads
+-- Looking for pthread_create in pthreads - not found
+-- Looking for pthread_create in pthread
+-- Looking for pthread_create in pthread - found
+-- Found Threads: TRUE  
+-- Found tf2_ros: 0.17.5 (/opt/ros/galactic/share/tf2_ros/cmake)
+-- Found rclpy: 1.9.3 (/opt/ros/galactic/share/rclpy/cmake)
+-- Found std_srvs: 2.2.4 (/opt/ros/galactic/share/std_srvs/cmake)
+-- Found sensor_msgs: 2.2.4 (/opt/ros/galactic/share/sensor_msgs/cmake)
+-- Found crazyflie_interfaces: 2.0.0 (/home/tdeng23/ros2_ws/src/install/crazyflie_interfaces/share/crazyflie_interfaces/cmake)
+-- Found motion_capture_tracking_interfaces: 1.0.0 (/home/tdeng23/ros2_ws/src/install/motion_capture_tracking_interfaces/share/motion_capture_tracking_interfaces/cmake)
+-- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.71.0/BoostConfig.cmake (found version "1.71.0") found components: program_options 
+-- Found libusb: /usr/lib/x86_64-linux-gnu/libusb-1.0.so  
+-- Configuring done (6.0s)
+-- Generating done (0.0s)
+-- Build files have been written to: /home/tdeng23/ros2_ws/src/build/crazyflie
+[  2%] [32mBuilding CXX object CMakeFiles/teleop.dir/src/teleop.cpp.o[0m
+[  5%] [32mBuilding CXX object deps/crazyflie_tools/crazyflie_cpp/crazyflie-link-cpp/CMakeFiles/crazyflieLinkCpp.dir/src/USBManager.cpp.o[0m
+[  8%] [32mBuilding CXX object deps/crazyflie_tools/crazyflie_cpp/crazyflie-link-cpp/CMakeFiles/crazyflieLinkCpp.dir/src/Connection.cpp.o[0m
+[ 11%] [32mBuilding CXX object deps/crazyflie_tools/crazyflie_cpp/crazyflie-link-cpp/CMakeFiles/crazyflieLinkCpp.dir/src/USBDevice.cpp.o[0m
+[ 13%] [32mBuilding CXX object deps/crazyflie_tools/crazyflie_cpp/crazyflie-link-cpp/CMakeFiles/crazyflieLinkCpp.dir/src/Crazyradio.cpp.o[0m
+[ 16%] [32mBuilding CXX object deps/crazyflie_tools/crazyflie_cpp/crazyflie-link-cpp/CMakeFiles/crazyflieLinkCpp.dir/src/CrazyradioThread.cpp.o[0m
+[ 19%] [32mBuilding CXX object deps/crazyflie_tools/crazyflie_cpp/crazyflie-link-cpp/CMakeFiles/crazyflieLinkCpp.dir/src/CrazyflieUSB.cpp.o[0m
+[ 22%] [32mBuilding CXX object deps/crazyflie_tools/crazyflie_cpp/crazyflie-link-cpp/CMakeFiles/crazyflieLinkCpp.dir/src/CrazyflieUSBThread.cpp.o[0m
+[ 25%] [32mBuilding CXX object deps/crazyflie_tools/crazyflie_cpp/crazyflie-link-cpp/CMakeFiles/crazyflieLinkCpp.dir/src/Version.cpp.o[0m
+[ 27%] [32m[1mLinking CXX static library libcrazyflieLinkCpp.a[0m
+[ 27%] Built target crazyflieLinkCpp
+[ 33%] [32mBuilding CXX object deps/crazyflie_tools/crazyflie_cpp/CMakeFiles/crazyflie_cpp.dir/src/crtp.cpp.o[0m
+[ 33%] [32mBuilding CXX object deps/crazyflie_tools/crazyflie_cpp/CMakeFiles/crazyflie_cpp.dir/src/Crazyflie.cpp.o[0m
+[ 36%] [32m[1mLinking CXX static library libcrazyflie_cpp.a[0m
+[ 36%] Built target crazyflie_cpp
+[ 38%] [32mBuilding CXX object CMakeFiles/crazyflie_server.dir/src/crazyflie_server.cpp.o[0m
+[ 41%] [32mBuilding CXX object deps/crazyflie_tools/CMakeFiles/listParams.dir/src/listParams.cpp.o[0m
+[ 44%] [32mBuilding CXX object deps/crazyflie_tools/CMakeFiles/scan.dir/src/scan.cpp.o[0m
+[ 47%] [32mBuilding CXX object deps/crazyflie_tools/CMakeFiles/listMemories.dir/src/listMemories.cpp.o[0m
+[ 50%] [32mBuilding CXX object deps/crazyflie_tools/CMakeFiles/listLogVariables.dir/src/listLogVariables.cpp.o[0m
+[ 52%] [32mBuilding CXX object deps/crazyflie_tools/CMakeFiles/reboot.dir/src/reboot.cpp.o[0m
+[ 55%] [32mBuilding CXX object deps/crazyflie_tools/CMakeFiles/battery.dir/src/battery.cpp.o[0m
+[ 58%] [32m[1mLinking CXX executable scan[0m
+[ 61%] [32m[1mLinking CXX executable listParams[0m
+[ 63%] [32m[1mLinking CXX executable listMemories[0m
+[ 63%] Built target scan
+[ 66%] [32mBuilding CXX object deps/crazyflie_tools/CMakeFiles/version.dir/src/version.cpp.o[0m
+[ 66%] Built target listParams
+[ 69%] [32mBuilding CXX object deps/crazyflie_tools/CMakeFiles/console.dir/src/console.cpp.o[0m
+[ 69%] Built target listMemories
+[ 72%] [32mBuilding CXX object deps/crazyflie_tools/CMakeFiles/log.dir/src/log.cpp.o[0m
+[ 75%] [32m[1mLinking CXX executable listLogVariables[0m
+[ 75%] Built target listLogVariables
+[ 77%] [32mBuilding CXX object deps/crazyflie_tools/CMakeFiles/setParam.dir/src/setParam.cpp.o[0m
+[ 80%] [32m[1mLinking CXX executable battery[0m
+[ 83%] [32m[1mLinking CXX executable reboot[0m
+[ 83%] Built target battery
+[ 83%] Built target reboot
+[ 86%] [32m[1mLinking CXX executable version[0m
+[ 86%] Built target version
+[ 88%] [32m[1mLinking CXX executable console[0m
+[ 88%] Built target console
+[ 91%] [32m[1mLinking CXX executable log[0m
+[ 91%] Built target log
+[ 94%] [32m[1mLinking CXX executable setParam[0m
+[ 94%] Built target setParam
+[ 97%] [32m[1mLinking CXX executable teleop[0m
+[ 97%] Built target teleop
+[100%] [32m[1mLinking CXX executable crazyflie_server[0m
+[100%] Built target crazyflie_server
+-- Install configuration: ""
+-- Execute custom install script
+-- Symlinking: /home/tdeng23/ros2_ws/src/install/crazyflie/lib/crazyflie/scan
+-- Symlinking: /home/tdeng23/ros2_ws/src/install/crazyflie/lib/crazyflie/listParams
+-- Symlinking: /home/tdeng23/ros2_ws/src/install/crazyflie/lib/crazyflie/listLogVariables
+-- Symlinking: /home/tdeng23/ros2_ws/src/install/crazyflie/lib/crazyflie/listMemories
+-- Symlinking: /home/tdeng23/ros2_ws/src/install/crazyflie/lib/crazyflie/reboot
+-- Symlinking: /home/tdeng23/ros2_ws/src/install/crazyflie/lib/crazyflie/battery
+-- Symlinking: /home/tdeng23/ros2_ws/src/install/crazyflie/lib/crazyflie/version
+-- Symlinking: /home/tdeng23/ros2_ws/src/install/crazyflie/lib/crazyflie/console
+-- Symlinking: /home/tdeng23/ros2_ws/src/install/crazyflie/lib/crazyflie/log
+-- Symlinking: /home/tdeng23/ros2_ws/src/install/crazyflie/lib/crazyflie/setParam
+-- Symlinking: /home/tdeng23/ros2_ws/src/install/crazyflie/lib/crazyflie/teleop
+-- Symlinking: /home/tdeng23/ros2_ws/src/install/crazyflie/lib/crazyflie/crazyflie_server
+-- Symlinking: /home/tdeng23/ros2_ws/src/install/crazyflie/lib/crazyflie/crazyflie_server.py
+-- Symlinking: /home/tdeng23/ros2_ws/src/install/crazyflie/lib/crazyflie/chooser.py
+-- Symlinking: /home/tdeng23/ros2_ws/src/install/crazyflie/lib/crazyflie/vel_mux.py
+-- Symlinking: /home/tdeng23/ros2_ws/src/install/crazyflie/lib/crazyflie/cfmult.py
+-- Symlinking: /home/tdeng23/ros2_ws/src/install/crazyflie/share/crazyflie//launch/launch.py
+-- Symlinking: /home/tdeng23/ros2_ws/src/install/crazyflie/share/crazyflie//launch/launch_teleop2.py
+-- Symlinking: /home/tdeng23/ros2_ws/src/install/crazyflie/share/crazyflie//launch/teleop_launch.py
+-- Symlinking: /home/tdeng23/ros2_ws/src/install/crazyflie/share/crazyflie//config/config.rviz
+-- Symlinking: /home/tdeng23/ros2_ws/src/install/crazyflie/share/crazyflie//config/crazyflies.yaml
+-- Symlinking: /home/tdeng23/ros2_ws/src/install/crazyflie/share/crazyflie//config/motion_capture.yaml
+-- Symlinking: /home/tdeng23/ros2_ws/src/install/crazyflie/share/crazyflie//config/server.yaml
+-- Symlinking: /home/tdeng23/ros2_ws/src/install/crazyflie/share/crazyflie//config/teleop.yaml
+-- Symlinking: /home/tdeng23/ros2_ws/src/install/crazyflie/share/ament_index/resource_index/package_run_dependencies/crazyflie
+-- Symlinking: /home/tdeng23/ros2_ws/src/install/crazyflie/share/ament_index/resource_index/parent_prefix_path/crazyflie
+-- Symlinking: /home/tdeng23/ros2_ws/src/install/crazyflie/share/crazyflie/environment/ament_prefix_path.sh
+-- Symlinking: /home/tdeng23/ros2_ws/src/install/crazyflie/share/crazyflie/environment/ament_prefix_path.dsv
+-- Symlinking: /home/tdeng23/ros2_ws/src/install/crazyflie/share/crazyflie/environment/path.sh
+-- Symlinking: /home/tdeng23/ros2_ws/src/install/crazyflie/share/crazyflie/environment/path.dsv
+-- Symlinking: /home/tdeng23/ros2_ws/src/install/crazyflie/share/crazyflie/local_setup.bash
+-- Symlinking: /home/tdeng23/ros2_ws/src/install/crazyflie/share/crazyflie/local_setup.sh
+-- Symlinking: /home/tdeng23/ros2_ws/src/install/crazyflie/share/crazyflie/local_setup.zsh
+-- Symlinking: /home/tdeng23/ros2_ws/src/install/crazyflie/share/crazyflie/local_setup.dsv
+-- Symlinking: /home/tdeng23/ros2_ws/src/install/crazyflie/share/crazyflie/package.dsv
+-- Symlinking: /home/tdeng23/ros2_ws/src/install/crazyflie/share/ament_index/resource_index/packages/crazyflie
+-- Symlinking: /home/tdeng23/ros2_ws/src/install/crazyflie/share/crazyflie/cmake/crazyflieConfig.cmake
+-- Symlinking: /home/tdeng23/ros2_ws/src/install/crazyflie/share/crazyflie/cmake/crazyflieConfig-version.cmake
+-- Symlinking: /home/tdeng23/ros2_ws/src/install/crazyflie/share/crazyflie/package.xml

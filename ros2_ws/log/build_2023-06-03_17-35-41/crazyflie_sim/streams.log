@@ -1,0 +1,101 @@
+[0.260s] Invoking command in '/home/tdeng23/ros2_ws/build/crazyflie_sim': AMENT_PREFIX_PATH=/home/tdeng23/ros2_ws/install/crazyflie_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/tdeng23/ros2_ws/install/crazyflie_interfaces:/opt/ros/galactic LD_LIBRARY_PATH=/home/tdeng23/ros2_ws/install/crazyflie_interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/tdeng23/ros2_ws/install/crazyflie_interfaces/lib/python3.8/site-packages:${PYTHONPATH} /home/tdeng23/.local/bin/cmake /home/tdeng23/ros2_ws/src/crazyswarm2/crazyflie_sim -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/tdeng23/ros2_ws/install/crazyflie_sim
+[0.341s] -- The C compiler identification is GNU 9.4.0
+[0.405s] -- The CXX compiler identification is GNU 9.4.0
+[0.418s] -- Detecting C compiler ABI info
+[0.563s] -- Detecting C compiler ABI info - done
+[0.583s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.585s] -- Detecting C compile features
+[0.586s] -- Detecting C compile features - done
+[0.595s] -- Detecting CXX compiler ABI info
+[0.729s] -- Detecting CXX compiler ABI info - done
+[0.758s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.768s] -- Detecting CXX compile features
+[0.771s] -- Detecting CXX compile features - done
+[0.773s] -- Found ament_cmake: 1.1.6 (/opt/ros/galactic/share/ament_cmake/cmake)
+[0.854s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[0.960s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[1.223s] -- Configuring done (0.9s)
+[1.240s] -- Generating done (0.0s)
+[1.243s] -- Build files have been written to: /home/tdeng23/ros2_ws/build/crazyflie_sim
+[1.263s] Invoked command in '/home/tdeng23/ros2_ws/build/crazyflie_sim' returned '0': AMENT_PREFIX_PATH=/home/tdeng23/ros2_ws/install/crazyflie_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/tdeng23/ros2_ws/install/crazyflie_interfaces:/opt/ros/galactic LD_LIBRARY_PATH=/home/tdeng23/ros2_ws/install/crazyflie_interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/tdeng23/ros2_ws/install/crazyflie_interfaces/lib/python3.8/site-packages:${PYTHONPATH} /home/tdeng23/.local/bin/cmake /home/tdeng23/ros2_ws/src/crazyswarm2/crazyflie_sim -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/tdeng23/ros2_ws/install/crazyflie_sim
+[1.265s] Invoking command in '/home/tdeng23/ros2_ws/build/crazyflie_sim': AMENT_PREFIX_PATH=/home/tdeng23/ros2_ws/install/crazyflie_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/tdeng23/ros2_ws/install/crazyflie_interfaces:/opt/ros/galactic LD_LIBRARY_PATH=/home/tdeng23/ros2_ws/install/crazyflie_interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/tdeng23/ros2_ws/install/crazyflie_interfaces/lib/python3.8/site-packages:${PYTHONPATH} /home/tdeng23/.local/bin/cmake --build /home/tdeng23/ros2_ws/build/crazyflie_sim -- -j8 -l8
+[1.507s] Built target ament_cmake_python_symlink_crazyflie_sim
+[1.547s] Built target ament_cmake_python_symlink_crazyflie_sim_setup
+[2.362s] running egg_info
+[2.363s] writing crazyflie_sim.egg-info/PKG-INFO
+[2.364s] writing dependency_links to crazyflie_sim.egg-info/dependency_links.txt
+[2.364s] writing entry points to crazyflie_sim.egg-info/entry_points.txt
+[2.365s] writing top-level names to crazyflie_sim.egg-info/top_level.txt
+[2.367s] running install_scripts
+[2.438s] running egg_info
+[2.454s] writing crazyflie_sim.egg-info/PKG-INFO
+[2.454s] writing dependency_links to crazyflie_sim.egg-info/dependency_links.txt
+[2.454s] writing entry points to crazyflie_sim.egg-info/entry_points.txt
+[2.454s] writing top-level names to crazyflie_sim.egg-info/top_level.txt
+[2.493s] reading manifest file 'crazyflie_sim.egg-info/SOURCES.txt'
+[2.502s] writing manifest file 'crazyflie_sim.egg-info/SOURCES.txt'
+[2.554s] reading manifest file 'crazyflie_sim.egg-info/SOURCES.txt'
+[2.555s] writing manifest file 'crazyflie_sim.egg-info/SOURCES.txt'
+[2.575s] Installing crazyflie_server script to scripts
+[2.610s] Built target ament_cmake_python_build_crazyflie_sim_egg
+[2.666s] Built target ament_cmake_python_build_crazyflie_sim_scripts
+[2.679s] Invoked command in '/home/tdeng23/ros2_ws/build/crazyflie_sim' returned '0': AMENT_PREFIX_PATH=/home/tdeng23/ros2_ws/install/crazyflie_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/tdeng23/ros2_ws/install/crazyflie_interfaces:/opt/ros/galactic LD_LIBRARY_PATH=/home/tdeng23/ros2_ws/install/crazyflie_interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/tdeng23/ros2_ws/install/crazyflie_interfaces/lib/python3.8/site-packages:${PYTHONPATH} /home/tdeng23/.local/bin/cmake --build /home/tdeng23/ros2_ws/build/crazyflie_sim -- -j8 -l8
+[2.969s] Invoking command in '/home/tdeng23/ros2_ws/build/crazyflie_sim': AMENT_PREFIX_PATH=/home/tdeng23/ros2_ws/install/crazyflie_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/tdeng23/ros2_ws/install/crazyflie_interfaces:/opt/ros/galactic LD_LIBRARY_PATH=/home/tdeng23/ros2_ws/install/crazyflie_interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/tdeng23/ros2_ws/install/crazyflie_interfaces/lib/python3.8/site-packages:${PYTHONPATH} /home/tdeng23/.local/bin/cmake --install /home/tdeng23/ros2_ws/build/crazyflie_sim
+[3.022s] -- Install configuration: ""
+[3.022s] -- Execute custom install script
+[3.023s] -- Up-to-date symlink: /home/tdeng23/ros2_ws/install/crazyflie_sim/share/crazyflie_sim/environment/pythonpath.sh
+[3.024s] -- Up-to-date symlink: /home/tdeng23/ros2_ws/install/crazyflie_sim/share/crazyflie_sim/environment/pythonpath.dsv
+[3.025s] -- Up-to-date symlink: /home/tdeng23/ros2_ws/install/crazyflie_sim/lib/python3.8/site-packages//crazyflie_sim.egg-info/PKG-INFO
+[3.025s] -- Up-to-date symlink: /home/tdeng23/ros2_ws/install/crazyflie_sim/lib/python3.8/site-packages//crazyflie_sim.egg-info/SOURCES.txt
+[3.026s] -- Up-to-date symlink: /home/tdeng23/ros2_ws/install/crazyflie_sim/lib/python3.8/site-packages//crazyflie_sim.egg-info/dependency_links.txt
+[3.026s] -- Up-to-date symlink: /home/tdeng23/ros2_ws/install/crazyflie_sim/lib/python3.8/site-packages//crazyflie_sim.egg-info/entry_points.txt
+[3.026s] -- Up-to-date symlink: /home/tdeng23/ros2_ws/install/crazyflie_sim/lib/python3.8/site-packages//crazyflie_sim.egg-info/top_level.txt
+[3.027s] -- Up-to-date symlink: /home/tdeng23/ros2_ws/install/crazyflie_sim/lib/crazyflie_sim//crazyflie_server
+[3.029s] -- Up-to-date symlink: /home/tdeng23/ros2_ws/install/crazyflie_sim/lib/python3.8/site-packages/crazyflie_sim/__init__.py
+[3.029s] -- Up-to-date symlink: /home/tdeng23/ros2_ws/install/crazyflie_sim/lib/python3.8/site-packages/crazyflie_sim/backend/none.py
+[3.030s] -- Up-to-date symlink: /home/tdeng23/ros2_ws/install/crazyflie_sim/lib/python3.8/site-packages/crazyflie_sim/backend/np.py
+[3.030s] -- Up-to-date symlink: /home/tdeng23/ros2_ws/install/crazyflie_sim/lib/python3.8/site-packages/crazyflie_sim/crazyflie_server.py
+[3.030s] -- Up-to-date symlink: /home/tdeng23/ros2_ws/install/crazyflie_sim/lib/python3.8/site-packages/crazyflie_sim/crazyflie_sil.py
+[3.030s] -- Up-to-date symlink: /home/tdeng23/ros2_ws/install/crazyflie_sim/lib/python3.8/site-packages/crazyflie_sim/sim_data_types.py
+[3.031s] -- Up-to-date symlink: /home/tdeng23/ros2_ws/install/crazyflie_sim/lib/python3.8/site-packages/crazyflie_sim/visualization/README.md
+[3.031s] -- Up-to-date symlink: /home/tdeng23/ros2_ws/install/crazyflie_sim/lib/python3.8/site-packages/crazyflie_sim/visualization/blender.py
+[3.032s] -- Up-to-date symlink: /home/tdeng23/ros2_ws/install/crazyflie_sim/lib/python3.8/site-packages/crazyflie_sim/visualization/data/README.md
+[3.032s] -- Up-to-date symlink: /home/tdeng23/ros2_ws/install/crazyflie_sim/lib/python3.8/site-packages/crazyflie_sim/visualization/data/env/abandoned_greenhouse.jpg
+[3.032s] -- Up-to-date symlink: /home/tdeng23/ros2_ws/install/crazyflie_sim/lib/python3.8/site-packages/crazyflie_sim/visualization/data/env/aerodynamics_workshop.jpg
+[3.033s] -- Up-to-date symlink: /home/tdeng23/ros2_ws/install/crazyflie_sim/lib/python3.8/site-packages/crazyflie_sim/visualization/data/env/aviation_museum.jpg
+[3.033s] -- Up-to-date symlink: /home/tdeng23/ros2_ws/install/crazyflie_sim/lib/python3.8/site-packages/crazyflie_sim/visualization/data/env/crosswalk.jpg
+[3.033s] -- Up-to-date symlink: /home/tdeng23/ros2_ws/install/crazyflie_sim/lib/python3.8/site-packages/crazyflie_sim/visualization/data/env/derelict_overpass.jpg
+[3.033s] -- Up-to-date symlink: /home/tdeng23/ros2_ws/install/crazyflie_sim/lib/python3.8/site-packages/crazyflie_sim/visualization/data/env/env.jpg
+[3.034s] -- Up-to-date symlink: /home/tdeng23/ros2_ws/install/crazyflie_sim/lib/python3.8/site-packages/crazyflie_sim/visualization/data/env/lago_disola.jpg
+[3.034s] -- Up-to-date symlink: /home/tdeng23/ros2_ws/install/crazyflie_sim/lib/python3.8/site-packages/crazyflie_sim/visualization/data/env/lake_pier.jpg
+[3.034s] -- Up-to-date symlink: /home/tdeng23/ros2_ws/install/crazyflie_sim/lib/python3.8/site-packages/crazyflie_sim/visualization/data/env/machine_shop.jpg
+[3.035s] -- Up-to-date symlink: /home/tdeng23/ros2_ws/install/crazyflie_sim/lib/python3.8/site-packages/crazyflie_sim/visualization/data/env/museumplein.jpg
+[3.035s] -- Up-to-date symlink: /home/tdeng23/ros2_ws/install/crazyflie_sim/lib/python3.8/site-packages/crazyflie_sim/visualization/data/env/peppermint_powerplant.jpg
+[3.035s] -- Up-to-date symlink: /home/tdeng23/ros2_ws/install/crazyflie_sim/lib/python3.8/site-packages/crazyflie_sim/visualization/data/env/studio_garden.jpg
+[3.036s] -- Up-to-date symlink: /home/tdeng23/ros2_ws/install/crazyflie_sim/lib/python3.8/site-packages/crazyflie_sim/visualization/data/model/cf.mtl
+[3.036s] -- Up-to-date symlink: /home/tdeng23/ros2_ws/install/crazyflie_sim/lib/python3.8/site-packages/crazyflie_sim/visualization/data/model/cf.obj
+[3.036s] -- Up-to-date symlink: /home/tdeng23/ros2_ws/install/crazyflie_sim/lib/python3.8/site-packages/crazyflie_sim/visualization/pdf.py
+[3.036s] -- Up-to-date symlink: /home/tdeng23/ros2_ws/install/crazyflie_sim/lib/python3.8/site-packages/crazyflie_sim/visualization/record_states.py
+[3.037s] -- Up-to-date symlink: /home/tdeng23/ros2_ws/install/crazyflie_sim/lib/python3.8/site-packages/crazyflie_sim/visualization/rviz.py
+[3.038s] -- Up-to-date symlink: /home/tdeng23/ros2_ws/install/crazyflie_sim/share/ament_index/resource_index/package_run_dependencies/crazyflie_sim
+[3.038s] -- Up-to-date symlink: /home/tdeng23/ros2_ws/install/crazyflie_sim/share/ament_index/resource_index/parent_prefix_path/crazyflie_sim
+[3.039s] -- Up-to-date symlink: /home/tdeng23/ros2_ws/install/crazyflie_sim/share/crazyflie_sim/environment/ament_prefix_path.sh
+[3.039s] -- Up-to-date symlink: /home/tdeng23/ros2_ws/install/crazyflie_sim/share/crazyflie_sim/environment/ament_prefix_path.dsv
+[3.039s] -- Up-to-date symlink: /home/tdeng23/ros2_ws/install/crazyflie_sim/share/crazyflie_sim/environment/path.sh
+[3.040s] -- Up-to-date symlink: /home/tdeng23/ros2_ws/install/crazyflie_sim/share/crazyflie_sim/environment/path.dsv
+[3.040s] -- Up-to-date symlink: /home/tdeng23/ros2_ws/install/crazyflie_sim/share/crazyflie_sim/local_setup.bash
+[3.041s] -- Up-to-date symlink: /home/tdeng23/ros2_ws/install/crazyflie_sim/share/crazyflie_sim/local_setup.sh
+[3.041s] -- Up-to-date symlink: /home/tdeng23/ros2_ws/install/crazyflie_sim/share/crazyflie_sim/local_setup.zsh
+[3.041s] -- Up-to-date symlink: /home/tdeng23/ros2_ws/install/crazyflie_sim/share/crazyflie_sim/local_setup.dsv
+[3.042s] -- Symlinking: /home/tdeng23/ros2_ws/install/crazyflie_sim/share/crazyflie_sim/package.dsv
+[3.048s] -- Up-to-date symlink: /home/tdeng23/ros2_ws/install/crazyflie_sim/share/ament_index/resource_index/packages/crazyflie_sim
+[3.048s] -- Up-to-date symlink: /home/tdeng23/ros2_ws/install/crazyflie_sim/share/crazyflie_sim/cmake/crazyflie_simConfig.cmake
+[3.048s] -- Up-to-date symlink: /home/tdeng23/ros2_ws/install/crazyflie_sim/share/crazyflie_sim/cmake/crazyflie_simConfig-version.cmake
+[3.049s] -- Up-to-date symlink: /home/tdeng23/ros2_ws/install/crazyflie_sim/share/crazyflie_sim/package.xml
+[3.172s] Listing '/home/tdeng23/ros2_ws/install/crazyflie_sim/lib/python3.8/site-packages/crazyflie_sim'...
+[3.173s] Listing '/home/tdeng23/ros2_ws/install/crazyflie_sim/lib/python3.8/site-packages/crazyflie_sim/backend'...
+[3.173s] Listing '/home/tdeng23/ros2_ws/install/crazyflie_sim/lib/python3.8/site-packages/crazyflie_sim/visualization'...
+[3.173s] Listing '/home/tdeng23/ros2_ws/install/crazyflie_sim/lib/python3.8/site-packages/crazyflie_sim/visualization/data'...
+[3.173s] Listing '/home/tdeng23/ros2_ws/install/crazyflie_sim/lib/python3.8/site-packages/crazyflie_sim/visualization/data/env'...
+[3.173s] Listing '/home/tdeng23/ros2_ws/install/crazyflie_sim/lib/python3.8/site-packages/crazyflie_sim/visualization/data/model'...
+[3.189s] Invoked command in '/home/tdeng23/ros2_ws/build/crazyflie_sim' returned '0': AMENT_PREFIX_PATH=/home/tdeng23/ros2_ws/install/crazyflie_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/tdeng23/ros2_ws/install/crazyflie_interfaces:/opt/ros/galactic LD_LIBRARY_PATH=/home/tdeng23/ros2_ws/install/crazyflie_interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/tdeng23/ros2_ws/install/crazyflie_interfaces/lib/python3.8/site-packages:${PYTHONPATH} /home/tdeng23/.local/bin/cmake --install /home/tdeng23/ros2_ws/build/crazyflie_sim

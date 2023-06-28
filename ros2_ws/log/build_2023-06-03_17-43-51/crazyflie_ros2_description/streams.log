@@ -1,0 +1,42 @@
+[0.345s] Invoking command in '/home/tdeng23/ros2_ws/build/crazyflie_ros2_description': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/tdeng23/ros2_ws/install/my_package:/home/tdeng23/ros2_ws/install/crazyflie_simulation:/home/tdeng23/ros2_ws/install/crazyflie_ros2_simulation:/home/tdeng23/ros2_ws/install/crazyflie_ros2_simple_mapper:/home/tdeng23/ros2_ws/install/crazyflie_ros2_scan:/home/tdeng23/ros2_ws/install/crazyflie_ros2:/home/tdeng23/ros2_ws/install/crazyflie_py:/opt/ros/galactic /home/tdeng23/.local/bin/cmake /home/tdeng23/ros2_ws/src/crazyswarm2/crazyflie_ros2_description -DCMAKE_INSTALL_PREFIX=/home/tdeng23/ros2_ws/install/crazyflie_ros2_description
+[0.972s] -- Found ament_cmake: 1.1.6 (/opt/ros/galactic/share/ament_cmake/cmake)
+[0.972s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[0.972s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[0.972s] -- Found ament_lint_auto: 0.10.7 (/opt/ros/galactic/share/ament_lint_auto/cmake)
+[0.972s] -- Added test 'copyright' to check source files copyright and LICENSE
+[0.972s] -- Added test 'flake8' to check Python code syntax and style conventions
+[0.973s] -- Added test 'lint_cmake' to check CMake code style
+[0.973s] -- Added test 'pep257' to check Python code against some of the style conventions in PEP 257
+[0.973s] -- Added test 'xmllint' to check XML markup files
+[0.973s] -- Configuring done (0.3s)
+[0.973s] -- Generating done (0.0s)
+[0.973s] -- Build files have been written to: /home/tdeng23/ros2_ws/build/crazyflie_ros2_description
+[0.976s] Invoked command in '/home/tdeng23/ros2_ws/build/crazyflie_ros2_description' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/tdeng23/ros2_ws/install/my_package:/home/tdeng23/ros2_ws/install/crazyflie_simulation:/home/tdeng23/ros2_ws/install/crazyflie_ros2_simulation:/home/tdeng23/ros2_ws/install/crazyflie_ros2_simple_mapper:/home/tdeng23/ros2_ws/install/crazyflie_ros2_scan:/home/tdeng23/ros2_ws/install/crazyflie_ros2:/home/tdeng23/ros2_ws/install/crazyflie_py:/opt/ros/galactic /home/tdeng23/.local/bin/cmake /home/tdeng23/ros2_ws/src/crazyswarm2/crazyflie_ros2_description -DCMAKE_INSTALL_PREFIX=/home/tdeng23/ros2_ws/install/crazyflie_ros2_description
+[0.977s] Invoking command in '/home/tdeng23/ros2_ws/build/crazyflie_ros2_description': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/tdeng23/ros2_ws/install/my_package:/home/tdeng23/ros2_ws/install/crazyflie_simulation:/home/tdeng23/ros2_ws/install/crazyflie_ros2_simulation:/home/tdeng23/ros2_ws/install/crazyflie_ros2_simple_mapper:/home/tdeng23/ros2_ws/install/crazyflie_ros2_scan:/home/tdeng23/ros2_ws/install/crazyflie_ros2:/home/tdeng23/ros2_ws/install/crazyflie_py:/opt/ros/galactic /home/tdeng23/.local/bin/cmake --build /home/tdeng23/ros2_ws/build/crazyflie_ros2_description -- -j8 -l8
+[1.048s] Invoked command in '/home/tdeng23/ros2_ws/build/crazyflie_ros2_description' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/tdeng23/ros2_ws/install/my_package:/home/tdeng23/ros2_ws/install/crazyflie_simulation:/home/tdeng23/ros2_ws/install/crazyflie_ros2_simulation:/home/tdeng23/ros2_ws/install/crazyflie_ros2_simple_mapper:/home/tdeng23/ros2_ws/install/crazyflie_ros2_scan:/home/tdeng23/ros2_ws/install/crazyflie_ros2:/home/tdeng23/ros2_ws/install/crazyflie_py:/opt/ros/galactic /home/tdeng23/.local/bin/cmake --build /home/tdeng23/ros2_ws/build/crazyflie_ros2_description -- -j8 -l8
+[1.251s] Invoking command in '/home/tdeng23/ros2_ws/build/crazyflie_ros2_description': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/tdeng23/ros2_ws/install/my_package:/home/tdeng23/ros2_ws/install/crazyflie_simulation:/home/tdeng23/ros2_ws/install/crazyflie_ros2_simulation:/home/tdeng23/ros2_ws/install/crazyflie_ros2_simple_mapper:/home/tdeng23/ros2_ws/install/crazyflie_ros2_scan:/home/tdeng23/ros2_ws/install/crazyflie_ros2:/home/tdeng23/ros2_ws/install/crazyflie_py:/opt/ros/galactic /home/tdeng23/.local/bin/cmake --install /home/tdeng23/ros2_ws/build/crazyflie_ros2_description
+[1.329s] -- Install configuration: ""
+[1.330s] -- Execute custom install script
+[1.331s] -- Up-to-date symlink: /home/tdeng23/ros2_ws/install/crazyflie_ros2_description/share/crazyflie_ros2_description/launch/rviz_launch.py
+[1.331s] -- Up-to-date symlink: /home/tdeng23/ros2_ws/install/crazyflie_ros2_description/share/crazyflie_ros2_description/urdf/crazyflie_description.urdf
+[1.331s] -- Up-to-date symlink: /home/tdeng23/ros2_ws/install/crazyflie_ros2_description/share/crazyflie_ros2_description/rviz/crazyflie.rviz
+[1.332s] -- Up-to-date symlink: /home/tdeng23/ros2_ws/install/crazyflie_ros2_description/share/crazyflie_ros2_description/meshes/ccw_prop.dae
+[1.332s] -- Up-to-date symlink: /home/tdeng23/ros2_ws/install/crazyflie_ros2_description/share/crazyflie_ros2_description/meshes/cf2_assembly.dae
+[1.332s] -- Up-to-date symlink: /home/tdeng23/ros2_ws/install/crazyflie_ros2_description/share/crazyflie_ros2_description/meshes/cf2_assembly.stl
+[1.332s] -- Up-to-date symlink: /home/tdeng23/ros2_ws/install/crazyflie_ros2_description/share/crazyflie_ros2_description/meshes/cw_prop.dae
+[1.332s] -- Up-to-date symlink: /home/tdeng23/ros2_ws/install/crazyflie_ros2_description/share/ament_index/resource_index/package_run_dependencies/crazyflie_ros2_description
+[1.333s] -- Up-to-date symlink: /home/tdeng23/ros2_ws/install/crazyflie_ros2_description/share/ament_index/resource_index/parent_prefix_path/crazyflie_ros2_description
+[1.333s] -- Up-to-date symlink: /home/tdeng23/ros2_ws/install/crazyflie_ros2_description/share/crazyflie_ros2_description/environment/ament_prefix_path.sh
+[1.333s] -- Up-to-date symlink: /home/tdeng23/ros2_ws/install/crazyflie_ros2_description/share/crazyflie_ros2_description/environment/ament_prefix_path.dsv
+[1.333s] -- Up-to-date symlink: /home/tdeng23/ros2_ws/install/crazyflie_ros2_description/share/crazyflie_ros2_description/environment/path.sh
+[1.334s] -- Up-to-date symlink: /home/tdeng23/ros2_ws/install/crazyflie_ros2_description/share/crazyflie_ros2_description/environment/path.dsv
+[1.334s] -- Up-to-date symlink: /home/tdeng23/ros2_ws/install/crazyflie_ros2_description/share/crazyflie_ros2_description/local_setup.bash
+[1.334s] -- Up-to-date symlink: /home/tdeng23/ros2_ws/install/crazyflie_ros2_description/share/crazyflie_ros2_description/local_setup.sh
+[1.334s] -- Up-to-date symlink: /home/tdeng23/ros2_ws/install/crazyflie_ros2_description/share/crazyflie_ros2_description/local_setup.zsh
+[1.334s] -- Up-to-date symlink: /home/tdeng23/ros2_ws/install/crazyflie_ros2_description/share/crazyflie_ros2_description/local_setup.dsv
+[1.335s] -- Symlinking: /home/tdeng23/ros2_ws/install/crazyflie_ros2_description/share/crazyflie_ros2_description/package.dsv
+[1.339s] -- Up-to-date symlink: /home/tdeng23/ros2_ws/install/crazyflie_ros2_description/share/ament_index/resource_index/packages/crazyflie_ros2_description
+[1.339s] -- Up-to-date symlink: /home/tdeng23/ros2_ws/install/crazyflie_ros2_description/share/crazyflie_ros2_description/cmake/crazyflie_ros2_descriptionConfig.cmake
+[1.339s] -- Up-to-date symlink: /home/tdeng23/ros2_ws/install/crazyflie_ros2_description/share/crazyflie_ros2_description/cmake/crazyflie_ros2_descriptionConfig-version.cmake
+[1.339s] -- Up-to-date symlink: /home/tdeng23/ros2_ws/install/crazyflie_ros2_description/share/crazyflie_ros2_description/package.xml
+[1.352s] Invoked command in '/home/tdeng23/ros2_ws/build/crazyflie_ros2_description' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/tdeng23/ros2_ws/install/my_package:/home/tdeng23/ros2_ws/install/crazyflie_simulation:/home/tdeng23/ros2_ws/install/crazyflie_ros2_simulation:/home/tdeng23/ros2_ws/install/crazyflie_ros2_simple_mapper:/home/tdeng23/ros2_ws/install/crazyflie_ros2_scan:/home/tdeng23/ros2_ws/install/crazyflie_ros2:/home/tdeng23/ros2_ws/install/crazyflie_py:/opt/ros/galactic /home/tdeng23/.local/bin/cmake --install /home/tdeng23/ros2_ws/build/crazyflie_ros2_description

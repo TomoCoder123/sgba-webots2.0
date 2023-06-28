@@ -1,0 +1,17 @@
+[1.872s] Invoking command in '/home/tdeng23/ros2_ws/build/crazyflie_ros2_simulation': PYTHONPATH=/home/tdeng23/ros2_ws/build/crazyflie_ros2_simulation/prefix_override:/home/tdeng23/ros2_ws/install/crazyflie_ros2_simulation/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --editable --build-directory /home/tdeng23/ros2_ws/build/crazyflie_ros2_simulation/build --no-deps install_data
+[2.215s] running develop
+[2.373s] running egg_info
+[2.373s] writing crazyflie_ros2_simulation.egg-info/PKG-INFO
+[2.619s] writing dependency_links to crazyflie_ros2_simulation.egg-info/dependency_links.txt
+[2.620s] writing entry points to crazyflie_ros2_simulation.egg-info/entry_points.txt
+[2.620s] writing requirements to crazyflie_ros2_simulation.egg-info/requires.txt
+[2.620s] writing top-level names to crazyflie_ros2_simulation.egg-info/top_level.txt
+[2.696s] reading manifest file 'crazyflie_ros2_simulation.egg-info/SOURCES.txt'
+[2.697s] writing manifest file 'crazyflie_ros2_simulation.egg-info/SOURCES.txt'
+[2.778s] running build_ext
+[2.779s] Creating /home/tdeng23/ros2_ws/install/crazyflie_ros2_simulation/lib/python3.8/site-packages/crazyflie-ros2-simulation.egg-link (link to .)
+[2.781s] Installing crazyflie_webots_driver script to /home/tdeng23/ros2_ws/install/crazyflie_ros2_simulation/lib/crazyflie_ros2_simulation
+[2.781s] 
+[2.782s] Installed /home/tdeng23/ros2_ws/build/crazyflie_ros2_simulation
+[2.782s] running install_data
+[3.068s] Invoked command in '/home/tdeng23/ros2_ws/build/crazyflie_ros2_simulation' returned '0': PYTHONPATH=/home/tdeng23/ros2_ws/build/crazyflie_ros2_simulation/prefix_override:/home/tdeng23/ros2_ws/install/crazyflie_ros2_simulation/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --editable --build-directory /home/tdeng23/ros2_ws/build/crazyflie_ros2_simulation/build --no-deps install_data

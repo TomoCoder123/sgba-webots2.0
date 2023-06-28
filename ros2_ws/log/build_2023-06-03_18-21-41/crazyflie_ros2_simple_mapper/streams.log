@@ -1,0 +1,29 @@
+[1.592s] Invoking command in '/home/tdeng23/ros2_ws/build/crazyflie_ros2_simple_mapper': PYTHONPATH=/home/tdeng23/ros2_ws/build/crazyflie_ros2_simple_mapper/prefix_override:/home/tdeng23/ros2_ws/install/crazyflie_ros2_simple_mapper/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --uninstall --editable --build-directory /home/tdeng23/ros2_ws/build/crazyflie_ros2_simple_mapper/build
+[2.025s] running develop
+[2.303s] Removing /home/tdeng23/ros2_ws/install/crazyflie_ros2_simple_mapper/lib/python3.8/site-packages/crazyflie-ros2-simple-mapper.egg-link (link to .)
+[2.354s] Invoked command in '/home/tdeng23/ros2_ws/build/crazyflie_ros2_simple_mapper' returned '0': PYTHONPATH=/home/tdeng23/ros2_ws/build/crazyflie_ros2_simple_mapper/prefix_override:/home/tdeng23/ros2_ws/install/crazyflie_ros2_simple_mapper/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --uninstall --editable --build-directory /home/tdeng23/ros2_ws/build/crazyflie_ros2_simple_mapper/build
+[2.356s] Invoking command in '/home/tdeng23/ros2_ws/src/crazyswarm2/crazyflie_ros2_simple_mapper': PYTHONPATH=/home/tdeng23/ros2_ws/build/crazyflie_ros2_simple_mapper/prefix_override:/home/tdeng23/ros2_ws/install/crazyflie_ros2_simple_mapper/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../../build/crazyflie_ros2_simple_mapper build --build-base /home/tdeng23/ros2_ws/build/crazyflie_ros2_simple_mapper/build install --record /home/tdeng23/ros2_ws/build/crazyflie_ros2_simple_mapper/install.log --single-version-externally-managed
+[2.726s] running egg_info
+[2.726s] writing ../../../build/crazyflie_ros2_simple_mapper/crazyflie_ros2_simple_mapper.egg-info/PKG-INFO
+[2.726s] writing dependency_links to ../../../build/crazyflie_ros2_simple_mapper/crazyflie_ros2_simple_mapper.egg-info/dependency_links.txt
+[2.726s] writing entry points to ../../../build/crazyflie_ros2_simple_mapper/crazyflie_ros2_simple_mapper.egg-info/entry_points.txt
+[2.727s] writing requirements to ../../../build/crazyflie_ros2_simple_mapper/crazyflie_ros2_simple_mapper.egg-info/requires.txt
+[2.727s] writing top-level names to ../../../build/crazyflie_ros2_simple_mapper/crazyflie_ros2_simple_mapper.egg-info/top_level.txt
+[2.761s] reading manifest file '../../../build/crazyflie_ros2_simple_mapper/crazyflie_ros2_simple_mapper.egg-info/SOURCES.txt'
+[2.762s] writing manifest file '../../../build/crazyflie_ros2_simple_mapper/crazyflie_ros2_simple_mapper.egg-info/SOURCES.txt'
+[2.762s] running build
+[2.762s] running build_py
+[2.763s] running install
+[2.764s] running install_lib
+[2.765s] creating /home/tdeng23/ros2_ws/install/crazyflie_ros2_simple_mapper/lib/python3.8/site-packages/crazyflie_ros2_simple_mapper
+[2.765s] copying /home/tdeng23/ros2_ws/build/crazyflie_ros2_simple_mapper/build/lib/crazyflie_ros2_simple_mapper/simple_mapper.py -> /home/tdeng23/ros2_ws/install/crazyflie_ros2_simple_mapper/lib/python3.8/site-packages/crazyflie_ros2_simple_mapper
+[2.765s] copying /home/tdeng23/ros2_ws/build/crazyflie_ros2_simple_mapper/build/lib/crazyflie_ros2_simple_mapper/__init__.py -> /home/tdeng23/ros2_ws/install/crazyflie_ros2_simple_mapper/lib/python3.8/site-packages/crazyflie_ros2_simple_mapper
+[2.766s] byte-compiling /home/tdeng23/ros2_ws/install/crazyflie_ros2_simple_mapper/lib/python3.8/site-packages/crazyflie_ros2_simple_mapper/simple_mapper.py to simple_mapper.cpython-38.pyc
+[2.768s] byte-compiling /home/tdeng23/ros2_ws/install/crazyflie_ros2_simple_mapper/lib/python3.8/site-packages/crazyflie_ros2_simple_mapper/__init__.py to __init__.cpython-38.pyc
+[2.768s] running install_data
+[2.769s] running install_egg_info
+[2.771s] Copying ../../../build/crazyflie_ros2_simple_mapper/crazyflie_ros2_simple_mapper.egg-info to /home/tdeng23/ros2_ws/install/crazyflie_ros2_simple_mapper/lib/python3.8/site-packages/crazyflie_ros2_simple_mapper-0.0.0-py3.8.egg-info
+[2.772s] running install_scripts
+[2.797s] Installing simple_mapper script to /home/tdeng23/ros2_ws/install/crazyflie_ros2_simple_mapper/lib/crazyflie_ros2_simple_mapper
+[2.798s] writing list of installed files to '/home/tdeng23/ros2_ws/build/crazyflie_ros2_simple_mapper/install.log'
+[3.028s] Invoked command in '/home/tdeng23/ros2_ws/src/crazyswarm2/crazyflie_ros2_simple_mapper' returned '0': PYTHONPATH=/home/tdeng23/ros2_ws/build/crazyflie_ros2_simple_mapper/prefix_override:/home/tdeng23/ros2_ws/install/crazyflie_ros2_simple_mapper/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../../build/crazyflie_ros2_simple_mapper build --build-base /home/tdeng23/ros2_ws/build/crazyflie_ros2_simple_mapper/build install --record /home/tdeng23/ros2_ws/build/crazyflie_ros2_simple_mapper/install.log --single-version-externally-managed

@@ -1,0 +1,29 @@
+[1.629s] Invoking command in '/home/tdeng23/ros2_ws/build/crazyflie_ros2': PYTHONPATH=/home/tdeng23/ros2_ws/build/crazyflie_ros2/prefix_override:/home/tdeng23/ros2_ws/install/crazyflie_ros2/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --uninstall --editable --build-directory /home/tdeng23/ros2_ws/build/crazyflie_ros2/build
+[2.035s] running develop
+[2.309s] Removing /home/tdeng23/ros2_ws/install/crazyflie_ros2/lib/python3.8/site-packages/crazyflie-ros2.egg-link (link to .)
+[2.381s] Invoked command in '/home/tdeng23/ros2_ws/build/crazyflie_ros2' returned '0': PYTHONPATH=/home/tdeng23/ros2_ws/build/crazyflie_ros2/prefix_override:/home/tdeng23/ros2_ws/install/crazyflie_ros2/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --uninstall --editable --build-directory /home/tdeng23/ros2_ws/build/crazyflie_ros2/build
+[2.384s] Invoking command in '/home/tdeng23/ros2_ws/src/crazyswarm2/crazyflie_ros2': PYTHONPATH=/home/tdeng23/ros2_ws/build/crazyflie_ros2/prefix_override:/home/tdeng23/ros2_ws/install/crazyflie_ros2/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../../build/crazyflie_ros2 build --build-base /home/tdeng23/ros2_ws/build/crazyflie_ros2/build install --record /home/tdeng23/ros2_ws/build/crazyflie_ros2/install.log --single-version-externally-managed
+[2.760s] running egg_info
+[2.760s] writing ../../../build/crazyflie_ros2/crazyflie_ros2.egg-info/PKG-INFO
+[2.761s] writing dependency_links to ../../../build/crazyflie_ros2/crazyflie_ros2.egg-info/dependency_links.txt
+[2.761s] writing entry points to ../../../build/crazyflie_ros2/crazyflie_ros2.egg-info/entry_points.txt
+[2.761s] writing requirements to ../../../build/crazyflie_ros2/crazyflie_ros2.egg-info/requires.txt
+[2.761s] writing top-level names to ../../../build/crazyflie_ros2/crazyflie_ros2.egg-info/top_level.txt
+[2.816s] reading manifest file '../../../build/crazyflie_ros2/crazyflie_ros2.egg-info/SOURCES.txt'
+[2.817s] writing manifest file '../../../build/crazyflie_ros2/crazyflie_ros2.egg-info/SOURCES.txt'
+[2.817s] running build
+[2.817s] running build_py
+[2.818s] running install
+[2.819s] running install_lib
+[2.820s] creating /home/tdeng23/ros2_ws/install/crazyflie_ros2/lib/python3.8/site-packages/crazyflie_ros2
+[2.820s] copying /home/tdeng23/ros2_ws/build/crazyflie_ros2/build/lib/crazyflie_ros2/crazyflie_publisher.py -> /home/tdeng23/ros2_ws/install/crazyflie_ros2/lib/python3.8/site-packages/crazyflie_ros2
+[2.821s] copying /home/tdeng23/ros2_ws/build/crazyflie_ros2/build/lib/crazyflie_ros2/__init__.py -> /home/tdeng23/ros2_ws/install/crazyflie_ros2/lib/python3.8/site-packages/crazyflie_ros2
+[2.821s] byte-compiling /home/tdeng23/ros2_ws/install/crazyflie_ros2/lib/python3.8/site-packages/crazyflie_ros2/crazyflie_publisher.py to crazyflie_publisher.cpython-38.pyc
+[2.826s] byte-compiling /home/tdeng23/ros2_ws/install/crazyflie_ros2/lib/python3.8/site-packages/crazyflie_ros2/__init__.py to __init__.cpython-38.pyc
+[2.826s] running install_data
+[2.827s] running install_egg_info
+[2.829s] Copying ../../../build/crazyflie_ros2/crazyflie_ros2.egg-info to /home/tdeng23/ros2_ws/install/crazyflie_ros2/lib/python3.8/site-packages/crazyflie_ros2-0.0.0-py3.8.egg-info
+[2.830s] running install_scripts
+[2.857s] Installing crazyflie_publisher script to /home/tdeng23/ros2_ws/install/crazyflie_ros2/lib/crazyflie_ros2
+[2.858s] writing list of installed files to '/home/tdeng23/ros2_ws/build/crazyflie_ros2/install.log'
+[3.089s] Invoked command in '/home/tdeng23/ros2_ws/src/crazyswarm2/crazyflie_ros2' returned '0': PYTHONPATH=/home/tdeng23/ros2_ws/build/crazyflie_ros2/prefix_override:/home/tdeng23/ros2_ws/install/crazyflie_ros2/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../../build/crazyflie_ros2 build --build-base /home/tdeng23/ros2_ws/build/crazyflie_ros2/build install --record /home/tdeng23/ros2_ws/build/crazyflie_ros2/install.log --single-version-externally-managed

@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 /home/nicxe/ros2_ws/install/crazyflie_ros2_description/share/crazyflie_ros2_description/launch/rviz_launch.py
 /home/nicxe/ros2_ws/install/crazyflie_ros2_description/share/crazyflie_ros2_description/urdf/crazyflie_description.urdf
 /home/nicxe/ros2_ws/install/crazyflie_ros2_description/share/crazyflie_ros2_description/rviz/crazyflie.rviz
@@ -20,3 +21,5 @@
 /home/nicxe/ros2_ws/install/crazyflie_ros2_description/share/crazyflie_ros2_description/cmake/crazyflie_ros2_descriptionConfig.cmake
 /home/nicxe/ros2_ws/install/crazyflie_ros2_description/share/crazyflie_ros2_description/cmake/crazyflie_ros2_descriptionConfig-version.cmake
 /home/nicxe/ros2_ws/install/crazyflie_ros2_description/share/crazyflie_ros2_description/package.xml
+=======
+>>>>>>> 94884f5968f4d63cd711e9429da5204c445b3486

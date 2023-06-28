@@ -1,0 +1,9 @@
+source;share/crazyflie_ros2_scan/hook/pythonpath.ps1
+source;share/crazyflie_ros2_scan/hook/pythonpath.dsv
+source;share/crazyflie_ros2_scan/hook/pythonpath.sh
+source;share/crazyflie_ros2_scan/hook/ament_prefix_path.ps1
+source;share/crazyflie_ros2_scan/hook/ament_prefix_path.dsv
+source;share/crazyflie_ros2_scan/hook/ament_prefix_path.sh
+source;../../build/crazyflie_ros2_scan/share/crazyflie_ros2_scan/hook/pythonpath_develop.ps1
+source;../../build/crazyflie_ros2_scan/share/crazyflie_ros2_scan/hook/pythonpath_develop.dsv
+source;../../build/crazyflie_ros2_scan/share/crazyflie_ros2_scan/hook/pythonpath_develop.sh

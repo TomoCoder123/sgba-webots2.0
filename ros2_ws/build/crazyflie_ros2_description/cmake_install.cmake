@@ -37,6 +37,7 @@ if(NOT DEFINED CMAKE_CROSSCOMPILING)
   set(CMAKE_CROSSCOMPILING "FALSE")
 endif()
 
+<<<<<<< HEAD
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
   file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/crazyflie_ros2_description" TYPE DIRECTORY FILES
     "/home/nicxe/ros2_ws/src/crazyswarm2/crazyflie_ros2_description/launch"
@@ -103,6 +104,15 @@ endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
   file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/crazyflie_ros2_description" TYPE FILE FILES "/home/nicxe/ros2_ws/src/crazyswarm2/crazyflie_ros2_description/package.xml")
+=======
+# Set default install directory permissions.
+if(NOT DEFINED CMAKE_OBJDUMP)
+  set(CMAKE_OBJDUMP "/usr/bin/objdump")
+endif()
+
+if(CMAKE_INSTALL_COMPONENT STREQUAL "Unspecified" OR NOT CMAKE_INSTALL_COMPONENT)
+  include("/home/tdeng23/ros2_ws/build/crazyflie_ros2_description/ament_cmake_symlink_install/ament_cmake_symlink_install.cmake")
+>>>>>>> 94884f5968f4d63cd711e9429da5204c445b3486
 endif()
 
 if(CMAKE_INSTALL_COMPONENT)

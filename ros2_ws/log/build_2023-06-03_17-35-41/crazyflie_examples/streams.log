@@ -1,0 +1,101 @@
+[0.151s] Invoking command in '/home/tdeng23/ros2_ws/build/crazyflie_examples': AMENT_PREFIX_PATH=/home/tdeng23/ros2_ws/install/crazyflie_py:/home/tdeng23/ros2_ws/install/crazyflie_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/tdeng23/ros2_ws/install/crazyflie_interfaces:/opt/ros/galactic LD_LIBRARY_PATH=/home/tdeng23/ros2_ws/install/crazyflie_interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/tdeng23/ros2_ws/build/crazyflie_py:/home/tdeng23/ros2_ws/install/crazyflie_py/lib/python3.8/site-packages:/home/tdeng23/ros2_ws/install/crazyflie_interfaces/lib/python3.8/site-packages:${PYTHONPATH} /home/tdeng23/.local/bin/cmake /home/tdeng23/ros2_ws/src/crazyswarm2/crazyflie_examples -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/tdeng23/ros2_ws/install/crazyflie_examples
+[0.342s] -- The C compiler identification is GNU 9.4.0
+[0.476s] -- The CXX compiler identification is GNU 9.4.0
+[0.528s] -- Detecting C compiler ABI info
+[0.738s] -- Detecting C compiler ABI info - done
+[0.765s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.766s] -- Detecting C compile features
+[0.766s] -- Detecting C compile features - done
+[0.788s] -- Detecting CXX compiler ABI info
+[1.012s] -- Detecting CXX compiler ABI info - done
+[1.041s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[1.043s] -- Detecting CXX compile features
+[1.044s] -- Detecting CXX compile features - done
+[1.046s] -- Found ament_cmake: 1.1.6 (/opt/ros/galactic/share/ament_cmake/cmake)
+[1.103s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[1.243s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[1.554s] -- Configuring done (1.3s)
+[1.577s] -- Generating done (0.0s)
+[1.583s] -- Build files have been written to: /home/tdeng23/ros2_ws/build/crazyflie_examples
+[1.598s] Invoked command in '/home/tdeng23/ros2_ws/build/crazyflie_examples' returned '0': AMENT_PREFIX_PATH=/home/tdeng23/ros2_ws/install/crazyflie_py:/home/tdeng23/ros2_ws/install/crazyflie_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/tdeng23/ros2_ws/install/crazyflie_interfaces:/opt/ros/galactic LD_LIBRARY_PATH=/home/tdeng23/ros2_ws/install/crazyflie_interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/tdeng23/ros2_ws/build/crazyflie_py:/home/tdeng23/ros2_ws/install/crazyflie_py/lib/python3.8/site-packages:/home/tdeng23/ros2_ws/install/crazyflie_interfaces/lib/python3.8/site-packages:${PYTHONPATH} /home/tdeng23/.local/bin/cmake /home/tdeng23/ros2_ws/src/crazyswarm2/crazyflie_examples -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/tdeng23/ros2_ws/install/crazyflie_examples
+[1.599s] Invoking command in '/home/tdeng23/ros2_ws/build/crazyflie_examples': AMENT_PREFIX_PATH=/home/tdeng23/ros2_ws/install/crazyflie_py:/home/tdeng23/ros2_ws/install/crazyflie_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/tdeng23/ros2_ws/install/crazyflie_interfaces:/opt/ros/galactic LD_LIBRARY_PATH=/home/tdeng23/ros2_ws/install/crazyflie_interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/tdeng23/ros2_ws/build/crazyflie_py:/home/tdeng23/ros2_ws/install/crazyflie_py/lib/python3.8/site-packages:/home/tdeng23/ros2_ws/install/crazyflie_interfaces/lib/python3.8/site-packages:${PYTHONPATH} /home/tdeng23/.local/bin/cmake --build /home/tdeng23/ros2_ws/build/crazyflie_examples -- -j8 -l8
+[1.897s] Built target ament_cmake_python_symlink_crazyflie_examples_setup
+[1.910s] Built target ament_cmake_python_symlink_crazyflie_examples
+[2.839s] running egg_info
+[2.843s] writing crazyflie_examples.egg-info/PKG-INFO
+[2.845s] writing dependency_links to crazyflie_examples.egg-info/dependency_links.txt
+[2.846s] writing entry points to crazyflie_examples.egg-info/entry_points.txt
+[2.846s] writing top-level names to crazyflie_examples.egg-info/top_level.txt
+[2.984s] reading manifest file 'crazyflie_examples.egg-info/SOURCES.txt'
+[2.992s] writing manifest file 'crazyflie_examples.egg-info/SOURCES.txt'
+[3.055s] running install_scripts
+[3.096s] Built target ament_cmake_python_build_crazyflie_examples_egg
+[3.174s] running egg_info
+[3.176s] writing crazyflie_examples.egg-info/PKG-INFO
+[3.177s] writing dependency_links to crazyflie_examples.egg-info/dependency_links.txt
+[3.177s] writing entry points to crazyflie_examples.egg-info/entry_points.txt
+[3.177s] writing top-level names to crazyflie_examples.egg-info/top_level.txt
+[3.299s] reading manifest file 'crazyflie_examples.egg-info/SOURCES.txt'
+[3.300s] writing manifest file 'crazyflie_examples.egg-info/SOURCES.txt'
+[3.304s] Installing cmd_full_state script to scripts
+[3.304s] Installing figure8 script to scripts
+[3.304s] Installing hello_world script to scripts
+[3.305s] Installing multi_trajectory script to scripts
+[3.305s] Installing nice_hover script to scripts
+[3.305s] Installing set_param script to scripts
+[3.419s] Built target ament_cmake_python_build_crazyflie_examples_scripts
+[3.463s] Invoked command in '/home/tdeng23/ros2_ws/build/crazyflie_examples' returned '0': AMENT_PREFIX_PATH=/home/tdeng23/ros2_ws/install/crazyflie_py:/home/tdeng23/ros2_ws/install/crazyflie_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/tdeng23/ros2_ws/install/crazyflie_interfaces:/opt/ros/galactic LD_LIBRARY_PATH=/home/tdeng23/ros2_ws/install/crazyflie_interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/tdeng23/ros2_ws/build/crazyflie_py:/home/tdeng23/ros2_ws/install/crazyflie_py/lib/python3.8/site-packages:/home/tdeng23/ros2_ws/install/crazyflie_interfaces/lib/python3.8/site-packages:${PYTHONPATH} /home/tdeng23/.local/bin/cmake --build /home/tdeng23/ros2_ws/build/crazyflie_examples -- -j8 -l8
+[3.894s] Invoking command in '/home/tdeng23/ros2_ws/build/crazyflie_examples': AMENT_PREFIX_PATH=/home/tdeng23/ros2_ws/install/crazyflie_py:/home/tdeng23/ros2_ws/install/crazyflie_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/tdeng23/ros2_ws/install/crazyflie_interfaces:/opt/ros/galactic LD_LIBRARY_PATH=/home/tdeng23/ros2_ws/install/crazyflie_interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/tdeng23/ros2_ws/build/crazyflie_py:/home/tdeng23/ros2_ws/install/crazyflie_py/lib/python3.8/site-packages:/home/tdeng23/ros2_ws/install/crazyflie_interfaces/lib/python3.8/site-packages:${PYTHONPATH} /home/tdeng23/.local/bin/cmake --install /home/tdeng23/ros2_ws/build/crazyflie_examples
+[4.074s] -- Install configuration: ""
+[4.076s] -- Execute custom install script
+[4.092s] -- Up-to-date symlink: /home/tdeng23/ros2_ws/install/crazyflie_examples/share/crazyflie_examples/environment/pythonpath.sh
+[4.092s] -- Up-to-date symlink: /home/tdeng23/ros2_ws/install/crazyflie_examples/share/crazyflie_examples/environment/pythonpath.dsv
+[4.093s] -- Up-to-date symlink: /home/tdeng23/ros2_ws/install/crazyflie_examples/lib/python3.8/site-packages//crazyflie_examples.egg-info/PKG-INFO
+[4.093s] -- Up-to-date symlink: /home/tdeng23/ros2_ws/install/crazyflie_examples/lib/python3.8/site-packages//crazyflie_examples.egg-info/SOURCES.txt
+[4.094s] -- Up-to-date symlink: /home/tdeng23/ros2_ws/install/crazyflie_examples/lib/python3.8/site-packages//crazyflie_examples.egg-info/dependency_links.txt
+[4.094s] -- Up-to-date symlink: /home/tdeng23/ros2_ws/install/crazyflie_examples/lib/python3.8/site-packages//crazyflie_examples.egg-info/entry_points.txt
+[4.099s] -- Up-to-date symlink: /home/tdeng23/ros2_ws/install/crazyflie_examples/lib/python3.8/site-packages//crazyflie_examples.egg-info/top_level.txt
+[4.101s] -- Up-to-date symlink: /home/tdeng23/ros2_ws/install/crazyflie_examples/lib/crazyflie_examples//cmd_full_state
+[4.101s] -- Up-to-date symlink: /home/tdeng23/ros2_ws/install/crazyflie_examples/lib/crazyflie_examples//figure8
+[4.102s] -- Up-to-date symlink: /home/tdeng23/ros2_ws/install/crazyflie_examples/lib/crazyflie_examples//hello_world
+[4.102s] -- Up-to-date symlink: /home/tdeng23/ros2_ws/install/crazyflie_examples/lib/crazyflie_examples//multi_trajectory
+[4.102s] -- Up-to-date symlink: /home/tdeng23/ros2_ws/install/crazyflie_examples/lib/crazyflie_examples//nice_hover
+[4.102s] -- Up-to-date symlink: /home/tdeng23/ros2_ws/install/crazyflie_examples/lib/crazyflie_examples//set_param
+[4.118s] -- Up-to-date symlink: /home/tdeng23/ros2_ws/install/crazyflie_examples/lib/python3.8/site-packages/crazyflie_examples/__init__.py
+[4.118s] -- Up-to-date symlink: /home/tdeng23/ros2_ws/install/crazyflie_examples/lib/python3.8/site-packages/crazyflie_examples/cmd_full_state.py
+[4.118s] -- Up-to-date symlink: /home/tdeng23/ros2_ws/install/crazyflie_examples/lib/python3.8/site-packages/crazyflie_examples/data/figure8.csv
+[4.119s] -- Up-to-date symlink: /home/tdeng23/ros2_ws/install/crazyflie_examples/lib/python3.8/site-packages/crazyflie_examples/data/multi_trajectory/traj0.csv
+[4.119s] -- Up-to-date symlink: /home/tdeng23/ros2_ws/install/crazyflie_examples/lib/python3.8/site-packages/crazyflie_examples/data/multi_trajectory/traj1.csv
+[4.120s] -- Up-to-date symlink: /home/tdeng23/ros2_ws/install/crazyflie_examples/lib/python3.8/site-packages/crazyflie_examples/figure8.py
+[4.120s] -- Up-to-date symlink: /home/tdeng23/ros2_ws/install/crazyflie_examples/lib/python3.8/site-packages/crazyflie_examples/hello_world.py
+[4.120s] -- Up-to-date symlink: /home/tdeng23/ros2_ws/install/crazyflie_examples/lib/python3.8/site-packages/crazyflie_examples/multi_trajectory.py
+[4.120s] -- Up-to-date symlink: /home/tdeng23/ros2_ws/install/crazyflie_examples/lib/python3.8/site-packages/crazyflie_examples/nice_hover.py
+[4.121s] -- Up-to-date symlink: /home/tdeng23/ros2_ws/install/crazyflie_examples/lib/python3.8/site-packages/crazyflie_examples/set_param.py
+[4.122s] -- Up-to-date symlink: /home/tdeng23/ros2_ws/install/crazyflie_examples/share/crazyflie_examples//config/nav2_params.yaml
+[4.122s] -- Up-to-date symlink: /home/tdeng23/ros2_ws/install/crazyflie_examples/share/crazyflie_examples//config/nav2_view.rviz
+[4.123s] -- Up-to-date symlink: /home/tdeng23/ros2_ws/install/crazyflie_examples/share/crazyflie_examples//data/map.data
+[4.123s] -- Up-to-date symlink: /home/tdeng23/ros2_ws/install/crazyflie_examples/share/crazyflie_examples//data/map.pgm
+[4.124s] -- Up-to-date symlink: /home/tdeng23/ros2_ws/install/crazyflie_examples/share/crazyflie_examples//data/map.posegraph
+[4.124s] -- Up-to-date symlink: /home/tdeng23/ros2_ws/install/crazyflie_examples/share/crazyflie_examples//data/map.yaml
+[4.125s] -- Up-to-date symlink: /home/tdeng23/ros2_ws/install/crazyflie_examples/share/crazyflie_examples//launch/keyboard_velmux_launch.py
+[4.126s] -- Up-to-date symlink: /home/tdeng23/ros2_ws/install/crazyflie_examples/share/crazyflie_examples//launch/multiranger_mapping_launch.py
+[4.127s] -- Up-to-date symlink: /home/tdeng23/ros2_ws/install/crazyflie_examples/share/crazyflie_examples//launch/multiranger_nav2_launch.py
+[4.127s] -- Up-to-date symlink: /home/tdeng23/ros2_ws/install/crazyflie_examples/share/ament_index/resource_index/package_run_dependencies/crazyflie_examples
+[4.129s] -- Up-to-date symlink: /home/tdeng23/ros2_ws/install/crazyflie_examples/share/ament_index/resource_index/parent_prefix_path/crazyflie_examples
+[4.130s] -- Up-to-date symlink: /home/tdeng23/ros2_ws/install/crazyflie_examples/share/crazyflie_examples/environment/ament_prefix_path.sh
+[4.130s] -- Up-to-date symlink: /home/tdeng23/ros2_ws/install/crazyflie_examples/share/crazyflie_examples/environment/ament_prefix_path.dsv
+[4.133s] -- Up-to-date symlink: /home/tdeng23/ros2_ws/install/crazyflie_examples/share/crazyflie_examples/environment/path.sh
+[4.139s] -- Up-to-date symlink: /home/tdeng23/ros2_ws/install/crazyflie_examples/share/crazyflie_examples/environment/path.dsv
+[4.139s] -- Up-to-date symlink: /home/tdeng23/ros2_ws/install/crazyflie_examples/share/crazyflie_examples/local_setup.bash
+[4.140s] -- Up-to-date symlink: /home/tdeng23/ros2_ws/install/crazyflie_examples/share/crazyflie_examples/local_setup.sh
+[4.140s] -- Up-to-date symlink: /home/tdeng23/ros2_ws/install/crazyflie_examples/share/crazyflie_examples/local_setup.zsh
+[4.140s] -- Up-to-date symlink: /home/tdeng23/ros2_ws/install/crazyflie_examples/share/crazyflie_examples/local_setup.dsv
+[4.141s] -- Symlinking: /home/tdeng23/ros2_ws/install/crazyflie_examples/share/crazyflie_examples/package.dsv
+[4.154s] -- Up-to-date symlink: /home/tdeng23/ros2_ws/install/crazyflie_examples/share/ament_index/resource_index/packages/crazyflie_examples
+[4.155s] -- Up-to-date symlink: /home/tdeng23/ros2_ws/install/crazyflie_examples/share/crazyflie_examples/cmake/crazyflie_examplesConfig.cmake
+[4.155s] -- Up-to-date symlink: /home/tdeng23/ros2_ws/install/crazyflie_examples/share/crazyflie_examples/cmake/crazyflie_examplesConfig-version.cmake
+[4.155s] -- Up-to-date symlink: /home/tdeng23/ros2_ws/install/crazyflie_examples/share/crazyflie_examples/package.xml
+[4.227s] Listing '/home/tdeng23/ros2_ws/install/crazyflie_examples/lib/python3.8/site-packages/crazyflie_examples'...
+[4.227s] Listing '/home/tdeng23/ros2_ws/install/crazyflie_examples/lib/python3.8/site-packages/crazyflie_examples/data'...
+[4.227s] Listing '/home/tdeng23/ros2_ws/install/crazyflie_examples/lib/python3.8/site-packages/crazyflie_examples/data/multi_trajectory'...
+[4.253s] Invoked command in '/home/tdeng23/ros2_ws/build/crazyflie_examples' returned '0': AMENT_PREFIX_PATH=/home/tdeng23/ros2_ws/install/crazyflie_py:/home/tdeng23/ros2_ws/install/crazyflie_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/tdeng23/ros2_ws/install/crazyflie_interfaces:/opt/ros/galactic LD_LIBRARY_PATH=/home/tdeng23/ros2_ws/install/crazyflie_interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/tdeng23/ros2_ws/build/crazyflie_py:/home/tdeng23/ros2_ws/install/crazyflie_py/lib/python3.8/site-packages:/home/tdeng23/ros2_ws/install/crazyflie_interfaces/lib/python3.8/site-packages:${PYTHONPATH} /home/tdeng23/.local/bin/cmake --install /home/tdeng23/ros2_ws/build/crazyflie_examples

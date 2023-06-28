@@ -1,0 +1,117 @@
+[0.278s] Invoking command in '/home/tdeng23/ros2_ws/build/crazyflie_ros2_interfaces': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/tdeng23/ros2_ws/install/my_package:/home/tdeng23/ros2_ws/install/crazyflie_simulation:/home/tdeng23/ros2_ws/install/crazyflie_ros2_simulation:/home/tdeng23/ros2_ws/install/crazyflie_ros2_simple_mapper:/home/tdeng23/ros2_ws/install/crazyflie_ros2_scan:/home/tdeng23/ros2_ws/install/crazyflie_ros2:/home/tdeng23/ros2_ws/install/crazyflie_py:/opt/ros/galactic /home/tdeng23/.local/bin/cmake /home/tdeng23/ros2_ws/src/crazyswarm2/crazyflie_ros2_interfaces -DCMAKE_INSTALL_PREFIX=/home/tdeng23/ros2_ws/install/crazyflie_ros2_interfaces
+[0.833s] -- Found ament_cmake: 1.1.6 (/opt/ros/galactic/share/ament_cmake/cmake)
+[0.833s] -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.10", minimum required is "3") 
+[0.833s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[0.833s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[0.834s] -- Found ament_lint_auto: 0.10.7 (/opt/ros/galactic/share/ament_lint_auto/cmake)
+[0.834s] -- Found rosidl_default_generators: 1.1.1 (/opt/ros/galactic/share/rosidl_default_generators/cmake)
+[0.834s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.834s] -- Found rosidl_adapter: 2.2.3 (/opt/ros/galactic/share/rosidl_adapter/cmake)
+[0.834s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.834s] -- Found PythonInterp: /usr/bin/python3 (found version "3.8.10") 
+[0.886s] -- Found ament_cmake_ros: 0.9.2 (/opt/ros/galactic/share/ament_cmake_ros/cmake)
+[1.123s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[1.171s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[1.231s] -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.10", minimum required is "3.5") 
+[1.231s] -- Found python_cmake_module: 0.8.1 (/opt/ros/galactic/share/python_cmake_module/cmake)
+[1.289s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[1.289s] -- Using PYTHON_INCLUDE_DIRS: /usr/include/python3.8
+[1.290s] -- Using PYTHON_LIBRARIES: /usr/lib/x86_64-linux-gnu/libpython3.8.so
+[1.354s] -- Added test 'copyright' to check source files copyright and LICENSE
+[1.356s] -- Added test 'lint_cmake' to check CMake code style
+[1.357s] -- Added test 'xmllint' to check XML markup files
+[1.364s] -- Configuring done (1.0s)
+[1.434s] -- Generating done (0.1s)
+[1.438s] -- Build files have been written to: /home/tdeng23/ros2_ws/build/crazyflie_ros2_interfaces
+[1.620s] Invoked command in '/home/tdeng23/ros2_ws/build/crazyflie_ros2_interfaces' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/tdeng23/ros2_ws/install/my_package:/home/tdeng23/ros2_ws/install/crazyflie_simulation:/home/tdeng23/ros2_ws/install/crazyflie_ros2_simulation:/home/tdeng23/ros2_ws/install/crazyflie_ros2_simple_mapper:/home/tdeng23/ros2_ws/install/crazyflie_ros2_scan:/home/tdeng23/ros2_ws/install/crazyflie_ros2:/home/tdeng23/ros2_ws/install/crazyflie_py:/opt/ros/galactic /home/tdeng23/.local/bin/cmake /home/tdeng23/ros2_ws/src/crazyswarm2/crazyflie_ros2_interfaces -DCMAKE_INSTALL_PREFIX=/home/tdeng23/ros2_ws/install/crazyflie_ros2_interfaces
+[1.623s] Invoking command in '/home/tdeng23/ros2_ws/build/crazyflie_ros2_interfaces': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/tdeng23/ros2_ws/install/my_package:/home/tdeng23/ros2_ws/install/crazyflie_simulation:/home/tdeng23/ros2_ws/install/crazyflie_ros2_simulation:/home/tdeng23/ros2_ws/install/crazyflie_ros2_simple_mapper:/home/tdeng23/ros2_ws/install/crazyflie_ros2_scan:/home/tdeng23/ros2_ws/install/crazyflie_ros2:/home/tdeng23/ros2_ws/install/crazyflie_py:/opt/ros/galactic /home/tdeng23/.local/bin/cmake --build /home/tdeng23/ros2_ws/build/crazyflie_ros2_interfaces -- -j8 -l8
+[1.836s] [  3%] Built target crazyflie_ros2_interfaces__cpp
+[1.836s] [ 12%] Built target crazyflie_ros2_interfaces__rosidl_generator_c
+[1.837s] [ 22%] Built target crazyflie_ros2_interfaces__rosidl_typesupport_fastrtps_cpp
+[1.837s] [ 32%] Built target crazyflie_ros2_interfaces__rosidl_typesupport_introspection_cpp
+[1.837s] [ 41%] Built target crazyflie_ros2_interfaces__rosidl_typesupport_cpp
+[1.837s] [ 51%] Built target crazyflie_ros2_interfaces__rosidl_typesupport_introspection_c
+[1.837s] [ 61%] Built target crazyflie_ros2_interfaces__rosidl_typesupport_fastrtps_c
+[1.837s] [ 70%] Built target crazyflie_ros2_interfaces__rosidl_typesupport_c
+[1.837s] [ 70%] Built target crazyflie_ros2_interfaces
+[1.852s] [ 74%] Built target crazyflie_ros2_interfaces__py
+[1.886s] [ 80%] Built target crazyflie_ros2_interfaces__python
+[1.913s] [ 87%] Built target crazyflie_ros2_interfaces__rosidl_typesupport_introspection_c__pyext
+[1.916s] [ 93%] Built target crazyflie_ros2_interfaces__rosidl_typesupport_fastrtps_c__pyext
+[1.919s] [100%] Built target crazyflie_ros2_interfaces__rosidl_typesupport_c__pyext
+[1.943s] Invoked command in '/home/tdeng23/ros2_ws/build/crazyflie_ros2_interfaces' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/tdeng23/ros2_ws/install/my_package:/home/tdeng23/ros2_ws/install/crazyflie_simulation:/home/tdeng23/ros2_ws/install/crazyflie_ros2_simulation:/home/tdeng23/ros2_ws/install/crazyflie_ros2_simple_mapper:/home/tdeng23/ros2_ws/install/crazyflie_ros2_scan:/home/tdeng23/ros2_ws/install/crazyflie_ros2:/home/tdeng23/ros2_ws/install/crazyflie_py:/opt/ros/galactic /home/tdeng23/.local/bin/cmake --build /home/tdeng23/ros2_ws/build/crazyflie_ros2_interfaces -- -j8 -l8
+[2.079s] Invoking command in '/home/tdeng23/ros2_ws/build/crazyflie_ros2_interfaces': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/tdeng23/ros2_ws/install/my_package:/home/tdeng23/ros2_ws/install/crazyflie_simulation:/home/tdeng23/ros2_ws/install/crazyflie_ros2_simulation:/home/tdeng23/ros2_ws/install/crazyflie_ros2_simple_mapper:/home/tdeng23/ros2_ws/install/crazyflie_ros2_scan:/home/tdeng23/ros2_ws/install/crazyflie_ros2:/home/tdeng23/ros2_ws/install/crazyflie_py:/opt/ros/galactic /home/tdeng23/.local/bin/cmake --install /home/tdeng23/ros2_ws/build/crazyflie_ros2_interfaces
+[2.141s] -- Install configuration: ""
+[2.141s] -- Execute custom install script
+[2.141s] -- Up-to-date symlink: /home/tdeng23/ros2_ws/install/crazyflie_ros2_interfaces/share/ament_index/resource_index/rosidl_interfaces/crazyflie_ros2_interfaces
+[2.141s] -- Up-to-date symlink: /home/tdeng23/ros2_ws/install/crazyflie_ros2_interfaces/include/crazyflie_ros2_interfaces/action/detail/multi_ranger_scan__functions.h
+[2.141s] -- Up-to-date symlink: /home/tdeng23/ros2_ws/install/crazyflie_ros2_interfaces/include/crazyflie_ros2_interfaces/action/detail/multi_ranger_scan__struct.h
+[2.142s] -- Up-to-date symlink: /home/tdeng23/ros2_ws/install/crazyflie_ros2_interfaces/include/crazyflie_ros2_interfaces/action/detail/multi_ranger_scan__type_support.h
+[2.142s] -- Up-to-date symlink: /home/tdeng23/ros2_ws/install/crazyflie_ros2_interfaces/include/crazyflie_ros2_interfaces/action/multi_ranger_scan.h
+[2.142s] -- Up-to-date symlink: /home/tdeng23/ros2_ws/install/crazyflie_ros2_interfaces/include/crazyflie_ros2_interfaces/msg/rosidl_generator_c__visibility_control.h
+[2.142s] -- Up-to-date symlink: /home/tdeng23/ros2_ws/install/crazyflie_ros2_interfaces/share/crazyflie_ros2_interfaces/environment/library_path.sh
+[2.142s] -- Up-to-date symlink: /home/tdeng23/ros2_ws/install/crazyflie_ros2_interfaces/share/crazyflie_ros2_interfaces/environment/library_path.dsv
+[2.143s] -- Up-to-date symlink: /home/tdeng23/ros2_ws/install/crazyflie_ros2_interfaces/include/crazyflie_ros2_interfaces/action/detail/multi_ranger_scan__rosidl_typesupport_fastrtps_c.h
+[2.143s] -- Up-to-date symlink: /home/tdeng23/ros2_ws/install/crazyflie_ros2_interfaces/include/crazyflie_ros2_interfaces/msg/rosidl_typesupport_fastrtps_c__visibility_control.h
+[2.143s] -- Up-to-date symlink: /home/tdeng23/ros2_ws/install/crazyflie_ros2_interfaces/lib/libcrazyflie_ros2_interfaces__rosidl_typesupport_fastrtps_c.so
+[2.144s] -- Up-to-date symlink: /home/tdeng23/ros2_ws/install/crazyflie_ros2_interfaces/include/crazyflie_ros2_interfaces/action/detail/multi_ranger_scan__rosidl_typesupport_fastrtps_cpp.hpp
+[2.144s] -- Up-to-date symlink: /home/tdeng23/ros2_ws/install/crazyflie_ros2_interfaces/include/crazyflie_ros2_interfaces/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h
+[2.145s] -- Up-to-date symlink: /home/tdeng23/ros2_ws/install/crazyflie_ros2_interfaces/lib/libcrazyflie_ros2_interfaces__rosidl_typesupport_fastrtps_cpp.so
+[2.145s] -- Up-to-date symlink: /home/tdeng23/ros2_ws/install/crazyflie_ros2_interfaces/include/crazyflie_ros2_interfaces/action/detail/multi_ranger_scan__rosidl_typesupport_introspection_c.h
+[2.145s] -- Up-to-date symlink: /home/tdeng23/ros2_ws/install/crazyflie_ros2_interfaces/include/crazyflie_ros2_interfaces/msg/rosidl_typesupport_introspection_c__visibility_control.h
+[2.146s] -- Up-to-date symlink: /home/tdeng23/ros2_ws/install/crazyflie_ros2_interfaces/include/crazyflie_ros2_interfaces/action/detail/multi_ranger_scan__builder.hpp
+[2.146s] -- Up-to-date symlink: /home/tdeng23/ros2_ws/install/crazyflie_ros2_interfaces/include/crazyflie_ros2_interfaces/action/detail/multi_ranger_scan__struct.hpp
+[2.146s] -- Up-to-date symlink: /home/tdeng23/ros2_ws/install/crazyflie_ros2_interfaces/include/crazyflie_ros2_interfaces/action/detail/multi_ranger_scan__traits.hpp
+[2.146s] -- Up-to-date symlink: /home/tdeng23/ros2_ws/install/crazyflie_ros2_interfaces/include/crazyflie_ros2_interfaces/action/multi_ranger_scan.hpp
+[2.147s] -- Up-to-date symlink: /home/tdeng23/ros2_ws/install/crazyflie_ros2_interfaces/include/crazyflie_ros2_interfaces/action/detail/multi_ranger_scan__rosidl_typesupport_introspection_cpp.hpp
+[2.147s] -- Up-to-date symlink: /home/tdeng23/ros2_ws/install/crazyflie_ros2_interfaces/share/crazyflie_ros2_interfaces/environment/pythonpath.sh
+[2.148s] -- Up-to-date symlink: /home/tdeng23/ros2_ws/install/crazyflie_ros2_interfaces/share/crazyflie_ros2_interfaces/environment/pythonpath.dsv
+[2.148s] -- Up-to-date symlink: /home/tdeng23/ros2_ws/install/crazyflie_ros2_interfaces/lib/python3.8/site-packages/crazyflie_ros2_interfaces/__init__.py
+[2.149s] -- Up-to-date symlink: /home/tdeng23/ros2_ws/install/crazyflie_ros2_interfaces/lib/python3.8/site-packages/crazyflie_ros2_interfaces/action/__init__.py
+[2.149s] -- Up-to-date symlink: /home/tdeng23/ros2_ws/install/crazyflie_ros2_interfaces/lib/python3.8/site-packages/crazyflie_ros2_interfaces/action/_multi_ranger_scan.py
+[2.149s] -- Up-to-date symlink: /home/tdeng23/ros2_ws/install/crazyflie_ros2_interfaces/lib/python3.8/site-packages/crazyflie_ros2_interfaces/crazyflie_ros2_interfaces_s__rosidl_typesupport_fastrtps_c.cpython-38-x86_64-linux-gnu.so
+[2.150s] -- Up-to-date symlink: /home/tdeng23/ros2_ws/install/crazyflie_ros2_interfaces/lib/python3.8/site-packages/crazyflie_ros2_interfaces/crazyflie_ros2_interfaces_s__rosidl_typesupport_introspection_c.cpython-38-x86_64-linux-gnu.so
+[2.150s] -- Up-to-date symlink: /home/tdeng23/ros2_ws/install/crazyflie_ros2_interfaces/lib/python3.8/site-packages/crazyflie_ros2_interfaces/crazyflie_ros2_interfaces_s__rosidl_typesupport_c.cpython-38-x86_64-linux-gnu.so
+[2.151s] -- Up-to-date symlink: /home/tdeng23/ros2_ws/install/crazyflie_ros2_interfaces/lib/libcrazyflie_ros2_interfaces__python.so
+[2.151s] -- Up-to-date symlink: /home/tdeng23/ros2_ws/install/crazyflie_ros2_interfaces/share/crazyflie_ros2_interfaces/action/MultiRangerScan.idl
+[2.151s] -- Up-to-date symlink: /home/tdeng23/ros2_ws/install/crazyflie_ros2_interfaces/share/crazyflie_ros2_interfaces/action/MultiRangerScan.action
+[2.152s] -- Up-to-date symlink: /home/tdeng23/ros2_ws/install/crazyflie_ros2_interfaces/share/ament_index/resource_index/package_run_dependencies/crazyflie_ros2_interfaces
+[2.152s] -- Up-to-date symlink: /home/tdeng23/ros2_ws/install/crazyflie_ros2_interfaces/share/ament_index/resource_index/parent_prefix_path/crazyflie_ros2_interfaces
+[2.152s] -- Up-to-date symlink: /home/tdeng23/ros2_ws/install/crazyflie_ros2_interfaces/share/crazyflie_ros2_interfaces/environment/ament_prefix_path.sh
+[2.153s] -- Up-to-date symlink: /home/tdeng23/ros2_ws/install/crazyflie_ros2_interfaces/share/crazyflie_ros2_interfaces/environment/ament_prefix_path.dsv
+[2.154s] -- Up-to-date symlink: /home/tdeng23/ros2_ws/install/crazyflie_ros2_interfaces/share/crazyflie_ros2_interfaces/environment/path.sh
+[2.154s] -- Up-to-date symlink: /home/tdeng23/ros2_ws/install/crazyflie_ros2_interfaces/share/crazyflie_ros2_interfaces/environment/path.dsv
+[2.155s] -- Up-to-date symlink: /home/tdeng23/ros2_ws/install/crazyflie_ros2_interfaces/share/crazyflie_ros2_interfaces/local_setup.bash
+[2.155s] -- Up-to-date symlink: /home/tdeng23/ros2_ws/install/crazyflie_ros2_interfaces/share/crazyflie_ros2_interfaces/local_setup.sh
+[2.156s] -- Up-to-date symlink: /home/tdeng23/ros2_ws/install/crazyflie_ros2_interfaces/share/crazyflie_ros2_interfaces/local_setup.zsh
+[2.156s] -- Up-to-date symlink: /home/tdeng23/ros2_ws/install/crazyflie_ros2_interfaces/share/crazyflie_ros2_interfaces/local_setup.dsv
+[2.156s] -- Symlinking: /home/tdeng23/ros2_ws/install/crazyflie_ros2_interfaces/share/crazyflie_ros2_interfaces/package.dsv
+[2.161s] -- Up-to-date symlink: /home/tdeng23/ros2_ws/install/crazyflie_ros2_interfaces/share/ament_index/resource_index/packages/crazyflie_ros2_interfaces
+[2.161s] -- Up-to-date symlink: /home/tdeng23/ros2_ws/install/crazyflie_ros2_interfaces/share/crazyflie_ros2_interfaces/cmake/rosidl_cmake-extras.cmake
+[2.161s] -- Up-to-date symlink: /home/tdeng23/ros2_ws/install/crazyflie_ros2_interfaces/share/crazyflie_ros2_interfaces/cmake/ament_cmake_export_dependencies-extras.cmake
+[2.162s] -- Up-to-date symlink: /home/tdeng23/ros2_ws/install/crazyflie_ros2_interfaces/share/crazyflie_ros2_interfaces/cmake/ament_cmake_export_libraries-extras.cmake
+[2.162s] -- Up-to-date symlink: /home/tdeng23/ros2_ws/install/crazyflie_ros2_interfaces/share/crazyflie_ros2_interfaces/cmake/ament_cmake_export_targets-extras.cmake
+[2.162s] -- Up-to-date symlink: /home/tdeng23/ros2_ws/install/crazyflie_ros2_interfaces/share/crazyflie_ros2_interfaces/cmake/ament_cmake_export_include_directories-extras.cmake
+[2.162s] -- Up-to-date symlink: /home/tdeng23/ros2_ws/install/crazyflie_ros2_interfaces/share/crazyflie_ros2_interfaces/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake
+[2.163s] -- Up-to-date symlink: /home/tdeng23/ros2_ws/install/crazyflie_ros2_interfaces/share/crazyflie_ros2_interfaces/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake
+[2.163s] -- Up-to-date symlink: /home/tdeng23/ros2_ws/install/crazyflie_ros2_interfaces/share/crazyflie_ros2_interfaces/cmake/crazyflie_ros2_interfacesConfig.cmake
+[2.163s] -- Up-to-date symlink: /home/tdeng23/ros2_ws/install/crazyflie_ros2_interfaces/share/crazyflie_ros2_interfaces/cmake/crazyflie_ros2_interfacesConfig-version.cmake
+[2.163s] -- Up-to-date symlink: /home/tdeng23/ros2_ws/install/crazyflie_ros2_interfaces/share/crazyflie_ros2_interfaces/package.xml
+[2.164s] -- Up-to-date: /home/tdeng23/ros2_ws/install/crazyflie_ros2_interfaces/lib/libcrazyflie_ros2_interfaces__rosidl_generator_c.so
+[2.164s] -- Up-to-date: /home/tdeng23/ros2_ws/install/crazyflie_ros2_interfaces/lib/libcrazyflie_ros2_interfaces__rosidl_typesupport_introspection_c.so
+[2.164s] -- Up-to-date: /home/tdeng23/ros2_ws/install/crazyflie_ros2_interfaces/lib/libcrazyflie_ros2_interfaces__rosidl_typesupport_c.so
+[2.164s] -- Up-to-date: /home/tdeng23/ros2_ws/install/crazyflie_ros2_interfaces/lib/libcrazyflie_ros2_interfaces__rosidl_typesupport_introspection_cpp.so
+[2.165s] -- Up-to-date: /home/tdeng23/ros2_ws/install/crazyflie_ros2_interfaces/lib/libcrazyflie_ros2_interfaces__rosidl_typesupport_cpp.so
+[2.228s] Compiling '/home/tdeng23/ros2_ws/install/crazyflie_ros2_interfaces/lib/python3.8/site-packages/crazyflie_ros2_interfaces/__init__.py'...
+[2.233s] -- Up-to-date: /home/tdeng23/ros2_ws/install/crazyflie_ros2_interfaces/share/crazyflie_ros2_interfaces/cmake/crazyflie_ros2_interfaces__rosidl_generator_cExport.cmake
+[2.233s] -- Up-to-date: /home/tdeng23/ros2_ws/install/crazyflie_ros2_interfaces/share/crazyflie_ros2_interfaces/cmake/crazyflie_ros2_interfaces__rosidl_generator_cExport-noconfig.cmake
+[2.234s] -- Up-to-date: /home/tdeng23/ros2_ws/install/crazyflie_ros2_interfaces/share/crazyflie_ros2_interfaces/cmake/crazyflie_ros2_interfaces__rosidl_typesupport_introspection_cExport.cmake
+[2.234s] -- Up-to-date: /home/tdeng23/ros2_ws/install/crazyflie_ros2_interfaces/share/crazyflie_ros2_interfaces/cmake/crazyflie_ros2_interfaces__rosidl_typesupport_introspection_cExport-noconfig.cmake
+[2.234s] -- Up-to-date: /home/tdeng23/ros2_ws/install/crazyflie_ros2_interfaces/share/crazyflie_ros2_interfaces/cmake/crazyflie_ros2_interfaces__rosidl_typesupport_cExport.cmake
+[2.234s] -- Up-to-date: /home/tdeng23/ros2_ws/install/crazyflie_ros2_interfaces/share/crazyflie_ros2_interfaces/cmake/crazyflie_ros2_interfaces__rosidl_typesupport_cExport-noconfig.cmake
+[2.234s] -- Up-to-date: /home/tdeng23/ros2_ws/install/crazyflie_ros2_interfaces/share/crazyflie_ros2_interfaces/cmake/crazyflie_ros2_interfaces__rosidl_generator_cppExport.cmake
+[2.234s] -- Up-to-date: /home/tdeng23/ros2_ws/install/crazyflie_ros2_interfaces/share/crazyflie_ros2_interfaces/cmake/crazyflie_ros2_interfaces__rosidl_typesupport_introspection_cppExport.cmake
+[2.241s] -- Up-to-date: /home/tdeng23/ros2_ws/install/crazyflie_ros2_interfaces/share/crazyflie_ros2_interfaces/cmake/crazyflie_ros2_interfaces__rosidl_typesupport_introspection_cppExport-noconfig.cmake
+[2.242s] -- Up-to-date: /home/tdeng23/ros2_ws/install/crazyflie_ros2_interfaces/share/crazyflie_ros2_interfaces/cmake/crazyflie_ros2_interfaces__rosidl_typesupport_cppExport.cmake
+[2.242s] -- Up-to-date: /home/tdeng23/ros2_ws/install/crazyflie_ros2_interfaces/share/crazyflie_ros2_interfaces/cmake/crazyflie_ros2_interfaces__rosidl_typesupport_cppExport-noconfig.cmake
+[2.252s] Invoked command in '/home/tdeng23/ros2_ws/build/crazyflie_ros2_interfaces' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/tdeng23/ros2_ws/install/my_package:/home/tdeng23/ros2_ws/install/crazyflie_simulation:/home/tdeng23/ros2_ws/install/crazyflie_ros2_simulation:/home/tdeng23/ros2_ws/install/crazyflie_ros2_simple_mapper:/home/tdeng23/ros2_ws/install/crazyflie_ros2_scan:/home/tdeng23/ros2_ws/install/crazyflie_ros2:/home/tdeng23/ros2_ws/install/crazyflie_py:/opt/ros/galactic /home/tdeng23/.local/bin/cmake --install /home/tdeng23/ros2_ws/build/crazyflie_ros2_interfaces

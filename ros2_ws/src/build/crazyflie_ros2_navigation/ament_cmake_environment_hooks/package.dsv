@@ -1,0 +1,4 @@
+source;share/crazyflie_ros2_navigation/local_setup.bash
+source;share/crazyflie_ros2_navigation/local_setup.dsv
+source;share/crazyflie_ros2_navigation/local_setup.sh
+source;share/crazyflie_ros2_navigation/local_setup.zsh

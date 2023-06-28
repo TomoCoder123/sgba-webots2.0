@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 /home/nicxe/ros2_ws/build/crazyflie_interfaces/CMakeFiles/install/strip.dir
 /home/nicxe/ros2_ws/build/crazyflie_interfaces/CMakeFiles/install/local.dir
 /home/nicxe/ros2_ws/build/crazyflie_interfaces/CMakeFiles/rebuild_cache.dir
@@ -28,3 +29,35 @@
 /home/nicxe/ros2_ws/build/crazyflie_interfaces/crazyflie_interfaces__py/CMakeFiles/edit_cache.dir
 /home/nicxe/ros2_ws/build/crazyflie_interfaces/crazyflie_interfaces__py/CMakeFiles/test.dir
 /home/nicxe/ros2_ws/build/crazyflie_interfaces/crazyflie_interfaces__py/CMakeFiles/crazyflie_interfaces__py.dir
+=======
+/home/tdeng23/ros2_ws/build/crazyflie_interfaces/CMakeFiles/uninstall.dir
+/home/tdeng23/ros2_ws/build/crazyflie_interfaces/CMakeFiles/crazyflie_interfaces_uninstall.dir
+/home/tdeng23/ros2_ws/build/crazyflie_interfaces/CMakeFiles/crazyflie_interfaces.dir
+/home/tdeng23/ros2_ws/build/crazyflie_interfaces/CMakeFiles/crazyflie_interfaces__rosidl_generator_c.dir
+/home/tdeng23/ros2_ws/build/crazyflie_interfaces/CMakeFiles/crazyflie_interfaces__rosidl_typesupport_fastrtps_c.dir
+/home/tdeng23/ros2_ws/build/crazyflie_interfaces/CMakeFiles/crazyflie_interfaces__rosidl_typesupport_fastrtps_cpp.dir
+/home/tdeng23/ros2_ws/build/crazyflie_interfaces/CMakeFiles/crazyflie_interfaces__rosidl_typesupport_introspection_c.dir
+/home/tdeng23/ros2_ws/build/crazyflie_interfaces/CMakeFiles/crazyflie_interfaces__rosidl_typesupport_c.dir
+/home/tdeng23/ros2_ws/build/crazyflie_interfaces/CMakeFiles/crazyflie_interfaces__cpp.dir
+/home/tdeng23/ros2_ws/build/crazyflie_interfaces/CMakeFiles/crazyflie_interfaces__rosidl_typesupport_introspection_cpp.dir
+/home/tdeng23/ros2_ws/build/crazyflie_interfaces/CMakeFiles/crazyflie_interfaces__rosidl_typesupport_cpp.dir
+/home/tdeng23/ros2_ws/build/crazyflie_interfaces/CMakeFiles/crazyflie_interfaces__python.dir
+/home/tdeng23/ros2_ws/build/crazyflie_interfaces/CMakeFiles/crazyflie_interfaces__rosidl_typesupport_fastrtps_c__pyext.dir
+/home/tdeng23/ros2_ws/build/crazyflie_interfaces/CMakeFiles/crazyflie_interfaces__rosidl_typesupport_introspection_c__pyext.dir
+/home/tdeng23/ros2_ws/build/crazyflie_interfaces/CMakeFiles/crazyflie_interfaces__rosidl_typesupport_c__pyext.dir
+/home/tdeng23/ros2_ws/build/crazyflie_interfaces/CMakeFiles/test.dir
+/home/tdeng23/ros2_ws/build/crazyflie_interfaces/CMakeFiles/edit_cache.dir
+/home/tdeng23/ros2_ws/build/crazyflie_interfaces/CMakeFiles/rebuild_cache.dir
+/home/tdeng23/ros2_ws/build/crazyflie_interfaces/CMakeFiles/list_install_components.dir
+/home/tdeng23/ros2_ws/build/crazyflie_interfaces/CMakeFiles/install.dir
+/home/tdeng23/ros2_ws/build/crazyflie_interfaces/CMakeFiles/install/local.dir
+/home/tdeng23/ros2_ws/build/crazyflie_interfaces/CMakeFiles/install/strip.dir
+/home/tdeng23/ros2_ws/build/crazyflie_interfaces/crazyflie_interfaces__py/CMakeFiles/crazyflie_interfaces__py.dir
+/home/tdeng23/ros2_ws/build/crazyflie_interfaces/crazyflie_interfaces__py/CMakeFiles/test.dir
+/home/tdeng23/ros2_ws/build/crazyflie_interfaces/crazyflie_interfaces__py/CMakeFiles/edit_cache.dir
+/home/tdeng23/ros2_ws/build/crazyflie_interfaces/crazyflie_interfaces__py/CMakeFiles/rebuild_cache.dir
+/home/tdeng23/ros2_ws/build/crazyflie_interfaces/crazyflie_interfaces__py/CMakeFiles/list_install_components.dir
+/home/tdeng23/ros2_ws/build/crazyflie_interfaces/crazyflie_interfaces__py/CMakeFiles/install.dir
+/home/tdeng23/ros2_ws/build/crazyflie_interfaces/crazyflie_interfaces__py/CMakeFiles/install/local.dir
+/home/tdeng23/ros2_ws/build/crazyflie_interfaces/crazyflie_interfaces__py/CMakeFiles/install/strip.dir
+>>>>>>> 94884f5968f4d63cd711e9429da5204c445b3486

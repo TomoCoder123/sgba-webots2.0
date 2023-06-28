@@ -1,0 +1,18 @@
+[1.707s] Invoking command in '/home/tdeng23/ros2_ws/build/crazyflie_ros2_simple_mapper': PYTHONPATH=/home/tdeng23/ros2_ws/build/crazyflie_ros2_simple_mapper/prefix_override:/home/tdeng23/ros2_ws/install/crazyflie_ros2_simple_mapper/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --editable --build-directory /home/tdeng23/ros2_ws/build/crazyflie_ros2_simple_mapper/build --no-deps install_data
+[2.132s] running develop
+[2.414s] running egg_info
+[2.415s] writing crazyflie_ros2_simple_mapper.egg-info/PKG-INFO
+[2.420s] writing dependency_links to crazyflie_ros2_simple_mapper.egg-info/dependency_links.txt
+[2.420s] writing entry points to crazyflie_ros2_simple_mapper.egg-info/entry_points.txt
+[2.420s] writing requirements to crazyflie_ros2_simple_mapper.egg-info/requires.txt
+[2.421s] writing top-level names to crazyflie_ros2_simple_mapper.egg-info/top_level.txt
+[2.564s] reading manifest file 'crazyflie_ros2_simple_mapper.egg-info/SOURCES.txt'
+[2.571s] writing manifest file 'crazyflie_ros2_simple_mapper.egg-info/SOURCES.txt'
+[2.683s] running build_ext
+[2.684s] Creating /home/tdeng23/ros2_ws/install/crazyflie_ros2_simple_mapper/lib/python3.8/site-packages/site.py
+[2.699s] Creating /home/tdeng23/ros2_ws/install/crazyflie_ros2_simple_mapper/lib/python3.8/site-packages/crazyflie-ros2-simple-mapper.egg-link (link to .)
+[2.701s] Installing simple_mapper script to /home/tdeng23/ros2_ws/install/crazyflie_ros2_simple_mapper/lib/crazyflie_ros2_simple_mapper
+[2.703s] 
+[2.703s] Installed /home/tdeng23/ros2_ws/build/crazyflie_ros2_simple_mapper
+[2.703s] running install_data
+[2.877s] Invoked command in '/home/tdeng23/ros2_ws/build/crazyflie_ros2_simple_mapper' returned '0': PYTHONPATH=/home/tdeng23/ros2_ws/build/crazyflie_ros2_simple_mapper/prefix_override:/home/tdeng23/ros2_ws/install/crazyflie_ros2_simple_mapper/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --editable --build-directory /home/tdeng23/ros2_ws/build/crazyflie_ros2_simple_mapper/build --no-deps install_data

@@ -1,0 +1,25 @@
+[1.802s] Invoking command in '/home/tdeng23/ros2_ws/build/crazyflie_simulation': PYTHONPATH=/home/tdeng23/ros2_ws/build/crazyflie_simulation/prefix_override:/home/tdeng23/ros2_ws/install/crazyflie_simulation/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --uninstall --editable --build-directory /home/tdeng23/ros2_ws/build/crazyflie_simulation/build
+[2.292s] running develop
+[2.580s] Invoked command in '/home/tdeng23/ros2_ws/build/crazyflie_simulation' returned '0': PYTHONPATH=/home/tdeng23/ros2_ws/build/crazyflie_simulation/prefix_override:/home/tdeng23/ros2_ws/install/crazyflie_simulation/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --uninstall --editable --build-directory /home/tdeng23/ros2_ws/build/crazyflie_simulation/build
+[2.583s] Invoking command in '/home/tdeng23/ros2_ws/src/crazyswarm2/crazyflie_simulation': PYTHONPATH=/home/tdeng23/ros2_ws/build/crazyflie_simulation/prefix_override:/home/tdeng23/ros2_ws/install/crazyflie_simulation/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../../build/crazyflie_simulation build --build-base /home/tdeng23/ros2_ws/build/crazyflie_simulation/build install --record /home/tdeng23/ros2_ws/build/crazyflie_simulation/install.log --single-version-externally-managed
+[2.834s] running egg_info
+[2.835s] writing ../../../build/crazyflie_simulation/crazyflie_simulation.egg-info/PKG-INFO
+[2.835s] writing dependency_links to ../../../build/crazyflie_simulation/crazyflie_simulation.egg-info/dependency_links.txt
+[2.835s] writing entry points to ../../../build/crazyflie_simulation/crazyflie_simulation.egg-info/entry_points.txt
+[2.835s] writing requirements to ../../../build/crazyflie_simulation/crazyflie_simulation.egg-info/requires.txt
+[2.835s] writing top-level names to ../../../build/crazyflie_simulation/crazyflie_simulation.egg-info/top_level.txt
+[2.870s] reading manifest file '../../../build/crazyflie_simulation/crazyflie_simulation.egg-info/SOURCES.txt'
+[2.871s] writing manifest file '../../../build/crazyflie_simulation/crazyflie_simulation.egg-info/SOURCES.txt'
+[2.871s] running build
+[2.871s] running build_py
+[2.872s] running install
+[2.873s] running install_lib
+[2.875s] running install_data
+[2.876s] running install_egg_info
+[2.877s] removing '/home/tdeng23/ros2_ws/install/crazyflie_simulation/lib/python3.8/site-packages/crazyflie_simulation-0.0.0-py3.8.egg-info' (and everything under it)
+[2.878s] Copying ../../../build/crazyflie_simulation/crazyflie_simulation.egg-info to /home/tdeng23/ros2_ws/install/crazyflie_simulation/lib/python3.8/site-packages/crazyflie_simulation-0.0.0-py3.8.egg-info
+[2.878s] running install_scripts
+[2.897s] Installing crazyflie_webots_driver script to /home/tdeng23/ros2_ws/install/crazyflie_simulation/lib/crazyflie_simulation
+[2.897s] Installing supervisor_driver script to /home/tdeng23/ros2_ws/install/crazyflie_simulation/lib/crazyflie_simulation
+[2.897s] writing list of installed files to '/home/tdeng23/ros2_ws/build/crazyflie_simulation/install.log'
+[2.921s] Invoked command in '/home/tdeng23/ros2_ws/src/crazyswarm2/crazyflie_simulation' returned '0': PYTHONPATH=/home/tdeng23/ros2_ws/build/crazyflie_simulation/prefix_override:/home/tdeng23/ros2_ws/install/crazyflie_simulation/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../../build/crazyflie_simulation build --build-base /home/tdeng23/ros2_ws/build/crazyflie_simulation/build install --record /home/tdeng23/ros2_ws/build/crazyflie_simulation/install.log --single-version-externally-managed

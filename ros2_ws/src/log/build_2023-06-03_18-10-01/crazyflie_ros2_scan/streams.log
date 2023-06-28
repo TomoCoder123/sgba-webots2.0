@@ -1,0 +1,25 @@
+[2.196s] Invoking command in '/home/tdeng23/ros2_ws/src/build/crazyflie_ros2_scan': PYTHONPATH=/home/tdeng23/ros2_ws/src/build/crazyflie_ros2_scan/prefix_override:/home/tdeng23/ros2_ws/src/install/crazyflie_ros2_scan/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --editable --build-directory /home/tdeng23/ros2_ws/src/build/crazyflie_ros2_scan/build --no-deps install_data
+[2.641s] running develop
+[3.066s] running egg_info
+[3.066s] creating crazyflie_ros2_scan.egg-info
+[3.066s] writing crazyflie_ros2_scan.egg-info/PKG-INFO
+[3.067s] writing dependency_links to crazyflie_ros2_scan.egg-info/dependency_links.txt
+[3.067s] writing entry points to crazyflie_ros2_scan.egg-info/entry_points.txt
+[3.068s] writing requirements to crazyflie_ros2_scan.egg-info/requires.txt
+[3.068s] writing top-level names to crazyflie_ros2_scan.egg-info/top_level.txt
+[3.070s] writing manifest file 'crazyflie_ros2_scan.egg-info/SOURCES.txt'
+[3.134s] reading manifest file 'crazyflie_ros2_scan.egg-info/SOURCES.txt'
+[3.135s] writing manifest file 'crazyflie_ros2_scan.egg-info/SOURCES.txt'
+[3.218s] running build_ext
+[3.219s] Creating /home/tdeng23/ros2_ws/src/install/crazyflie_ros2_scan/lib/python3.8/site-packages/site.py
+[3.222s] Creating /home/tdeng23/ros2_ws/src/install/crazyflie_ros2_scan/lib/python3.8/site-packages/crazyflie-ros2-scan.egg-link (link to .)
+[3.224s] Installing range_to_lidar script to /home/tdeng23/ros2_ws/src/install/crazyflie_ros2_scan/lib/crazyflie_ros2_scan
+[3.224s] 
+[3.224s] Installed /home/tdeng23/ros2_ws/src/build/crazyflie_ros2_scan
+[3.225s] running install_data
+[3.225s] creating /home/tdeng23/ros2_ws/src/install/crazyflie_ros2_scan/share/ament_index
+[3.225s] creating /home/tdeng23/ros2_ws/src/install/crazyflie_ros2_scan/share/ament_index/resource_index
+[3.225s] creating /home/tdeng23/ros2_ws/src/install/crazyflie_ros2_scan/share/ament_index/resource_index/packages
+[3.226s] copying resource/crazyflie_ros2_scan -> /home/tdeng23/ros2_ws/src/install/crazyflie_ros2_scan/share/ament_index/resource_index/packages
+[3.226s] copying package.xml -> /home/tdeng23/ros2_ws/src/install/crazyflie_ros2_scan/share/crazyflie_ros2_scan
+[3.318s] Invoked command in '/home/tdeng23/ros2_ws/src/build/crazyflie_ros2_scan' returned '0': PYTHONPATH=/home/tdeng23/ros2_ws/src/build/crazyflie_ros2_scan/prefix_override:/home/tdeng23/ros2_ws/src/install/crazyflie_ros2_scan/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --editable --build-directory /home/tdeng23/ros2_ws/src/build/crazyflie_ros2_scan/build --no-deps install_data

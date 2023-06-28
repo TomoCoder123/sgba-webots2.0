@@ -41,6 +41,7 @@ if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_
   file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/ament_index/resource_index/rosidl_interfaces" TYPE FILE FILES "/home/nicxe/ros2_ws/build/crazyflie_ros2_interfaces/ament_cmake_index/share/ament_index/resource_index/rosidl_interfaces/crazyflie_ros2_interfaces")
 endif()
 
+<<<<<<< HEAD
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
   file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/include/crazyflie_ros2_interfaces" TYPE DIRECTORY FILES "/home/nicxe/ros2_ws/build/crazyflie_ros2_interfaces/rosidl_generator_c/crazyflie_ros2_interfaces/" REGEX "/[^/]*\\.h$")
 endif()
@@ -51,6 +52,10 @@ endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
   file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/crazyflie_ros2_interfaces/environment" TYPE FILE FILES "/home/nicxe/ros2_ws/build/crazyflie_ros2_interfaces/ament_cmake_environment_hooks/library_path.dsv")
+=======
+if(CMAKE_INSTALL_COMPONENT STREQUAL "Unspecified" OR NOT CMAKE_INSTALL_COMPONENT)
+  include("/home/tdeng23/ros2_ws/build/crazyflie_ros2_interfaces/ament_cmake_symlink_install/ament_cmake_symlink_install.cmake")
+>>>>>>> 94884f5968f4d63cd711e9429da5204c445b3486
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
@@ -76,6 +81,7 @@ endif()
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
 endif()
 
+<<<<<<< HEAD
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
   file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/include/crazyflie_ros2_interfaces" TYPE DIRECTORY FILES "/home/nicxe/ros2_ws/build/crazyflie_ros2_interfaces/rosidl_typesupport_fastrtps_c/crazyflie_ros2_interfaces/" REGEX "/[^/]*\\.cpp$" EXCLUDE)
 endif()
@@ -135,6 +141,9 @@ if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
+=======
+if(CMAKE_INSTALL_COMPONENT STREQUAL "Unspecified" OR NOT CMAKE_INSTALL_COMPONENT)
+>>>>>>> 94884f5968f4d63cd711e9429da5204c445b3486
   if(EXISTS "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/libcrazyflie_ros2_interfaces__rosidl_typesupport_introspection_c.so" AND
      NOT IS_SYMLINK "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/libcrazyflie_ros2_interfaces__rosidl_typesupport_introspection_c.so")
     file(RPATH_CHECK
@@ -180,6 +189,7 @@ endif()
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
 endif()
 
+<<<<<<< HEAD
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
   file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/include/crazyflie_ros2_interfaces" TYPE DIRECTORY FILES "/home/nicxe/ros2_ws/build/crazyflie_ros2_interfaces/rosidl_generator_cpp/crazyflie_ros2_interfaces/" REGEX "/[^/]*\\.hpp$")
 endif()
@@ -189,6 +199,9 @@ if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
+=======
+if(CMAKE_INSTALL_COMPONENT STREQUAL "Unspecified" OR NOT CMAKE_INSTALL_COMPONENT)
+>>>>>>> 94884f5968f4d63cd711e9429da5204c445b3486
   if(EXISTS "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/libcrazyflie_ros2_interfaces__rosidl_typesupport_introspection_cpp.so" AND
      NOT IS_SYMLINK "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/libcrazyflie_ros2_interfaces__rosidl_typesupport_introspection_cpp.so")
     file(RPATH_CHECK
@@ -234,6 +247,7 @@ endif()
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
 endif()
 
+<<<<<<< HEAD
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
   file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/crazyflie_ros2_interfaces/environment" TYPE FILE FILES "/home/nicxe/ros2_ws/build/crazyflie_ros2_interfaces/ament_cmake_environment_hooks/pythonpath.sh")
 endif()
@@ -247,6 +261,9 @@ if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
+=======
+if(CMAKE_INSTALL_COMPONENT STREQUAL "Unspecified" OR NOT CMAKE_INSTALL_COMPONENT)
+>>>>>>> 94884f5968f4d63cd711e9429da5204c445b3486
   execute_process(
         COMMAND
         "/usr/bin/python3" "-m" "compileall"
@@ -254,6 +271,7 @@ if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_
       )
 endif()
 
+<<<<<<< HEAD
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
   file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/python3.8/site-packages/crazyflie_ros2_interfaces/action" TYPE DIRECTORY FILES "/home/nicxe/ros2_ws/build/crazyflie_ros2_interfaces/rosidl_generator_py/crazyflie_ros2_interfaces/action/" REGEX "/[^/]*\\.py$")
 endif()
@@ -407,6 +425,9 @@ if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
+=======
+if(CMAKE_INSTALL_COMPONENT STREQUAL "Unspecified" OR NOT CMAKE_INSTALL_COMPONENT)
+>>>>>>> 94884f5968f4d63cd711e9429da5204c445b3486
   if(EXISTS "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/share/crazyflie_ros2_interfaces/cmake/crazyflie_ros2_interfaces__rosidl_generator_cExport.cmake")
     file(DIFFERENT EXPORT_FILE_CHANGED FILES
          "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/share/crazyflie_ros2_interfaces/cmake/crazyflie_ros2_interfaces__rosidl_generator_cExport.cmake"
@@ -517,6 +538,7 @@ if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_
   endif()
 endif()
 
+<<<<<<< HEAD
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
   file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/crazyflie_ros2_interfaces/cmake" TYPE FILE FILES "/home/nicxe/ros2_ws/build/crazyflie_ros2_interfaces/rosidl_cmake/rosidl_cmake-extras.cmake")
 endif()
@@ -556,6 +578,8 @@ if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_
   file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/crazyflie_ros2_interfaces" TYPE FILE FILES "/home/nicxe/ros2_ws/src/crazyswarm2/crazyflie_ros2_interfaces/package.xml")
 endif()
 
+=======
+>>>>>>> 94884f5968f4d63cd711e9429da5204c445b3486
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for each subdirectory.
   include("/home/nicxe/ros2_ws/build/crazyflie_ros2_interfaces/crazyflie_ros2_interfaces__py/cmake_install.cmake")

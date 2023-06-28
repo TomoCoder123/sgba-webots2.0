@@ -1,0 +1,15 @@
+running develop
+running egg_info
+writing crazyflie_ros2_simulation.egg-info/PKG-INFO
+writing dependency_links to crazyflie_ros2_simulation.egg-info/dependency_links.txt
+writing entry points to crazyflie_ros2_simulation.egg-info/entry_points.txt
+writing requirements to crazyflie_ros2_simulation.egg-info/requires.txt
+writing top-level names to crazyflie_ros2_simulation.egg-info/top_level.txt
+reading manifest file 'crazyflie_ros2_simulation.egg-info/SOURCES.txt'
+writing manifest file 'crazyflie_ros2_simulation.egg-info/SOURCES.txt'
+running build_ext
+Creating /home/tdeng23/ros2_ws/install/crazyflie_ros2_simulation/lib/python3.8/site-packages/crazyflie-ros2-simulation.egg-link (link to .)
+Installing crazyflie_webots_driver script to /home/tdeng23/ros2_ws/install/crazyflie_ros2_simulation/lib/crazyflie_ros2_simulation
+
+Installed /home/tdeng23/ros2_ws/build/crazyflie_ros2_simulation
+running install_data

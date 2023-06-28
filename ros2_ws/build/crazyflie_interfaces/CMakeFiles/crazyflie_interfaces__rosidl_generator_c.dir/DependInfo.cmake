@@ -1,5 +1,10 @@
+
+# Consider dependencies only in project.
+set(CMAKE_DEPENDS_IN_PROJECT_ONLY OFF)
+
 # The set of languages for which implicit dependencies are needed:
 set(CMAKE_DEPENDS_LANGUAGES
+<<<<<<< HEAD
   "C"
   )
 # The set of files for implicit dependencies of each language:
@@ -30,12 +35,30 @@ set(CMAKE_TARGET_DEFINITIONS_C
   "RCUTILS_ENABLE_FAULT_INJECTION"
   "ROS_PACKAGE_NAME=\"crazyflie_interfaces\""
   "crazyflie_interfaces__rosidl_generator_c_EXPORTS"
+=======
+>>>>>>> 94884f5968f4d63cd711e9429da5204c445b3486
   )
 
-# The include file search paths:
-set(CMAKE_C_TARGET_INCLUDE_PATH
-  "rosidl_generator_c"
-  "/opt/ros/galactic/include"
+# The set of dependency files which are needed:
+set(CMAKE_DEPENDS_DEPENDENCY_FILES
+  "/home/tdeng23/ros2_ws/build/crazyflie_interfaces/rosidl_generator_c/crazyflie_interfaces/msg/detail/full_state__functions.c" "CMakeFiles/crazyflie_interfaces__rosidl_generator_c.dir/rosidl_generator_c/crazyflie_interfaces/msg/detail/full_state__functions.c.o" "gcc" "CMakeFiles/crazyflie_interfaces__rosidl_generator_c.dir/rosidl_generator_c/crazyflie_interfaces/msg/detail/full_state__functions.c.o.d"
+  "/home/tdeng23/ros2_ws/build/crazyflie_interfaces/rosidl_generator_c/crazyflie_interfaces/msg/detail/hover__functions.c" "CMakeFiles/crazyflie_interfaces__rosidl_generator_c.dir/rosidl_generator_c/crazyflie_interfaces/msg/detail/hover__functions.c.o" "gcc" "CMakeFiles/crazyflie_interfaces__rosidl_generator_c.dir/rosidl_generator_c/crazyflie_interfaces/msg/detail/hover__functions.c.o.d"
+  "/home/tdeng23/ros2_ws/build/crazyflie_interfaces/rosidl_generator_c/crazyflie_interfaces/msg/detail/log_block__functions.c" "CMakeFiles/crazyflie_interfaces__rosidl_generator_c.dir/rosidl_generator_c/crazyflie_interfaces/msg/detail/log_block__functions.c.o" "gcc" "CMakeFiles/crazyflie_interfaces__rosidl_generator_c.dir/rosidl_generator_c/crazyflie_interfaces/msg/detail/log_block__functions.c.o.d"
+  "/home/tdeng23/ros2_ws/build/crazyflie_interfaces/rosidl_generator_c/crazyflie_interfaces/msg/detail/log_data_generic__functions.c" "CMakeFiles/crazyflie_interfaces__rosidl_generator_c.dir/rosidl_generator_c/crazyflie_interfaces/msg/detail/log_data_generic__functions.c.o" "gcc" "CMakeFiles/crazyflie_interfaces__rosidl_generator_c.dir/rosidl_generator_c/crazyflie_interfaces/msg/detail/log_data_generic__functions.c.o.d"
+  "/home/tdeng23/ros2_ws/build/crazyflie_interfaces/rosidl_generator_c/crazyflie_interfaces/msg/detail/position__functions.c" "CMakeFiles/crazyflie_interfaces__rosidl_generator_c.dir/rosidl_generator_c/crazyflie_interfaces/msg/detail/position__functions.c.o" "gcc" "CMakeFiles/crazyflie_interfaces__rosidl_generator_c.dir/rosidl_generator_c/crazyflie_interfaces/msg/detail/position__functions.c.o.d"
+  "/home/tdeng23/ros2_ws/build/crazyflie_interfaces/rosidl_generator_c/crazyflie_interfaces/msg/detail/trajectory_polynomial_piece__functions.c" "CMakeFiles/crazyflie_interfaces__rosidl_generator_c.dir/rosidl_generator_c/crazyflie_interfaces/msg/detail/trajectory_polynomial_piece__functions.c.o" "gcc" "CMakeFiles/crazyflie_interfaces__rosidl_generator_c.dir/rosidl_generator_c/crazyflie_interfaces/msg/detail/trajectory_polynomial_piece__functions.c.o.d"
+  "/home/tdeng23/ros2_ws/build/crazyflie_interfaces/rosidl_generator_c/crazyflie_interfaces/msg/detail/velocity_world__functions.c" "CMakeFiles/crazyflie_interfaces__rosidl_generator_c.dir/rosidl_generator_c/crazyflie_interfaces/msg/detail/velocity_world__functions.c.o" "gcc" "CMakeFiles/crazyflie_interfaces__rosidl_generator_c.dir/rosidl_generator_c/crazyflie_interfaces/msg/detail/velocity_world__functions.c.o.d"
+  "/home/tdeng23/ros2_ws/build/crazyflie_interfaces/rosidl_generator_c/crazyflie_interfaces/srv/detail/add_logging__functions.c" "CMakeFiles/crazyflie_interfaces__rosidl_generator_c.dir/rosidl_generator_c/crazyflie_interfaces/srv/detail/add_logging__functions.c.o" "gcc" "CMakeFiles/crazyflie_interfaces__rosidl_generator_c.dir/rosidl_generator_c/crazyflie_interfaces/srv/detail/add_logging__functions.c.o.d"
+  "/home/tdeng23/ros2_ws/build/crazyflie_interfaces/rosidl_generator_c/crazyflie_interfaces/srv/detail/go_to__functions.c" "CMakeFiles/crazyflie_interfaces__rosidl_generator_c.dir/rosidl_generator_c/crazyflie_interfaces/srv/detail/go_to__functions.c.o" "gcc" "CMakeFiles/crazyflie_interfaces__rosidl_generator_c.dir/rosidl_generator_c/crazyflie_interfaces/srv/detail/go_to__functions.c.o.d"
+  "/home/tdeng23/ros2_ws/build/crazyflie_interfaces/rosidl_generator_c/crazyflie_interfaces/srv/detail/land__functions.c" "CMakeFiles/crazyflie_interfaces__rosidl_generator_c.dir/rosidl_generator_c/crazyflie_interfaces/srv/detail/land__functions.c.o" "gcc" "CMakeFiles/crazyflie_interfaces__rosidl_generator_c.dir/rosidl_generator_c/crazyflie_interfaces/srv/detail/land__functions.c.o.d"
+  "/home/tdeng23/ros2_ws/build/crazyflie_interfaces/rosidl_generator_c/crazyflie_interfaces/srv/detail/notify_setpoints_stop__functions.c" "CMakeFiles/crazyflie_interfaces__rosidl_generator_c.dir/rosidl_generator_c/crazyflie_interfaces/srv/detail/notify_setpoints_stop__functions.c.o" "gcc" "CMakeFiles/crazyflie_interfaces__rosidl_generator_c.dir/rosidl_generator_c/crazyflie_interfaces/srv/detail/notify_setpoints_stop__functions.c.o.d"
+  "/home/tdeng23/ros2_ws/build/crazyflie_interfaces/rosidl_generator_c/crazyflie_interfaces/srv/detail/remove_logging__functions.c" "CMakeFiles/crazyflie_interfaces__rosidl_generator_c.dir/rosidl_generator_c/crazyflie_interfaces/srv/detail/remove_logging__functions.c.o" "gcc" "CMakeFiles/crazyflie_interfaces__rosidl_generator_c.dir/rosidl_generator_c/crazyflie_interfaces/srv/detail/remove_logging__functions.c.o.d"
+  "/home/tdeng23/ros2_ws/build/crazyflie_interfaces/rosidl_generator_c/crazyflie_interfaces/srv/detail/set_group_mask__functions.c" "CMakeFiles/crazyflie_interfaces__rosidl_generator_c.dir/rosidl_generator_c/crazyflie_interfaces/srv/detail/set_group_mask__functions.c.o" "gcc" "CMakeFiles/crazyflie_interfaces__rosidl_generator_c.dir/rosidl_generator_c/crazyflie_interfaces/srv/detail/set_group_mask__functions.c.o.d"
+  "/home/tdeng23/ros2_ws/build/crazyflie_interfaces/rosidl_generator_c/crazyflie_interfaces/srv/detail/start_trajectory__functions.c" "CMakeFiles/crazyflie_interfaces__rosidl_generator_c.dir/rosidl_generator_c/crazyflie_interfaces/srv/detail/start_trajectory__functions.c.o" "gcc" "CMakeFiles/crazyflie_interfaces__rosidl_generator_c.dir/rosidl_generator_c/crazyflie_interfaces/srv/detail/start_trajectory__functions.c.o.d"
+  "/home/tdeng23/ros2_ws/build/crazyflie_interfaces/rosidl_generator_c/crazyflie_interfaces/srv/detail/stop__functions.c" "CMakeFiles/crazyflie_interfaces__rosidl_generator_c.dir/rosidl_generator_c/crazyflie_interfaces/srv/detail/stop__functions.c.o" "gcc" "CMakeFiles/crazyflie_interfaces__rosidl_generator_c.dir/rosidl_generator_c/crazyflie_interfaces/srv/detail/stop__functions.c.o.d"
+  "/home/tdeng23/ros2_ws/build/crazyflie_interfaces/rosidl_generator_c/crazyflie_interfaces/srv/detail/takeoff__functions.c" "CMakeFiles/crazyflie_interfaces__rosidl_generator_c.dir/rosidl_generator_c/crazyflie_interfaces/srv/detail/takeoff__functions.c.o" "gcc" "CMakeFiles/crazyflie_interfaces__rosidl_generator_c.dir/rosidl_generator_c/crazyflie_interfaces/srv/detail/takeoff__functions.c.o.d"
+  "/home/tdeng23/ros2_ws/build/crazyflie_interfaces/rosidl_generator_c/crazyflie_interfaces/srv/detail/update_params__functions.c" "CMakeFiles/crazyflie_interfaces__rosidl_generator_c.dir/rosidl_generator_c/crazyflie_interfaces/srv/detail/update_params__functions.c.o" "gcc" "CMakeFiles/crazyflie_interfaces__rosidl_generator_c.dir/rosidl_generator_c/crazyflie_interfaces/srv/detail/update_params__functions.c.o.d"
+  "/home/tdeng23/ros2_ws/build/crazyflie_interfaces/rosidl_generator_c/crazyflie_interfaces/srv/detail/upload_trajectory__functions.c" "CMakeFiles/crazyflie_interfaces__rosidl_generator_c.dir/rosidl_generator_c/crazyflie_interfaces/srv/detail/upload_trajectory__functions.c.o" "gcc" "CMakeFiles/crazyflie_interfaces__rosidl_generator_c.dir/rosidl_generator_c/crazyflie_interfaces/srv/detail/upload_trajectory__functions.c.o.d"
   )
 
 # Pairs of files generated by the same build rule.
@@ -132,8 +155,8 @@ set(CMAKE_MULTIPLE_OUTPUT_PAIRS
   )
 
 
-# Targets to which this target links.
-set(CMAKE_TARGET_LINKED_INFO_FILES
+# Targets to which this target links which contain Fortran sources.
+set(CMAKE_Fortran_TARGET_LINKED_INFO_FILES
   )
 
 # Fortran module output directory.
