@@ -119,7 +119,7 @@ PROTO Crazyflie [
               }
               geometry Mesh {
                 url [
-                  "meshes/ccw_prop.dae"
+                  "ccw_prop.dae"
                 ]
               }
             }
