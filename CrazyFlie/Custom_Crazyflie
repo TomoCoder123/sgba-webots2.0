@@ -42,7 +42,7 @@ PROTO Crazyflie [
           }
           CadShape {
             url [
-              "cf2_assembly.dae"
+              "crazyflie.dae"
             ]
           }
         ]
